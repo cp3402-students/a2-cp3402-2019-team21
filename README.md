@@ -1,6 +1,6 @@
-#The Coffee Can
+# The Coffee Can
 
-##3402 Assignment 2 - Team 21 
+## 3402 Assignment 2 - Team 21 
 
 Team Members:
 Belle
@@ -18,7 +18,7 @@ Contents:
 
 --------------------------------------------------------------
 
-##Setup Local Environment
+## Setup Local Environment
 
 --------------------------------------------------------------
 
@@ -52,7 +52,7 @@ Now you should see all of the site content has been imported and you can make yo
 
 --------------------------------------------------------------
 
-##WordPress Admin Credentials
+## WordPress Admin Credentials
 
 --------------------------------------------------------------
 
@@ -66,10 +66,10 @@ Password: admin
 
 --------------------------------------------------------------
 
-##Site Links
+## Site Links
 
 --------------------------------------------------------------
 
-[Staging](http://joshuag1.sgedu.site/staging/)
+Staging - http://joshuag1.sgedu.site/staging/
 
-[Production](http://joshuag1.sgedu.site/production/)
+Production - http://joshuag1.sgedu.site/production/
