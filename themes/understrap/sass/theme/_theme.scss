@@ -1,1 +1,48 @@
 // This is an empty scss file for your custom styles - Please add your super duper awesome mega design styles here
+@import 'theme_variables';
+
+//<------ bottom nav --------->
+div{
+  .menu{
+    width: 100%;
+    text-align: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    //first level menu
+    ul{
+      float: right;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      li{
+        a{
+          font-size: $content-size;
+          color: $secondary;
+        }
+        //second level menu
+        ul{
+          float: left;
+          li{
+            a{
+            }
+            //third level menu
+            ul{
+              li{
+                a{
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+#wrapper-footer{
+  border: solid black;
+  background-color: $primary;
+}
+
+//<------ end of bottom nav --------->
