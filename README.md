@@ -2,7 +2,7 @@
 
 ## 3402 Assignment 2 - Team 21 
 
-###Team Members:
+### Team Members:
 
 Belle
 
@@ -16,19 +16,20 @@ Christopher Ryan
 
 This repository contains the wp-content files for The Coffee Can website built using WordPress. See contents below for instructions on how to setup a local environment and begin working on the site. 
 
-###Contents:
+### Contents:
 
 1. Development
-  1. Setup Local Environment
+    * Setup Local Environment
 
-  2. Sass setup (in phpstorm)
+    * Sass setup (in phpstorm)
 
 2. Deployment
-  1. Commit Theme to github
 
-  2. Merging with staging/production branches
+    * Commit Theme to github
 
-  3. Push Content to server
+    * Merging with staging/production branches
+
+    * Push Content to server
 
 3. WordPress Admin Credentials
 4. Site Links
@@ -37,25 +38,36 @@ This repository contains the wp-content files for The Coffee Can website built u
 
 ## Development
 
-###Setup Local Environment
+### Setup Local Environment
 
 
 1. Open command prompt or another terminal program (Git-Bash, PuTTY, etc)
+
 2. In the terminal, enter: `git clone https://github.com/lindsaymarkward/WPDistillery projectname` (where `projectname` is the name of the folder that the repo will be cloned to)
+
 3. Enter `cd projectname` 
 This changes the current directory to the project folder
+
 4. Enter `vagrant up`
 You should be inside the folder with the VagrantFile (you can check with `ls -lah`). This boots the virtual machine and creates a new install of WordPress. It will typically take a while on first time setup. If the install fails, go here: [Troubleshooting](https://github.com/lindsaymarkward/WPDistillery#troubleshooting).
+
 5. Enter `vagrant ssh` 
 This will give you access to the virtual computer using the secure socket shell protocol and confirm that it is running. Note: at any time if you want to return to your local computer, enter `exit`.
+
 6. Enter `cd /var/www/public/wp-content` 
 This changes the current directory to the `wp-content` folder. This folder and all files within the `public` folder are shared between your local computer and the virtual machine.      
+
 7. If you enter `ls -lah`, you will see a number of files/folders listed. Enter `rm -r *` This deletes all folders/files and if you type `ls -lah` again, nothing should appear apart from `. and ..` 
+
 8. Enter `git clone https://github.com/cp3402-students/a2-cp3402-2019-team21 .` 
 It is important to include the `.` at the end as this will clone the repository to the correct directory
-9, Search `192.168.33.10` in a browser and it should load a blank copy of wordpress. 
+
+9. Search `192.168.33.10` in a browser and it should load a blank copy of wordpress. 
+
 10. Login to the [Admin Panel](http://192.168.33.10/wp-admin/) with username: admin | password: admin
+
 11. Go to `Plugins > Installed Plugins` then Activate `WP Sync DB`, `GitHub Updater` and `WP Sync DB Media Files` plugins
+
 12. Go to `Tools > Migrate DB`. Click `pull` and paste in this key: 
 ```
 https://joshuag1.sgedu.site/staging
@@ -68,7 +80,7 @@ Password: admin
 ```
 Now you should see all of the site content has been imported and you can make your changes here. 
 
-###Sass setup (in phpstorm) 
+### Sass setup (in phpstorm) 
 
 Follow these steps to setup a file watcher in phpstorm (automatically compiles scss files into css file used for the site) 
 
@@ -78,16 +90,16 @@ Follow these steps to setup a file watcher in phpstorm (automatically compiles s
 
 3. In phpstorm go to `file > settings > tools > File Watchers` 
 4. Click the `+` on the left and select `SCSS`
-  1. File Type: `SCSS Style Sheet`
+    * File Type: `SCSS Style Sheet`
 
-  2. Scope: `Project Files`
+    * Scope: `Project Files`
 
-  3. For `Program` find where you downloaded Sass and select the `sass.bat` file `e.g. C:\Users\Username\Desktop\dart-sass-1.20.1-windows-x64\dart-sass\sass.bat` if it were on the desktop.
+    * For `Program` find where you downloaded Sass and select the `sass.bat` file `e.g. C:\Users\Username\Desktop\dart-sass-1.20.1-windows-x64\dart-sass\sass.bat` if it were on the desktop.
 
-  4. For arguments enter: `$FileName$:$FileParentDir$/css/$FileNameWithoutExtension$.css`
+    * For arguments enter: `$FileName$:$FileParentDir$/css/$FileNameWithoutExtension$.css`
 
-  5. For paths to refresh enter: `../../css/$FileNameWithoutExtension$.css:../../css/$FileNameWithoutExtension$.css.map`
-  6. Click `OK` and make sure it the enabled checkbox is ticked in the `File Watchers` panel
+    * For paths to refresh enter: `../../css/$FileNameWithoutExtension$.css:../../css/$FileNameWithoutExtension$.css.map`
+    * Click `OK` and make sure it the enabled checkbox is ticked in the `File Watchers` panel
 
 Now if you make a change to `understrap/sass/theme/_theme.scss` the change should appear in `understrap/css/theme.css` and `theme.css.map`
 
@@ -105,7 +117,7 @@ Now if you make a change to `understrap/sass/theme/_theme.scss` the change shoul
 
 5. Use `git push origin master` to push to github 
 
-###Merging with staging/production branches
+### Merging with staging/production branches
 1. On github a2 repository go to `branches>new pull request` on the branch you wish to merge into
 
 2. Ensure you are merging from 
