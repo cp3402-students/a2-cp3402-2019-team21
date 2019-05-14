@@ -43,7 +43,7 @@ This repository contains the wp-content files for The Coffee Can website built u
 
 1. Open command prompt or another terminal program (Git-Bash, PuTTY, etc)
 
-2. In the terminal, enter: `git clone https://github.com/lindsaymarkward/WPDistillery projectname` (where `projectname` is the name of the folder that the repo will be cloned to)
+2. In the terminal, enter: `git clone https://github.com/cp3402-students/env-cp3402-2019-team21.git projectname` (where `projectname` is the name of the folder that the repo will be cloned to)
 
 3. Enter `cd projectname` 
 This changes the current directory to the project folder
@@ -51,24 +51,13 @@ This changes the current directory to the project folder
 4. Enter `vagrant up`
 You should be inside the folder with the VagrantFile (you can check with `ls -lah`). This boots the virtual machine and creates a new install of WordPress. It will typically take a while on first time setup. If the install fails, go here: [Troubleshooting](https://github.com/lindsaymarkward/WPDistillery#troubleshooting).
 
-5. Enter `vagrant ssh` 
-This will give you access to the virtual computer using the secure socket shell protocol and confirm that it is running. Note: at any time if you want to return to your local computer, enter `exit`.
+5. Search `192.168.33.10` in a browser and it should load a blank copy of wordpress. 
 
-6. Enter `cd /var/www/public/wp-content` 
-This changes the current directory to the `wp-content` folder. This folder and all files within the `public` folder are shared between your local computer and the virtual machine.      
+6. Login to the [Admin Panel](http://192.168.33.10/wp-admin/) with username: admin | password: admin
 
-7. If you enter `ls -lah`, you will see a number of files/folders listed. Enter `rm -r *` This deletes all folders/files and if you type `ls -lah` again, nothing should appear apart from `. and ..` 
+7. Go to `Plugins > Installed Plugins` then Activate `WP Sync DB`, `GitHub Updater` and `WP Sync DB Media Files` plugins
 
-8. Enter `git clone https://github.com/cp3402-students/a2-cp3402-2019-team21 .` 
-It is important to include the `.` at the end as this will clone the repository to the correct directory
-
-9. Search `192.168.33.10` in a browser and it should load a blank copy of wordpress. 
-
-10. Login to the [Admin Panel](http://192.168.33.10/wp-admin/) with username: admin | password: admin
-
-11. Go to `Plugins > Installed Plugins` then Activate `WP Sync DB`, `GitHub Updater` and `WP Sync DB Media Files` plugins
-
-12. Go to `Tools > Migrate DB`. Click `pull` and paste in this key: 
+8. Go to `Tools > Migrate DB`. Click `pull` and paste in this key: 
 ```
 https://joshuag1.sgedu.site/staging
 d4VQ6Ybifq5uPWEpvT6tVavuJRVY6IoR
