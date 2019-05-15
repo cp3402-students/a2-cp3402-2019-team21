@@ -1,48 +1,126 @@
 // This is an empty scss file for your custom styles - Please add your super duper awesome mega design styles here
 @import 'theme_variables';
+@import url('https://fonts.googleapis.com/css?family=Acme|Roboto');
 
-//<------ bottom nav --------->
-div{
-  .menu{
-    width: 100%;
-    text-align: center;
-    list-style: none;
-    margin: 0;
+//<------ footer --------->
+#wrapper-footer{
+  background-color: $primary;
+  color: $secondary;
+  border-top-color: $secondary;
+  border-top-width: thick;
+  border-top-style: solid;
+}
+
+.social-menu {
+  margin-top: 2%;
+  font-size: 100%;
+  ul {
+    display: flex;
     padding: 0;
-    //first level menu
-    ul{
-      float: right;
+    margin: 0;
+    list-style: none;
+    li {
       margin: 0;
-      padding: 0;
-      list-style: none;
-      li{
-        a{
-          font-size: $content-size;
-          color: $secondary;
-        }
-        //second level menu
-        ul{
-          float: left;
-          li{
-            a{
-            }
-            //third level menu
-            ul{
-              li{
-                a{
-                }
-              }
-            }
-          }
-        }
+      padding: 0 5%;
+      a {
+        display: block;
+        text-decoration: none;
+        color: $secondary;
+        list-style: none;
+      }
+      :hover{
+        color: $highlight;
       }
     }
   }
 }
 
-#wrapper-footer{
-  border: solid black;
-  background-color: $primary;
+
+.footer-bottom-nav{
+  padding: 0;
+  margin-top: 5%;
+  ul{
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    li{
+      margin: 0;
+      padding: 0;
+      border-left-color: $tertiary;
+      border-right-color: $tertiary;
+      border-left-style: solid;
+      border-right-style: solid;
+      border-left-width: thin;
+      border-right-width: thin;
+      text-align: center;
+      a{
+        display: block;
+        text-decoration: none;
+        color: $secondary;
+        list-style: none;
+        padding: 1% 2%;
+      }
+      :hover{
+        color: $highlight;
+      }
+    }
+  }
 }
 
-//<------ end of bottom nav --------->
+.site-info{
+  width: 100%;
+  text-align: center;
+  margin-top: 5%;
+  padding-top: 2%;
+  border-top-color: $tertiary;
+  border-top-style: solid;
+  border-top-width: thin;
+  a{
+    color: $secondary;
+    font-weight: bolder;
+  }
+}
+
+//<------ end of footer --------->
+
+//<------ start of header ------->
+.img-fluid{
+  max-width: 125px;
+  max-height: 125px;
+  margin-right: 2vw;
+}
+.header-image{
+  max-height: 40vh;
+  overflow: hidden;
+  img {
+    position: relative;
+    display: block;
+    width: 100vw;
+  }
+  h1{
+    position: absolute;
+    top: 200px;
+    margin-left: 60px;
+    color: $primary;
+  }
+}
+.navbar-dark .navbar-nav .show > .nav-link, .navbar-dark .navbar-nav .active > .nav-link, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .nav-link.active {
+  color: black;
+  font-family: 'Acme', sans-serif;
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: $highlight;
+  font-family: 'Acme', sans-serif;
+}
+
+//<------ end of header ------->
+
+
+p {
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  color: $secondary
+}
