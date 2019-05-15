@@ -38,7 +38,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 		<?php endif; ?>
 
 					<!-- Your site title as branding in the menu -->
-					<?php if ( ! has_custom_logo() ) { ?>
+                <?php if ( ! has_custom_logo() ) { ?>
 
 						<?php if ( is_front_page() && is_home() ) : ?>
 
@@ -50,10 +50,10 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 						<?php endif; ?>
 
-
 					<?php } else {
 						the_custom_logo();
-					} ?><!-- end custom logo -->
+					} ?>
+                <!-- end custom logo -->
 
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="<?php esc_attr_e( 'Toggle navigation', 'understrap' ); ?>">
 					<span class="navbar-toggler-icon"></span>
@@ -77,5 +77,13 @@ $container = get_theme_mod( 'understrap_container_type' );
 			<?php endif; ?>
 
 		</nav><!-- .site-navigation -->
-
+        <?php if (has_header_image()) : ?>
+        <?php if ( get_header_image() ) : ?>
+            <div id="site-header" class="header-image">
+                <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
+                    <img src="<?php header_image(); ?>" width="<?php echo absint( get_custom_header()->width ); ?>" height="<?php echo absint( get_custom_header()->height ); ?>" alt="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>">
+                </a>
+            </div>
+        <?php endif; ?>
+        <?php endif; ?>
 	</div><!-- #wrapper-navbar end -->
