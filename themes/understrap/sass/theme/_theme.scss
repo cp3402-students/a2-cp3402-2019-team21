@@ -5,27 +5,38 @@
 //<------ footer --------->
 #wrapper-footer{
   background-color: $primary;
-  color: $secondary;
-  border-top-color: $secondary;
-  border-top-width: thick;
-  border-top-style: solid;
+}
+
+.footer-logo{
+  padding: 0;
+  margin: 0;
+  @media screen and (max-width: 764px){
+    text-align: center;
+  }
 }
 
 .social-menu {
-  margin-top: 2%;
+  margin-top: 35%;
   font-size: 100%;
+  display: block;
+  @media screen and (max-width: 764px){
+    font-size: 175%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+  }
   ul {
-    display: flex;
     padding: 0;
     margin: 0;
     list-style: none;
     li {
       margin: 0;
       padding: 0 5%;
+      @media screen and (max-width: 764px){
+        text-align: center;
+      }
       a {
         display: block;
         text-decoration: none;
-        color: $secondary;
         list-style: none;
       }
       :hover{
@@ -36,30 +47,67 @@
 }
 
 
-.footer-bottom-nav{
+.footer-nav-left{
   padding: 0;
-  margin-top: 5%;
+  margin-top: 0;
+  display: block;
+  @media screen and (max-width: 764px){
+    font-size: 175%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+  }
   ul{
-    display: flex;
     padding: 0;
     margin: 0;
     list-style: none;
     li{
       margin: 0;
       padding: 0;
-      border-left-color: $tertiary;
-      border-right-color: $tertiary;
-      border-left-style: solid;
-      border-right-style: solid;
-      border-left-width: thin;
-      border-right-width: thin;
-      text-align: center;
+      text-align: right;
+      @media screen and (max-width: 764px){
+        text-align: center;
+      }
       a{
-        display: block;
         text-decoration: none;
-        color: $secondary;
         list-style: none;
         padding: 1% 2%;
+        color: $black;
+        font-family: 'Acme', sans-serif;
+      }
+      :hover{
+        color: $highlight;
+      }
+    }
+  }
+}
+
+.footer-nav-right{
+  padding: 0;
+  margin-top: 0;
+  display: block;
+  @media screen and (max-width: 764px){
+    font-size: 175%;
+    border-top-color: $highlight;
+    border-top-width: thin;
+    border-top-style: solid;
+    padding-top: 5%;
+  }
+  ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    li{
+      margin: 0;
+      padding: 0;
+      text-align: left;
+      @media screen and (max-width: 764px){
+        text-align: center;
+      }
+      a{
+        text-decoration: none;
+        list-style: none;
+        padding: 1% 2%;
+        color: $black;
       }
       :hover{
         color: $highlight;
@@ -71,13 +119,14 @@
 .site-info{
   width: 100%;
   text-align: center;
-  margin-top: 5%;
+  margin-top: 2%;
   padding-top: 2%;
-  border-top-color: $tertiary;
+  border-top-color: $black;
   border-top-style: solid;
   border-top-width: thin;
+  display: block;
   a{
-    color: $secondary;
+    color: $black;
     font-weight: bolder;
   }
 }
@@ -88,7 +137,7 @@
 .img-fluid{
   max-width: 125px;
   max-height: 125px;
-  margin-right: 2vw;
+  margin-left: 7.5%;
 }
 .header-image{
   max-height: 40vh;
@@ -106,21 +155,30 @@
   }
 }
 .navbar-dark .navbar-nav .show > .nav-link, .navbar-dark .navbar-nav .active > .nav-link, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .nav-link.active {
-  color: black;
+  color: $black;
   font-family: 'Acme', sans-serif;
 }
 .navbar-dark .navbar-nav .nav-link {
-  color: $highlight;
+  color: $black;
   font-family: 'Acme', sans-serif;
 }
 
 //<------ end of header ------->
 
-
+//<------ start of common elements ------->
 p {
   font-family: 'Roboto', sans-serif;
 }
 
-a {
-  color: $secondary
+a, em{
+  color: $black;
+  font-family: 'Roboto', sans-serif;
 }
+
+h1,h2,h3,h4,h5{
+  color: black;
+  font-family: 'Acme', sans-serif;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+//<------ end of common elements ------->

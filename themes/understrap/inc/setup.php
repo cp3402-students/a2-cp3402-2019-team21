@@ -47,7 +47,8 @@ if ( ! function_exists ( 'understrap_setup' ) ) {
 		// This theme uses wp_nav_menu() in two locations.
 		register_nav_menus( array(
 			'primary' => __( 'Primary Menu', 'understrap' ),
-            'footer-nav' => __('Footer Menu', 'understrap'),
+            'footer-nav-left' => __('Footer Menu Left', 'understrap'),
+            'footer-nav-right' => __('Footer Menu Right', 'understrap'),
             'social' => __('Social', 'understrap'),
         ) );
 
