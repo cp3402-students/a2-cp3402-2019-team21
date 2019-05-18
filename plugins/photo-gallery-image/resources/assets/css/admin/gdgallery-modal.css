@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,600');
+
+.-gdgallery-modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, .6);
+    z-index: 99999;
+    font-family: 'Nunito', sans-serif;
+}
+
+.-gdgallery-modal-content {
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+    top: 5%;
+    min-width: 400px;
+    background: #fff;
+    border-radius: 3px;
+    overflow: hidden;
+    -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
+    -webkit-animation-duration: .7s;
+    -moz-animation-duration: .7s;
+    animation-duration: .7s;
+}
+
+.-gdgallery-modal-content-body {
+    padding: 15px 35px;
+    max-height: 800px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.-gdgallery-modal-content-header {
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background: #6199f3;
+    color: #fff;
+}
+
+.-gdgallery-modal-content-header h3 {
+    color: #fff;
+}
+
+.-gdgallery-modal-header-icon {
+    margin: 24px 19px;
+}
+
+.-gdgallery-modal-header-icon i {
+
+}
+
+.-gdgallery-modal-header-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.-gdgallery-modal-header-subtitle {
+    font-size: 14px;
+    margin-right: 50px;
+}
+
+.-gdgallery-modal-close {
+    display: block;
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    top: 17px;
+    right: 22px;
+    cursor: pointer;
+}
+
+.-gdgallery-modal-close i {
+    font-size: 16px;
+}
+
+.-gdgallery-modal-content-footer {
+    padding-bottom: 23px;
+    text-align: center;
+}
+
+.-gdgallery-modal-cb {
+    margin-bottom: 11px;
+}
+
+.-gdgallery-modal-cb input {
+    margin-right: 16px;
+
+}
+
+.-gdgallery-modal-cb span {
+    font-size: 14px;
+    color: #000;
+}
+
+.-gdgallery-modal-textarea {
+    margin-top: 20px;
+}
+
+.-gdgallery-modal-textarea label {
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    color: #000;
+}
+
+.-gdgallery-modal-textarea textarea {
+    width: 100%;
+    height: 65px;
+}
+
+.gdgallery-deactivate-plugin-image-gallery {
+    display: inline-block;
+    height: 34px;
+    padding: 0 29px;
+    margin-right: 7px;
+    line-height: 34px;
+    background-color: #fff;
+    border: 1px solid #dd1629;
+    border-radius: 3px;
+    font-size: 15px;
+    color: #dd1629;
+    text-decoration: none;
+}
+
+.gdgallery-deactivate-plugin-image-gallery:hover {
+    color: #fff;
+    background-color: #dd1629;
+}
+
+.gdgallery-cancel-deactivation-image-gallery {
+    display: inline-block;
+    height: 34px;
+    padding: 0 29px;
+    margin-right: 7px;
+    line-height: 34px;
+    background-color: #dd1629;
+    border: 1px solid #dd1629;
+    border-radius: 3px;
+    font-size: 15px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.gdgallery-cancel-deactivation-image-gallery:hover {
+    color: #dd1629;
+    background-color: #fff;
+}

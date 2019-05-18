@@ -1,0 +1,164 @@
+# Loco Gettext template
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Team WD\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: Wed Jul 22 2015 13:23:14 GMT+0400 (Caucasus Standard "
+"Time)\n"
+"POT-Revision-Date: Wed Jul 22 2015 13:23:17 GMT+0400 (Caucasus Standard "
+"Time)\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#: ../SContClass.php:68
+msgid "The Name field is required"
+msgstr ""
+
+#: ../SContClass.php:69
+msgid "The Message field is required"
+msgstr ""
+
+#: ../SContClass.php:70
+msgid "The Title field is Required"
+msgstr ""
+
+#: ../SContClass.php:71
+msgid "Incorrect security code"
+msgstr ""
+
+#: ../SContClass.php:72
+msgid "The Phone field is required"
+msgstr ""
+
+#: ../SContClass.php:73
+msgid "Please provide a valid email address"
+msgstr ""
+
+#: ../SContClass.php:76
+msgid "Prev"
+msgstr ""
+
+#: ../SContClass.php:77
+msgid "Next"
+msgstr ""
+
+#: ../SContClass.php:79
+msgid "More information"
+msgstr ""
+
+#: ../SContClass.php:80 ../views/SCViewSingleContact.php:73 ..
+#: /views/SCViewTableContact.php:61
+msgid "Category"
+msgstr ""
+
+#: ../SContClass.php:81 ../views/SCViewSingleContact.php:76 ..
+#: /views/SCViewTableContact.php:64
+msgid "Email"
+msgstr ""
+
+#: ../includes/SCMessClass.php:198
+msgid "From"
+msgstr ""
+
+#: ../includes/SCMessClass.php:205
+msgid "To"
+msgstr ""
+
+#: ../views/SCViewFullContact.php:46 ../views/SCViewShortContact.php:30 ..
+#: /views/SCViewTableContact.php:45
+msgid "Search by name"
+msgstr ""
+
+#: ../views/SCViewFullContact.php:47 ../views/SCViewShortContact.php:31 ..
+#: /views/SCViewTableContact.php:46
+msgid "Search"
+msgstr ""
+
+#: ../views/SCViewFullContact.php:48 ../views/SCViewShortContact.php:32 ..
+#: /views/SCViewTableContact.php:47
+msgid "Reset"
+msgstr ""
+
+#: ../views/SCViewSingleContact.php:34
+msgid "Message successfully sent"
+msgstr ""
+
+#: ../views/SCViewSingleContact.php:38
+msgid "Message not sent"
+msgstr ""
+
+#: ../views/SCViewSingleContact.php:118
+msgid "Your name"
+msgstr ""
+
+#: ../views/SCViewSingleContact.php:129
+msgid "Your phone"
+msgstr ""
+
+#: ../views/SCViewSingleContact.php:140
+msgid "Your e-mail"
+msgstr ""
+
+#: ../views/SCViewSingleContact.php:151
+msgid "Contact Preference"
+msgstr ""
+
+#: ../views/SCViewSingleContact.php:154
+msgid "Phone"
+msgstr ""
+
+#: ../views/SCViewSingleContact.php:155
+msgid "Mail"
+msgstr ""
+
+#: ../views/SCViewSingleContact.php:156
+msgid "Either"
+msgstr ""
+
+#: ../views/SCViewSingleContact.php:162
+msgid "Title of Message"
+msgstr ""
+
+#: ../views/SCViewSingleContact.php:171
+msgid "Text"
+msgstr ""
+
+#: ../views/SCViewSingleContact.php:190
+msgid "Please, Enter the Code"
+msgstr ""
+
+#: ../views/SCViewSingleContact.php:204
+msgid "SEND"
+msgstr ""
+
+#: ../views/SCViewTableContact.php:55
+msgid "Picture"
+msgstr ""
+
+#: ../views/SCViewTableContact.php:58
+msgid "Name"
+msgstr ""
+
+#: ../views/SCViewTableContact.php:67
+msgid "Parameters"
+msgstr ""
+
+#: ../views/SCViewTableContact.php:67
+msgid "More"
+msgstr ""

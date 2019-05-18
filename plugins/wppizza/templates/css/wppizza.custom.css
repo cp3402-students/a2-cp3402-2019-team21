@@ -1,0 +1,14 @@
+/********************************************************************************************************************************************************************************************
+*
+*
+*	[custom css]
+*	[if you want to always have the latest version of the css that comes with this plugin to replect any changes in it and only want to overwrite a few lines
+*	copy this file to your theme directory and add your own styles. This file will always be included after the main wppizza css (provided include css is enabled)]
+*	
+*	YOU MUST COPY/MOVE THIS FILE TO YOUR THEME/CHILD THEME TO WORK WHERE IT MUST RESIDE IN A SUBDIRECTORY "/wppizza/css/" - i.e "/wppizza/css/wppizza.custom.css". IT DOESN'T DO ANYTHING IF LEFT HERE
+*
+********************************************************************************************************************************************************************************************/
+/*you might want to set this backgound color explicitly for your theme here to avoid ugly lines through the legend on the orderpage in (old versions of) IE**/
+/*
+#wppizza-send-order>fieldset>legend{background-color:inherit;}
+*/

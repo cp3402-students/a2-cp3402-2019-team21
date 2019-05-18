@@ -1,0 +1,1218 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WPPizza   v3.x - First Install Frontend Localization\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-08-28 17:07+0100\n"
+"PO-Revision-Date: 2018-08-28 17:08+0100\n"
+"Last-Translator: ollybach <dev@wp-pizza.com>\n"
+"Language-Team: \n"
+"Language: nl_NL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: esc_html__\n"
+"X-Poedit-Basepath: .\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+# @ wppizza-locale
+#: ../classes/modules/mod.localization.common.php:1381
+msgid "contains additives"
+msgstr "bevat toevoegingen"
+
+# @ wppizza-locale
+#: ../classes/modules/mod.localization.common.php:1382
+msgid "add to cart"
+msgstr "aan de winkelwagen toevoegen"
+
+# @ wppizza-locale
+#: ../classes/modules/mod.localization.common.php:1383
+msgid "sorry, we are currently closed"
+msgstr "onze excuses, we zijn momenteel gesloten"
+
+# @ wppizza-locale
+#: ../classes/modules/mod.localization.common.php:1384
+msgid "please choose a size"
+msgstr "kies a.u.b. een grootte"
+
+# @ wppizza-locale
+#: ../classes/modules/mod.localization.common.php:1385
+msgid "<div>&#10004;</div>item added"
+msgstr "<div>&#10004;</div>item added"
+
+# @ wppizza-locale
+#: ../classes/modules/mod.localization.common.php:1386
+msgid "no results found"
+msgstr "Geen items gevonden"
+
+# @ default
+#: ../classes/modules/mod.localization.common.php:1387
+msgid "uncategorised"
+msgstr "uncategorised"
+
+# @ wppizza-locale
+#: ../classes/modules/mod.localization.common.php:1388
+msgid "< previous"
+msgstr "< vorige"
+
+# @ wppizza-locale
+#: ../classes/modules/mod.localization.common.php:1389
+msgid "next >"
+msgstr "volgende >"
+
+#: ../classes/modules/mod.localization.common.php:1390
+#, php-format
+msgid "%s - %s of %s"
+msgstr "%s - %s of %s"
+
+# @ wppizza-locale
+#: ../classes/modules/mod.localization.common.php:1391
+msgid "currently closed"
+msgstr "momenteel gesloten"
+
+# @ wppizza-locale
+#: ../classes/modules/mod.localization.common.php:1392
+msgid "empty cart"
+msgstr "empty cart"
+
+# @ wppizza-locale
+#: ../classes/modules/mod.localization.common.php:1393
+msgid "view cart"
+msgstr "view cart"
+
+# @ wppizza-locale
+#: ../classes/modules/mod.localization.common.php:1394
+msgid "your cart is empty"
+msgstr "uw winkelwagen is leeg"
+
+# @ wppizza-locale
+#: ../classes/modules/mod.localization.common.php:1395
+msgid "remove from cart"
+msgstr "verwijder uit de winkelwagen"
+
+# @ wppizza-locale
+#: ../classes/modules/mod.localization.common.php:1396
+msgid "place your order"
+msgstr "plaats uw bestelling"
+
+# @ wppizza-locale
+#: ../classes/modules/mod.localization.common.php:1397
+msgid "checkout"
+msgstr "checkout"
+
+# @ wppizza-locale
+#: ../classes/modules/mod.localization.common.php:1398
+msgid "we're closed"
+msgstr "we're closed"
+
+# @ wppizza-locale
+#: ../classes/modules/mod.localization.common.php:1399
+msgid "You have no previous orders"
+msgstr "You have no previous orders"
+
+# @ wppizza-locale
+#: ../classes/modules/mod.localization.common.php:1400
+#: ../classes/modules/mod.localization.common.php:1491
+msgid "Order Details"
+msgstr "Bestelgegevens"
+
+#: ../classes/modules/mod.localization.common.php:1401
+msgid "Transaction Details"
+msgstr "Transaction Details"
+
+# @ wppizza-locale
+#: ../classes/modules/mod.localization.common.php:1402
+msgid "Delivered:"
+msgstr "Delivered:"
+
+# @ wppizza-locale
+#: ../classes/modules/mod.localization.common.php:1403
+msgid "your order"
+msgstr "uw bestelling"
+
+# @ wppizza-locale
+#: ../classes/modules/mod.localization.common.php:1404
+msgid "send order"
+msgstr "verstuur bestelling"
+
+# @ wppizza-locale
+#: ../classes/modules/mod.localization.common.php:1405
+msgid "update order"
+msgstr "update order"
+
+# @ wppizza-locale
+#: ../classes/modules/mod.localization.common.php:1406
+msgid "please enter the required information below"
+msgstr "Voer de vereiste informatie hieronder in"
+
+# @ wppizza-locale
+#: ../classes/modules/mod.localization.common.php:1407
+msgid "handling charge"
+msgstr "handling charge"
+
+# @ wppizza-locale
+#: ../classes/modules/mod.localization.common.php:1408
+msgid "calculated on checkout"
+msgstr "calculated on checkout"
+
+# @ wppizza-locale
+#: ../classes/modules/mod.localization.common.php:1409
+msgid "this is a required field"
+msgstr "Dit is een verplicht veld"
+
+#: ../classes/modules/mod.localization.common.php:1410
+msgid "invalid email address"
+msgstr "invalid email address"
+
+# @ wppizza-locale
+#: ../classes/modules/mod.localization.common.php:1411
+msgid "decimal numbers only please"
+msgstr "decimal numbers only please"
+
+# @ wppizza-locale
+#: ../classes/modules/mod.localization.common.php:1412
+msgid "thank you"
+msgstr "dank u"
+
+# @ wppizza-locale
+#: ../classes/modules/mod.localization.common.php:1413
+msgid "thank you, we have received your order"
+msgstr "dank u, hebben wij hebben uw bestelling ontvangen"
+
+# @ wppizza-locale
+#: ../classes/modules/mod.localization.common.php:1414
+#: ../classes/modules/mod.order_form.confirmationpage.php:404
+msgid "personal information"
+msgstr "personal information"
+
+# @ wppizza-locale
+#: ../classes/modules/mod.localization.common.php:1415
+#: ../classes/modules/mod.order_form.confirmationpage.php:406
+msgid "order details"
+msgstr "bestel details"
+
+# @ wppizza-locale
+#: ../classes/modules/mod.localization.common.php:1416
+msgid "Apologies. There was an error receiving your order. Please try again."
+msgstr "Apologies. There was an error receiving your order. Please try again."
+
+# @ wppizza-locale
+#: ../classes/modules/mod.localization.common.php:1417
+msgid "Order cancelled"
+msgstr "Bestelling verwijderd"
+
+# @ wppizza-locale
+#: ../classes/modules/mod.localization.common.php:1418
+msgid "This order has been cancelled. Thank you."
+msgstr "Deze bestelling is al verwerkt"
+
+#: ../classes/modules/mod.localization.common.php:1419
+msgid "Processing Payment"
+msgstr "Processing Payment"
+
+#: ../classes/modules/mod.localization.common.php:1420
+msgid ""
+"<p>We are processing your payment! This page will automatically refresh and "
+"check again in a few seconds. Please wait.....</p><p>If this page appears "
+"for more than a minute, please contact us stating the following order "
+"details</p>"
+msgstr ""
+"<p>We are processing your payment! This page will automatically refresh and "
+"check again in a few seconds. Please wait.....</p><p>If this page appears "
+"for more than a minute, please contact us stating the following order "
+"details</p>"
+
+# @ wppizza-locale
+#: ../classes/modules/mod.localization.common.php:1421
+#| msgid "Payment Method :"
+msgid "Payment Pending"
+msgstr "Payment Pending"
+
+#: ../classes/modules/mod.localization.common.php:1422
+#, php-format
+msgid ""
+"<p>Your payment has not yet been sent to us by your payment provider.</"
+"p><p>As soon as we have received your payment, a notification will be sent "
+"to you and we will process your order.</p><p><strong>Please note: we have no "
+"control over how quickly your provider will settle payments</strong></"
+"p><p>This page will refresh periodically, but you can also return to this "
+"page using <a href=\"%s\">this link</a> to check back yourself later.</p>"
+msgstr ""
+"<p>Your payment has not yet been sent to us by your payment provider.</"
+"p><p>As soon as we have received your payment, a notification will be sent "
+"to you and we will process your order.</p><p><strong>Please note: we have no "
+"control over how quickly your provider will settle payments</strong></"
+"p><p>This page will refresh periodically, but you can also return to this "
+"page using <a href=\"%s\">this link</a> to check back yourself later.</p>"
+
+#: ../classes/modules/mod.localization.common.php:1423
+msgid "Payment Accepted - Awaiting confirmation"
+msgstr "Payment Accepted - Awaiting confirmation"
+
+#: ../classes/modules/mod.localization.common.php:1424
+msgid ""
+"<p>Your payment was accepted but has not yet been confirmed.</p><p>You will "
+"receive another email when your payment has been confirmed. Your order can "
+"not be processed until final confirmation has been received.</p><p>Please be "
+"patient</p>"
+msgstr ""
+"<p>Your payment was accepted but has not yet been confirmed.</p><p>You will "
+"receive another email when your payment has been confirmed. Your order can "
+"not be processed until final confirmation has been received.</p><p>Please be "
+"patient</p>"
+
+# @ wppizza-locale
+#: ../classes/modules/mod.localization.common.php:1425
+msgid "Payment Confirmed"
+msgstr "Payment Confirmed"
+
+# @ wppizza-locale
+#: ../classes/modules/mod.localization.common.php:1426
+msgid "<p>Your payment has been confirmed. Thank you.</p>"
+msgstr "Deze bestelling is al verwerkt"
+
+# @ wppizza-locale
+#: ../classes/modules/mod.localization.common.php:1427
+msgid "Your order at"
+msgstr "uw bestelling"
+
+# @ wppizza-locale
+#: ../classes/modules/mod.localization.common.php:1428
+msgid "Please enter your payment details"
+msgstr "Please enter your payment details"
+
+# @ wppizza-locale
+#: ../classes/modules/mod.localization.common.php:1429
+msgid "Sorry, this order can not be found."
+msgstr "Sorry, this order can not be found."
+
+#: ../classes/modules/mod.localization.common.php:1430
+msgid "Return to shop"
+msgstr "Return to shop"
+
+# @ wppizza-locale
+#: ../classes/modules/mod.localization.common.php:1432
+msgid "update my user data with the details above"
+msgstr "update my user data with the details above"
+
+# @ wppizza-locale
+#: ../classes/modules/mod.localization.common.php:1433
+msgid "Tips / Gratuities"
+msgstr "Tips / Gratuities"
+
+# @ wppizza-locale
+#: ../classes/modules/mod.localization.common.php:1434
+msgid "already registered ?"
+msgstr "already registered ?"
+
+# @ wppizza-locale
+#: ../classes/modules/mod.localization.common.php:1435
+msgid "continue as :"
+msgstr "continue as :"
+
+# @ wppizza-locale
+#: ../classes/modules/mod.localization.common.php:1436
+msgid "guest"
+msgstr "guest"
+
+# @ wppizza-locale
+#: ../classes/modules/mod.localization.common.php:1437
+msgid "create account"
+msgstr "create account"
+
+# @ wppizza-locale
+#: ../classes/modules/mod.localization.common.php:1438
+msgid ""
+"Please ensure your email address is correct. A password will be emailed to "
+"you."
+msgstr ""
+"Please ensure your email address is correct. A password will be emailed to "
+"you."
+
+# @ wppizza-locale
+#: ../classes/modules/mod.localization.common.php:1439
+msgid ""
+"This email address has already been registered. Please either <a href="
+"\"#login\">login</a>, use a different email address or continue as guest."
+msgstr ""
+"This email address has already been registered. Please either <a href="
+"\"#login\">login</a>, use a different email address or continue as guest."
+
+#: ../classes/modules/mod.localization.common.php:1440
+#: ../classes/modules/mod.localization.common.php:1469
+#: ../classes/modules/mod.localization.common.php:1492
+msgid "Qty"
+msgstr "Qty"
+
+# @ wppizza-locale
+#: ../classes/modules/mod.localization.common.php:1441
+#: ../classes/modules/mod.localization.common.php:1467
+#: ../classes/modules/mod.localization.common.php:1493
+msgid "Article"
+msgstr "Article"
+
+# @ wppizza-locale
+#: ../classes/modules/mod.localization.common.php:1442
+#: ../classes/modules/mod.localization.common.php:1468
+#: ../classes/modules/mod.localization.common.php:1494
+msgid "Price"
+msgstr "Price"
+
+#: ../classes/modules/mod.localization.common.php:1443
+msgid "Tax Rate"
+msgstr "Tax Rate"
+
+# @ wppizza-locale
+#: ../classes/modules/mod.localization.common.php:1444
+#: ../classes/modules/mod.localization.common.php:1459
+msgid "Total"
+msgstr "Total"
+
+# @ wppizza-locale
+#: ../classes/modules/mod.localization.common.php:1447
+msgid "spend"
+msgstr "besteed"
+
+# @ wppizza-locale
+#: ../classes/modules/mod.localization.common.php:1448
+msgid "save"
+msgstr "bespaar"
+
+# @ wppizza-locale
+#: ../classes/modules/mod.localization.common.php:1449
+msgid "Free Delivery"
+msgstr "Free Delivery"
+
+# @ wppizza-locale
+#: ../classes/modules/mod.localization.common.php:1450
+msgid "Delivery Charges"
+msgstr "Delivery Charges"
+
+# @ wppizza-locale
+#: ../classes/modules/mod.localization.common.php:1451
+msgid "Delivery Charges Per Item"
+msgstr "Delivery Charges Per Item"
+
+# @ wppizza-locale
+#: ../classes/modules/mod.localization.common.php:1452
+msgid "Discount"
+msgstr "Discount"
+
+# @ wppizza-locale
+#: ../classes/modules/mod.localization.common.php:1453
+#, php-format
+msgid "Sales Tax @ %s"
+msgstr "Sales Tax @ %s"
+
+# @ wppizza-locale
+#: ../classes/modules/mod.localization.common.php:1454
+#, php-format
+msgid "Incl. Tax @ %s"
+msgstr "Incl. Tax @ %s"
+
+# @ wppizza-locale
+#: ../classes/modules/mod.localization.common.php:1455
+msgid "Handling Charges"
+msgstr "Handling Charges"
+
+#: ../classes/modules/mod.localization.common.php:1456
+#, php-format
+msgid "Shipping Tax @ %s"
+msgstr "Shipping Tax @ %s"
+
+# @ wppizza-locale
+#: ../classes/modules/mod.localization.common.php:1457
+msgid "Tax Total"
+msgstr "Tax Total"
+
+#: ../classes/modules/mod.localization.common.php:1458
+msgid "Taxes Included"
+msgstr "Taxes Included"
+
+# @ wppizza-locale
+#: ../classes/modules/mod.localization.common.php:1460
+msgid "Your Items"
+msgstr "Your Items"
+
+# @ wppizza-locale
+#: ../classes/modules/mod.localization.common.php:1461
+msgid "closed"
+msgstr "gesloten"
+
+#: ../classes/modules/mod.localization.common.php:1462
+msgid "all day"
+msgstr "all day"
+
+# @ wppizza-locale
+#: ../classes/modules/mod.localization.common.php:1465
+msgid "Customer Details / Delivery Address"
+msgstr "Customer Details / Delivery Address"
+
+# @ wppizza-locale
+#: ../classes/modules/mod.localization.common.php:1466
+msgid "Order"
+msgstr "bestelling"
+
+# @ wppizza-locale
+#: ../classes/modules/mod.localization.common.php:1470
+msgid "For Delivery"
+msgstr "For Delivery"
+
+#: ../classes/modules/mod.localization.common.php:1471
+msgid "For Pickup"
+msgstr "For Pickup"
+
+#: ../classes/modules/mod.localization.common.php:1472
+msgid "Cash"
+msgstr "Cash"
+
+#: ../classes/modules/mod.localization.common.php:1473
+msgid "Credit Card"
+msgstr "Credit Card"
+
+# @ wppizza-locale
+#: ../classes/modules/mod.localization.common.php:1474
+msgid "Delivery Type :"
+msgstr "Delivery Type :"
+
+#: ../classes/modules/mod.localization.common.php:1475
+msgid "User ID :"
+msgstr "User ID :"
+
+# @ wppizza-locale
+#: ../classes/modules/mod.localization.common.php:1476
+msgid "Order ID :"
+msgstr "Order ID :"
+
+# @ wppizza-locale
+#: ../classes/modules/mod.localization.common.php:1477
+msgid "Currency :"
+msgstr "Currency :"
+
+# @ wppizza-locale
+#: ../classes/modules/mod.localization.common.php:1478
+msgid "Paid By :"
+msgstr "Betaald Door:"
+
+# @ wppizza-locale
+#: ../classes/modules/mod.localization.common.php:1479
+msgid "Note :"
+msgstr "Opmerking:"
+
+# @ wppizza-locale
+#: ../classes/modules/mod.localization.common.php:1480
+msgid "Payment Method :"
+msgstr "Payment Method :"
+
+# @ wppizza-locale
+#: ../classes/modules/mod.localization.common.php:1481
+msgid "Order Date :"
+msgstr "Order Date :"
+
+#: ../classes/modules/mod.localization.common.php:1482
+msgid "Transaction Id :"
+msgstr "Transaction Id :"
+
+# @ wppizza-locale
+#: ../classes/modules/mod.localization.common.php:1483
+msgid "Payment Due :"
+msgstr "Payment Due :"
+
+#: ../classes/modules/mod.localization.common.php:1484
+msgid "Unconfirmed Payment :"
+msgstr "Unconfirmed Payment :"
+
+# @ wppizza-locale
+#: ../classes/modules/mod.localization.common.php:1485
+msgid "Payment Confirmed :"
+msgstr "Payment Confirmed :"
+
+# @ wppizza-locale
+#: ../classes/modules/mod.localization.common.php:1486
+msgid "Total :"
+msgstr "Total :"
+
+# @ wppizza-locale
+#: ../classes/modules/mod.localization.common.php:1487
+msgid "Refunded :"
+msgstr "Refunded :"
+
+# @ wppizza-locale
+#: ../classes/modules/mod.localization.common.php:1488
+msgid "Site Details"
+msgstr "Site Details"
+
+# @ wppizza-locale
+#: ../classes/modules/mod.localization.common.php:1489
+msgid "Overview"
+msgstr "Overzicht"
+
+# @ wppizza-locale
+#: ../classes/modules/mod.localization.common.php:1490
+msgid "Customer Details"
+msgstr "Klantgegevens"
+
+#: ../classes/modules/mod.localization.common.php:1495
+msgid "Summary"
+msgstr "Summary"
+
+# @ wppizza-locale
+#: ../classes/modules/mod.localization.common.php:1496
+msgid "Guest"
+msgstr "Guest"
+
+#: ../classes/modules/mod.localization.common.php:1497
+msgid "Registered User"
+msgstr "Registered User"
+
+# @ wppizza-locale
+#: ../classes/modules/mod.localization.common.php:1499
+msgid " - Our Menu - "
+msgstr " - Our Menu - "
+
+# @ wppizza-locale
+#: ../classes/modules/mod.localization.common.php:1500
+msgid "Additional Information"
+msgstr "Additional Information"
+
+# @ wppizza-locale
+#: ../classes/modules/mod.localization.common.php:1501
+msgid "Please select your payment method:"
+msgstr "Selecteer uw betaalmethode:"
+
+#: ../classes/modules/mod.localization.common.php:1502
+msgid "--- Please select ---"
+msgstr "Selecteer"
+
+#: ../classes/modules/mod.localization.common.php:1503
+msgid "No"
+msgstr "No"
+
+#: ../classes/modules/mod.localization.common.php:1504
+msgid "Yes"
+msgstr "Yes"
+
+# @ wppizza-locale
+#: ../classes/modules/mod.localization.common.php:1505
+msgid "New Order(s)"
+msgstr "Bestellingen"
+
+#: ../classes/modules/mod.localization.common.php:1506
+msgid "Try Again"
+msgstr "Try Again"
+
+#: ../classes/modules/mod.localization.common.php:1507
+msgid "Back to Merchant Site"
+msgstr "Back to Merchant Site"
+
+#: ../classes/modules/mod.localization.common.php:1508
+msgid "Error"
+msgstr "Error"
+
+# @ wppizza-locale
+#: ../classes/modules/mod.localization.common.php:1509
+msgid "Error Details"
+msgstr "Error Details"
+
+#: ../classes/modules/mod.localization.common.php:1510
+msgid "Free"
+msgstr "Free"
+
+#: ../classes/modules/mod.localization.common.php:1511
+#, php-format
+msgid ""
+"I have read and accept the <a href=\"%s\" target=\"_blank\">Privacy Policy</"
+"a>"
+msgstr ""
+"I have read and accept the <a href=\"%s\" target=\"_blank\">Privacy Policy</"
+"a>"
+
+#: ../classes/modules/mod.localization.common.php:1512
+msgid "Privacy Policy accepted:"
+msgstr "Privacy Policy accepted:"
+
+# @ wppizza-locale
+#: ../classes/modules/mod.localization.common.php:1513
+msgid "New"
+msgstr "New"
+
+# @ wppizza-locale
+#: ../classes/modules/mod.localization.common.php:1514
+msgid "Acknowledged"
+msgstr "Acknowledged"
+
+#: ../classes/modules/mod.localization.common.php:1515
+msgid "On Hold"
+msgstr "On Hold"
+
+# @ wppizza-locale
+#: ../classes/modules/mod.localization.common.php:1516
+msgid "Processed"
+msgstr "Processed"
+
+# @ wppizza-locale
+#: ../classes/modules/mod.localization.common.php:1517
+msgid "Delivered"
+msgstr "Delivered"
+
+# @ wppizza-locale
+#: ../classes/modules/mod.localization.common.php:1518
+msgid "Rejected"
+msgstr "Rejected"
+
+# @ wppizza-locale
+#: ../classes/modules/mod.localization.common.php:1519
+msgid "Refunded"
+msgstr "Refunded"
+
+# @ wppizza-locale
+#: ../classes/modules/mod.localization.common.php:1520
+#: ../classes/modules/mod.order_form.confirmationpage.php:390
+#: ../classes/modules/mod.order_form.confirmationpage.php:391
+#: ../classes/modules/mod.order_form.confirmationpage.php:392
+#: ../classes/modules/mod.order_form.confirmationpage.php:393
+msgid "Other"
+msgstr "Other"
+
+#: ../classes/modules/mod.mixed.sku.php:805
+msgid "SKU"
+msgstr "SKU"
+
+# @ wppizza-locale
+#: ../classes/modules/mod.order_form.confirmationpage.php:388
+msgid "Accept Terms and Conditions"
+msgstr "Accept Terms and Conditions"
+
+# @ wppizza-locale
+#: ../classes/modules/mod.order_form.confirmationpage.php:389
+msgid "Distance Selling Regulations "
+msgstr "Distance Selling Regulations "
+
+# @ wppizza-locale
+#: ../classes/modules/mod.order_form.confirmationpage.php:400
+msgid "change"
+msgstr "change"
+
+# @ wppizza-locale
+#: ../classes/modules/mod.order_form.confirmationpage.php:401
+msgid "amend order"
+msgstr "amend order"
+
+# @ wppizza-locale
+#: ../classes/modules/mod.order_form.confirmationpage.php:402
+msgid "selected payment method :"
+msgstr "selected payment method :"
+
+# @ wppizza-locale
+#: ../classes/modules/mod.order_form.confirmationpage.php:403
+msgid "legal aspects"
+msgstr "legal aspects"
+
+# @ wppizza-locale
+#: ../classes/modules/mod.order_form.confirmationpage.php:405
+msgid "payment method"
+msgstr "payment method"
+
+# @ wppizza-locale
+#: ../classes/modules/mod.order_form.confirmationpage.php:407
+msgid "buy now (legally binding)"
+msgstr "buy now (legally binding)"
+
+# @ wppizza-locale
+#: ../classes/modules/mod.order_form.confirmationpage.php:408
+msgid "article"
+msgstr "article"
+
+# @ wppizza-locale
+#: ../classes/modules/mod.order_form.confirmationpage.php:409
+msgid "single price"
+msgstr "single price"
+
+# @ wppizza-locale
+#: ../classes/modules/mod.order_form.confirmationpage.php:410
+msgid "quantity"
+msgstr "quantity"
+
+# @ wppizza-locale
+#: ../classes/modules/mod.order_form.confirmationpage.php:411
+msgid "price"
+msgstr "price"
+
+# @ wppizza-locale
+#: ../classes/modules/mod.order_form.orderpage.php:347
+msgid "Name :"
+msgstr "Naam :"
+
+# @ wppizza-locale
+#: ../classes/modules/mod.order_form.orderpage.php:350
+msgid "Email :"
+msgstr "Email :"
+
+# @ wppizza-locale
+#: ../classes/modules/mod.order_form.orderpage.php:353
+msgid "Address :"
+msgstr "Adres :"
+
+# @ wppizza-locale
+#: ../classes/modules/mod.order_form.orderpage.php:356
+msgid "Telephone :"
+msgstr "Telefoon :"
+
+# @ wppizza-locale
+#: ../classes/modules/mod.order_form.orderpage.php:359
+msgid "Comments :"
+msgstr "Opmerkingen :"
+
+# @ wppizza-locale
+#: ../classes/modules/mod.order_form.orderpage.php:362
+msgid "Custom Field 1 :"
+msgstr "Aangepast Veld 1 :"
+
+# @ wppizza-locale
+#: ../classes/modules/mod.order_form.orderpage.php:365
+msgid "Custom Field 2 :"
+msgstr "Aangepast Veld 2 :"
+
+# @ wppizza-locale
+#: ../classes/modules/mod.order_form.orderpage.php:368
+msgid "Custom Field 3 :"
+msgstr "Aangepast Veld 3 :"
+
+# @ wppizza-locale
+#: ../classes/modules/mod.order_form.orderpage.php:371
+msgid "Custom Field 4 :"
+msgstr "Aangepast Veld 4 :"
+
+# @ wppizza-locale
+#: ../classes/modules/mod.order_form.orderpage.php:374
+msgid "Custom Field 5 :"
+msgstr "Aangepast Veld 5 :"
+
+# @ wppizza-locale
+#: ../classes/modules/mod.order_form.orderpage.php:377
+msgid "Custom Field 6 :"
+msgstr "Aangepast Veld 6 :"
+
+# @ wppizza-locale
+#: ../classes/modules/mod.order_form.orderpage.php:380
+msgid "Tips/Gratuities :"
+msgstr "Tips/Gratuities :"
+
+# @ wppizza-locale
+#: ../classes/modules/mod.order_settings.delivery.php:430
+msgid "free delivery for orders over"
+msgstr "gratis levering voor bestellingen van meer dan"
+
+# @ wppizza-locale
+#: ../classes/modules/mod.order_settings.delivery.php:431
+msgid "minimum order for delivery"
+msgstr "minimum bestelling orderwaarde"
+
+#: ../classes/modules/mod.order_settings.delivery.php:432
+#, php-format
+msgid "Please allow %s minutes for delivery."
+msgstr "Please allow %s minutes for delivery."
+
+#: ../classes/modules/mod.order_settings.delivery.php:433
+msgid "Your order is out for delivery and will arrive with you shortly."
+msgstr "Your order is out for delivery and will arrive with you shortly."
+
+#: ../classes/modules/mod.order_settings.delivery.php:434
+#, php-format
+msgid "Your order will be delivered no later than %s."
+msgstr "Your order will be delivered no later than %s."
+
+#: ../classes/modules/mod.order_settings.delivery.php:435
+msgid "I would like my order to be delivered"
+msgstr "I would like my order to be delivered"
+
+#: ../classes/modules/mod.order_settings.delivery.php:436
+#, php-format
+msgid "Please allow %s min. for us to deliver your order."
+msgstr "Please allow %s min. for us to deliver your order."
+
+# @ wppizza-locale
+#: ../classes/modules/mod.order_settings.pickup.php:354
+msgid "Delivery"
+msgstr "Delivery"
+
+#: ../classes/modules/mod.order_settings.pickup.php:355
+msgid "Pickup"
+msgstr "Pickup"
+
+# @ wppizza-locale
+#: ../classes/modules/mod.order_settings.pickup.php:356
+#: ../classes/modules/mod.order_settings.pickup.php:362
+#, php-format
+msgid ""
+"You have chosen to pickup the order yourself. This order will not be "
+"delivered. Please allow %s min. for us to prepare your order."
+msgstr ""
+"Je hebt ervoor gekozen om uw bestelling zelf te komen halen. Deze bestelling "
+"zal niet worden afgeleverd. Houdt a.u.b. rekening met %s minuten om uw "
+"bestelling te bereiden."
+
+# @ wppizza-locale
+#: ../classes/modules/mod.order_settings.pickup.php:357
+#| msgid "Please collect your order at the store."
+msgid "Please collect your order from the store at your earliest convenience."
+msgstr "Please collect your order from the store at your earliest convenience."
+
+#: ../classes/modules/mod.order_settings.pickup.php:358
+#, php-format
+msgid "Your order will be ready for collection at %s."
+msgstr "Your order will be ready for collection at %s."
+
+# @ wppizza-locale
+#: ../classes/modules/mod.order_settings.pickup.php:359
+msgid "Please collect your order at the store."
+msgstr "Please collect your order at the store."
+
+# @ wppizza-locale
+#: ../classes/modules/mod.order_settings.pickup.php:360
+msgid "I would like to pickup the order myself"
+msgstr "Ik wil de bestelling zelf afhalen"
+
+# @ wppizza-locale
+#: ../classes/modules/mod.order_settings.pickup.php:361
+msgid "Delivery: pickup"
+msgstr "Levering: afhalen"
+
+# @ wppizza-locale
+#: ../classes/modules/mod.order_settings.pickup.php:363
+msgid "minimum order"
+msgstr "minimum bestelling"
+
+# @ wppizza-locale
+#: ../classes/modules/mod.order_settings.repurchase.php:399
+#: ../classes/modules/mod.order_settings.repurchase.php:402
+#: ../classes/modules/mod.order_settings.repurchase.php:403
+msgid "Re-order"
+msgstr "Re-order"
+
+#: ../classes/modules/mod.order_settings.repurchase.php:400
+msgid "+"
+msgstr "+"
+
+# @ wppizza-locale
+#: ../classes/modules/mod.order_settings.repurchase.php:401
+msgid "Re-order this item"
+msgstr "Re-order this item"
+
+# @ wppizza-locale
+#: ../classes/modules/mod.order_settings.repurchase.php:404
+msgid "N/A"
+msgstr "N/A"
+
+# @ wppizza-locale
+#: ../includes/upgrades/install.default_items_and_categories.php:31
+msgid "regular"
+msgstr "gewoon"
+
+# @ wppizza-locale
+#: ../includes/upgrades/install.default_items_and_categories.php:34
+#: ../includes/upgrades/install.default_items_and_categories.php:38
+#: ../includes/upgrades/install.default_items_and_categories.php:43
+msgid "small"
+msgstr "klein"
+
+# @ wppizza-locale
+#: ../includes/upgrades/install.default_items_and_categories.php:35
+#: ../includes/upgrades/install.default_items_and_categories.php:40
+#: ../includes/upgrades/install.default_items_and_categories.php:45
+msgid "large"
+msgstr "groot"
+
+# @ wppizza-locale
+#: ../includes/upgrades/install.default_items_and_categories.php:39
+#: ../includes/upgrades/install.default_items_and_categories.php:44
+msgid "medium"
+msgstr "medium"
+
+# @ wppizza-locale
+#: ../includes/upgrades/install.default_items_and_categories.php:46
+msgid "xxl"
+msgstr "xxl"
+
+# @ wppizza-locale
+#: ../includes/upgrades/install.default_items_and_categories.php:49
+msgid "0.25l"
+msgstr "0,25l"
+
+# @ wppizza-locale
+#: ../includes/upgrades/install.default_items_and_categories.php:50
+msgid "0.33l"
+msgstr "0,33l"
+
+# @ wppizza-locale
+#: ../includes/upgrades/install.default_items_and_categories.php:51
+msgid "0.75l"
+msgstr "0,75l"
+
+# @ wppizza-locale
+#: ../includes/upgrades/install.default_items_and_categories.php:52
+msgid "1.00l"
+msgstr "1,00l"
+
+# @ wppizza-locale
+#: ../includes/upgrades/install.default_items_and_categories.php:53
+msgid "1.50l"
+msgstr "1,50l"
+
+# @ wppizza-locale
+#: ../includes/upgrades/install.default_items_and_categories.php:70
+msgid "Food coloring"
+msgstr "Kleurstoffen"
+
+# @ wppizza-locale
+#: ../includes/upgrades/install.default_items_and_categories.php:71
+msgid "Flavor enhancers"
+msgstr "Smaakversterkers"
+
+# @ wppizza-locale
+#: ../includes/upgrades/install.default_items_and_categories.php:72
+msgid "Preservatives"
+msgstr "Conserveringsmiddelen"
+
+# @ wppizza-locale
+#: ../includes/upgrades/install.default_items_and_categories.php:73
+msgid "Stabilizers"
+msgstr "Stabilisatoren"
+
+# @ wppizza-locale
+#: ../includes/upgrades/install.default_items_and_categories.php:74
+msgid "Sweeteners"
+msgstr "Zoetstoffen"
+
+# @ wppizza-locale
+#: ../includes/upgrades/install.default_items_and_categories.php:88
+msgid "Special Offers"
+msgstr "Speciale Aanbiedingen"
+
+# @ wppizza-locale
+#: ../includes/upgrades/install.default_items_and_categories.php:89
+msgid "Pizza"
+msgstr "Pizza"
+
+# @ wppizza-locale
+#: ../includes/upgrades/install.default_items_and_categories.php:90
+msgid "Pasta"
+msgstr "Pasta"
+
+# @ wppizza-locale
+#: ../includes/upgrades/install.default_items_and_categories.php:91
+msgid "Salads"
+msgstr "Salades"
+
+# @ wppizza-locale
+#: ../includes/upgrades/install.default_items_and_categories.php:92
+msgid "Desserts"
+msgstr "Desserts"
+
+# @ wppizza-locale
+#: ../includes/upgrades/install.default_items_and_categories.php:93
+msgid "Beverages"
+msgstr "Dranken"
+
+# @ wppizza-locale
+#: ../includes/upgrades/install.default_items_and_categories.php:94
+msgid "Snacks"
+msgstr "Snacks"
+
+# @ wppizza-locale
+#: ../includes/upgrades/install.default_items_and_categories.php:108
+msgid "Special Pizza"
+msgstr "Speciale Pizza"
+
+# @ wppizza-locale
+#: ../includes/upgrades/install.default_items_and_categories.php:109
+msgid "Great Steak"
+msgstr "Grote Biefstuk"
+
+# @ wppizza-locale
+#: ../includes/upgrades/install.default_items_and_categories.php:110
+msgid "Yummy Pudding"
+msgstr "Heerlijke Pudding"
+
+# @ wppizza-locale
+#: ../includes/upgrades/install.default_items_and_categories.php:113
+msgid "Pizza A"
+msgstr "Pizza A"
+
+# @ wppizza-locale
+#: ../includes/upgrades/install.default_items_and_categories.php:114
+msgid "Pizza B"
+msgstr "Pizza B"
+
+# @ wppizza-locale
+#: ../includes/upgrades/install.default_items_and_categories.php:115
+msgid "Pizza C"
+msgstr "Pizza C"
+
+# @ wppizza-locale
+#: ../includes/upgrades/install.default_items_and_categories.php:116
+msgid "Pizza D"
+msgstr "Pizza D"
+
+# @ wppizza-locale
+#: ../includes/upgrades/install.default_items_and_categories.php:117
+msgid "Pizza E"
+msgstr "Pizza E"
+
+# @ wppizza-locale
+#: ../includes/upgrades/install.default_items_and_categories.php:118
+msgid "Pizza F"
+msgstr "Pizza F"
+
+# @ wppizza-locale
+#: ../includes/upgrades/install.default_items_and_categories.php:121
+msgid "Pasta A"
+msgstr "Pasta A"
+
+# @ wppizza-locale
+#: ../includes/upgrades/install.default_items_and_categories.php:122
+msgid "Pasta B"
+msgstr "Pasta B"
+
+# @ wppizza-locale
+#: ../includes/upgrades/install.default_items_and_categories.php:123
+msgid "Pasta C"
+msgstr "Pasta C"
+
+# @ wppizza-locale
+#: ../includes/upgrades/install.default_items_and_categories.php:124
+msgid "Pasta D"
+msgstr "Pasta D"
+
+# @ wppizza-locale
+#: ../includes/upgrades/install.default_items_and_categories.php:125
+msgid "Pasta E"
+msgstr "Pasta E"
+
+# @ wppizza-locale
+#: ../includes/upgrades/install.default_items_and_categories.php:126
+msgid "Pasta F"
+msgstr "Pasta F"
+
+# @ wppizza-locale
+#: ../includes/upgrades/install.default_items_and_categories.php:129
+msgid "Salad A"
+msgstr "Salade A"
+
+# @ wppizza-locale
+#: ../includes/upgrades/install.default_items_and_categories.php:130
+msgid "Salad B"
+msgstr "Salade B"
+
+# @ wppizza-locale
+#: ../includes/upgrades/install.default_items_and_categories.php:131
+msgid "Salad C"
+msgstr "Salade C"
+
+# @ wppizza-locale
+#: ../includes/upgrades/install.default_items_and_categories.php:132
+msgid "Salad D"
+msgstr "Salade D"
+
+# @ wppizza-locale
+#: ../includes/upgrades/install.default_items_and_categories.php:133
+msgid "Salad E"
+msgstr "Salade E"
+
+# @ wppizza-locale
+#: ../includes/upgrades/install.default_items_and_categories.php:134
+msgid "Salad F"
+msgstr "Salade F"
+
+# @ wppizza-locale
+#: ../includes/upgrades/install.default_items_and_categories.php:137
+msgid "Dessert A"
+msgstr "Dessert A"
+
+# @ wppizza-locale
+#: ../includes/upgrades/install.default_items_and_categories.php:138
+msgid "Dessert B"
+msgstr "Dessert B"
+
+# @ wppizza-locale
+#: ../includes/upgrades/install.default_items_and_categories.php:139
+msgid "Dessert C"
+msgstr "Dessert C"
+
+# @ wppizza-locale
+#: ../includes/upgrades/install.default_items_and_categories.php:140
+msgid "Dessert D"
+msgstr "Dessert D"
+
+# @ wppizza-locale
+#: ../includes/upgrades/install.default_items_and_categories.php:141
+msgid "Dessert E"
+msgstr "Dessert E"
+
+# @ wppizza-locale
+#: ../includes/upgrades/install.default_items_and_categories.php:142
+msgid "Dessert F"
+msgstr "Dessert F"
+
+# @ wppizza-locale
+#: ../includes/upgrades/install.default_items_and_categories.php:145
+msgid "Drink A"
+msgstr "Drank A"
+
+# @ wppizza-locale
+#: ../includes/upgrades/install.default_items_and_categories.php:146
+msgid "Drink B"
+msgstr "Drank B"
+
+# @ wppizza-locale
+#: ../includes/upgrades/install.default_items_and_categories.php:147
+msgid "Drink C"
+msgstr "Drank C"
+
+# @ wppizza-locale
+#: ../includes/upgrades/install.default_items_and_categories.php:148
+msgid "Drink D"
+msgstr "Drank D"
+
+# @ wppizza-locale
+#: ../includes/upgrades/install.default_items_and_categories.php:149
+msgid "Drink E"
+msgstr "Drank E"
+
+# @ wppizza-locale
+#: ../includes/upgrades/install.default_items_and_categories.php:150
+msgid "Drink F"
+msgstr "Drank F"
+
+# @ wppizza-locale
+#: ../includes/upgrades/install.default_items_and_categories.php:154
+msgid "Snack A"
+msgstr "Snack A"
+
+# @ wppizza-locale
+#: ../includes/upgrades/install.default_items_and_categories.php:155
+msgid "Snack B"
+msgstr "Snack B"
+
+# @ wppizza-locale
+#: ../includes/upgrades/install.default_items_and_categories.php:156
+msgid "Snack C"
+msgstr "Snack C"
+
+# @ wppizza-locale
+#: ../includes/upgrades/install.default_items_and_categories.php:157
+msgid "Snack D"
+msgstr "Snack D"
+
+# @ wppizza-locale
+#: ../includes/upgrades/install.default_items_and_categories.php:158
+msgid "Snack E"
+msgstr "Snack E"
+
+# @ wppizza-locale
+#: ../includes/upgrades/install.default_items_and_categories.php:159
+msgid "Snack F"
+msgstr "Snack F"
