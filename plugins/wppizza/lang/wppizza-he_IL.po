@@ -1,0 +1,1173 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WPPizza v3.x - First Install Frontend Localization\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-08-28 17:06+0100\n"
+"PO-Revision-Date: 2018-08-28 17:07+0100\n"
+"Last-Translator: ollybach <dev@wp-pizza.com>\n"
+"Language-Team: Yair - Halev.sites <halev.sites@gmail.com>\n"
+"Language: he_IL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: esc_html__\n"
+"X-Poedit-Basepath: ..\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+
+# @ wppizza-locale
+#: classes/modules/mod.localization.common.php:1381
+msgid "contains additives"
+msgstr "מכיל תוספות"
+
+# @ wppizza-locale
+#: classes/modules/mod.localization.common.php:1382
+msgid "add to cart"
+msgstr "הוסף לסל"
+
+# @ wppizza-locale
+#: classes/modules/mod.localization.common.php:1383
+msgid "sorry, we are currently closed"
+msgstr "מצטערים, אנחנו כרגע סגורים"
+
+# @ wppizza-locale
+#: classes/modules/mod.localization.common.php:1384
+msgid "please choose a size"
+msgstr "אנא בחר גודל"
+
+#: classes/modules/mod.localization.common.php:1385
+msgid "<div>&#10004;</div>item added"
+msgstr "<div>&#10004;</div>item added"
+
+# @ wppizza-locale
+#: classes/modules/mod.localization.common.php:1386
+msgid "no results found"
+msgstr "no results found"
+
+# @ default
+#: classes/modules/mod.localization.common.php:1387
+msgid "uncategorised"
+msgstr "uncategorised"
+
+# @ wppizza-locale
+#: classes/modules/mod.localization.common.php:1388
+msgid "< previous"
+msgstr "&lt;קודם"
+
+# @ wppizza-locale
+#: classes/modules/mod.localization.common.php:1389
+msgid "next >"
+msgstr "הבא&gt;"
+
+#: classes/modules/mod.localization.common.php:1390
+#, php-format
+msgid "%s - %s of %s"
+msgstr "%s - %s of %s"
+
+# @ wppizza-locale
+#: classes/modules/mod.localization.common.php:1391
+msgid "currently closed"
+msgstr "כרגע סגור"
+
+#: classes/modules/mod.localization.common.php:1392
+msgid "empty cart"
+msgstr "רוקן עגלה"
+
+#: classes/modules/mod.localization.common.php:1393
+msgid "view cart"
+msgstr "view cart"
+
+# @ wppizza-locale
+#: classes/modules/mod.localization.common.php:1394
+msgid "your cart is empty"
+msgstr "עגלת הקניות שלך ריקה"
+
+# @ wppizza-locale
+#: classes/modules/mod.localization.common.php:1395
+msgid "remove from cart"
+msgstr "להסיר מסל הקניות"
+
+# @ wppizza-locale
+#: classes/modules/mod.localization.common.php:1396
+msgid "place your order"
+msgstr "לבצע את ההזמנה שלך"
+
+#: classes/modules/mod.localization.common.php:1397
+msgid "checkout"
+msgstr "checkout"
+
+# @ wppizza-locale
+#: classes/modules/mod.localization.common.php:1398
+msgid "we're closed"
+msgstr "we're closed"
+
+# @ wppizza-locale
+#: classes/modules/mod.localization.common.php:1399
+msgid "You have no previous orders"
+msgstr "You have no previous orders"
+
+# @ wppizza-locale
+#: classes/modules/mod.localization.common.php:1400
+#: classes/modules/mod.localization.common.php:1491
+msgid "Order Details"
+msgstr "פרטי הזמנה"
+
+#: classes/modules/mod.localization.common.php:1401
+msgid "Transaction Details"
+msgstr "Transaction Details"
+
+# @ wppizza-locale
+#: classes/modules/mod.localization.common.php:1402
+msgid "Delivered:"
+msgstr "Delivered:"
+
+# @ wppizza-locale
+#: classes/modules/mod.localization.common.php:1403
+msgid "your order"
+msgstr "ההזמנה שלך"
+
+# @ wppizza-locale
+#: classes/modules/mod.localization.common.php:1404
+msgid "send order"
+msgstr "שלח הזמנה"
+
+# @ wppizza-locale
+#: classes/modules/mod.localization.common.php:1405
+msgid "update order"
+msgstr "update order"
+
+# @ wppizza-locale
+#: classes/modules/mod.localization.common.php:1406
+msgid "please enter the required information below"
+msgstr "נא להזין את המידע הנדרש "
+
+# @ wppizza-locale
+#: classes/modules/mod.localization.common.php:1407
+msgid "handling charge"
+msgstr "טיפול במשלוח"
+
+#: classes/modules/mod.localization.common.php:1408
+msgid "calculated on checkout"
+msgstr "calculated on checkout"
+
+# @ wppizza-locale
+#: classes/modules/mod.localization.common.php:1409
+msgid "this is a required field"
+msgstr "שדה חובה"
+
+#: classes/modules/mod.localization.common.php:1410
+msgid "invalid email address"
+msgstr "invalid email address"
+
+#: classes/modules/mod.localization.common.php:1411
+msgid "decimal numbers only please"
+msgstr "מספרים עשרוניים בלבד בבקשה"
+
+# @ wppizza-locale
+#: classes/modules/mod.localization.common.php:1412
+msgid "thank you"
+msgstr "תודה"
+
+# @ wppizza-locale
+#: classes/modules/mod.localization.common.php:1413
+msgid "thank you, we have received your order"
+msgstr "תודה לך, קבלנו את ההזמנה שלך"
+
+# @ wppizza-locale
+#: classes/modules/mod.localization.common.php:1414
+#: classes/modules/mod.order_form.confirmationpage.php:404
+msgid "personal information"
+msgstr "personal information"
+
+# @ wppizza-locale
+#: classes/modules/mod.localization.common.php:1415
+#: classes/modules/mod.order_form.confirmationpage.php:406
+msgid "order details"
+msgstr "פרטי הזמנה"
+
+#: classes/modules/mod.localization.common.php:1416
+msgid "Apologies. There was an error receiving your order. Please try again."
+msgstr "מצטערים. יש כמה שגיאות בעמוד ההזמנה. נא לנסות שוב."
+
+# @ wppizza-locale
+#: classes/modules/mod.localization.common.php:1417
+msgid "Order cancelled"
+msgstr "Order cancelled"
+
+# @ wppizza-locale
+#: classes/modules/mod.localization.common.php:1418
+msgid "This order has been cancelled. Thank you."
+msgstr "This order has been cancelled. Thank you."
+
+#: classes/modules/mod.localization.common.php:1419
+msgid "Processing Payment"
+msgstr "Processing Payment"
+
+#: classes/modules/mod.localization.common.php:1420
+msgid ""
+"<p>We are processing your payment! This page will automatically refresh and "
+"check again in a few seconds. Please wait.....</p><p>If this page appears "
+"for more than a minute, please contact us stating the following order "
+"details</p>"
+msgstr ""
+"<p>We are processing your payment! This page will automatically refresh and "
+"check again in a few seconds. Please wait.....</p><p>If this page appears "
+"for more than a minute, please contact us stating the following order "
+"details</p>"
+
+#: classes/modules/mod.localization.common.php:1421
+#| msgid "Payment Method :"
+msgid "Payment Pending"
+msgstr "Payment Pending"
+
+#: classes/modules/mod.localization.common.php:1422
+#, php-format
+msgid ""
+"<p>Your payment has not yet been sent to us by your payment provider.</"
+"p><p>As soon as we have received your payment, a notification will be sent "
+"to you and we will process your order.</p><p><strong>Please note: we have no "
+"control over how quickly your provider will settle payments</strong></"
+"p><p>This page will refresh periodically, but you can also return to this "
+"page using <a href=\"%s\">this link</a> to check back yourself later.</p>"
+msgstr ""
+"<p>Your payment has not yet been sent to us by your payment provider.</"
+"p><p>As soon as we have received your payment, a notification will be sent "
+"to you and we will process your order.</p><p><strong>Please note: we have no "
+"control over how quickly your provider will settle payments</strong></"
+"p><p>This page will refresh periodically, but you can also return to this "
+"page using <a href=\"%s\">this link</a> to check back yourself later.</p>"
+
+#: classes/modules/mod.localization.common.php:1423
+msgid "Payment Accepted - Awaiting confirmation"
+msgstr "Payment Accepted - Awaiting confirmation"
+
+#: classes/modules/mod.localization.common.php:1424
+msgid ""
+"<p>Your payment was accepted but has not yet been confirmed.</p><p>You will "
+"receive another email when your payment has been confirmed. Your order can "
+"not be processed until final confirmation has been received.</p><p>Please be "
+"patient</p>"
+msgstr ""
+"<p>Your payment was accepted but has not yet been confirmed.</p><p>You will "
+"receive another email when your payment has been confirmed. Your order can "
+"not be processed until final confirmation has been received.</p><p>Please be "
+"patient</p>"
+
+#: classes/modules/mod.localization.common.php:1425
+msgid "Payment Confirmed"
+msgstr "Payment Confirmed"
+
+# @ wppizza-locale
+#: classes/modules/mod.localization.common.php:1426
+msgid "<p>Your payment has been confirmed. Thank you.</p>"
+msgstr "<p>Your payment has been confirmed. Thank you.</p>"
+
+# @ wppizza-locale
+#: classes/modules/mod.localization.common.php:1427
+msgid "Your order at"
+msgstr "Your order at"
+
+# @ wppizza-locale
+#: classes/modules/mod.localization.common.php:1428
+#| msgid "Please select your payment method:"
+msgid "Please enter your payment details"
+msgstr "Please enter your payment details"
+
+#: classes/modules/mod.localization.common.php:1429
+msgid "Sorry, this order can not be found."
+msgstr "Sorry, this order can not be found."
+
+#: classes/modules/mod.localization.common.php:1430
+msgid "Return to shop"
+msgstr "Return to shop"
+
+#: classes/modules/mod.localization.common.php:1432
+msgid "update my user data with the details above"
+msgstr "לעדכן את נתוני המשתמש שלי כמפורט לעיל"
+
+#: classes/modules/mod.localization.common.php:1433
+msgid "Tips / Gratuities"
+msgstr "Tips / Gratuities"
+
+#: classes/modules/mod.localization.common.php:1434
+msgid "already registered ?"
+msgstr "already registered ?"
+
+#: classes/modules/mod.localization.common.php:1435
+msgid "continue as :"
+msgstr "continue as :"
+
+#: classes/modules/mod.localization.common.php:1436
+msgid "guest"
+msgstr "guest"
+
+# @ wppizza-locale
+#: classes/modules/mod.localization.common.php:1437
+msgid "create account"
+msgstr "create account"
+
+#: classes/modules/mod.localization.common.php:1438
+msgid ""
+"Please ensure your email address is correct. A password will be emailed to "
+"you."
+msgstr ""
+"Please ensure your email address is correct. A password will be emailed to "
+"you."
+
+#: classes/modules/mod.localization.common.php:1439
+msgid ""
+"This email address has already been registered. Please either <a href="
+"\"#login\">login</a>, use a different email address or continue as guest."
+msgstr ""
+"This email address has already been registered. Please either <a href="
+"\"#login\">login</a>, use a different email address or continue as guest."
+
+#: classes/modules/mod.localization.common.php:1440
+#: classes/modules/mod.localization.common.php:1469
+#: classes/modules/mod.localization.common.php:1492
+msgid "Qty"
+msgstr "Qty"
+
+#: classes/modules/mod.localization.common.php:1441
+#: classes/modules/mod.localization.common.php:1467
+#: classes/modules/mod.localization.common.php:1493
+msgid "Article"
+msgstr "Article"
+
+#: classes/modules/mod.localization.common.php:1442
+#: classes/modules/mod.localization.common.php:1468
+#: classes/modules/mod.localization.common.php:1494
+msgid "Price"
+msgstr "Price"
+
+#: classes/modules/mod.localization.common.php:1443
+msgid "Tax Rate"
+msgstr "Tax Rate"
+
+# @ wppizza-locale
+#: classes/modules/mod.localization.common.php:1444
+#: classes/modules/mod.localization.common.php:1459
+msgid "Total"
+msgstr "Total"
+
+# @ wppizza-locale
+#: classes/modules/mod.localization.common.php:1447
+msgid "spend"
+msgstr "שולם"
+
+# @ wppizza-locale
+#: classes/modules/mod.localization.common.php:1448
+msgid "save"
+msgstr "חיסכון"
+
+# @ wppizza-locale
+#: classes/modules/mod.localization.common.php:1449
+msgid "Free Delivery"
+msgstr "Free Delivery"
+
+# @ wppizza-locale
+#: classes/modules/mod.localization.common.php:1450
+msgid "Delivery Charges"
+msgstr "Delivery Charges"
+
+# @ wppizza-locale
+#: classes/modules/mod.localization.common.php:1451
+msgid "Delivery Charges Per Item"
+msgstr "Delivery Charges Per Item"
+
+# @ wppizza-locale
+#: classes/modules/mod.localization.common.php:1452
+msgid "Discount"
+msgstr "Discount"
+
+# @ wppizza-locale
+#: classes/modules/mod.localization.common.php:1453
+#, php-format
+msgid "Sales Tax @ %s"
+msgstr "Sales Tax @ %s"
+
+#: classes/modules/mod.localization.common.php:1454
+#, php-format
+msgid "Incl. Tax @ %s"
+msgstr "Incl. Tax @ %s"
+
+# @ wppizza-locale
+#: classes/modules/mod.localization.common.php:1455
+msgid "Handling Charges"
+msgstr "Handling Charges"
+
+#: classes/modules/mod.localization.common.php:1456
+#, php-format
+msgid "Shipping Tax @ %s"
+msgstr "Shipping Tax @ %s"
+
+# @ wppizza-locale
+#: classes/modules/mod.localization.common.php:1457
+msgid "Tax Total"
+msgstr "Tax Total"
+
+#: classes/modules/mod.localization.common.php:1458
+msgid "Taxes Included"
+msgstr "Taxes Included"
+
+# @ wppizza-locale
+#: classes/modules/mod.localization.common.php:1460
+msgid "Your Items"
+msgstr "Your Items"
+
+# @ wppizza-locale
+#: classes/modules/mod.localization.common.php:1461
+msgid "closed"
+msgstr "סגור"
+
+#: classes/modules/mod.localization.common.php:1462
+msgid "all day"
+msgstr "all day"
+
+# @ wppizza-locale
+#: classes/modules/mod.localization.common.php:1465
+msgid "Customer Details / Delivery Address"
+msgstr "Customer Details / Delivery Address"
+
+# @ wppizza-locale
+#: classes/modules/mod.localization.common.php:1466
+msgid "Order"
+msgstr "סדר"
+
+# @ wppizza-locale
+#: classes/modules/mod.localization.common.php:1470
+msgid "For Delivery"
+msgstr "For Delivery"
+
+#: classes/modules/mod.localization.common.php:1471
+msgid "For Pickup"
+msgstr "For Pickup"
+
+#: classes/modules/mod.localization.common.php:1472
+msgid "Cash"
+msgstr "Cash"
+
+#: classes/modules/mod.localization.common.php:1473
+msgid "Credit Card"
+msgstr "Credit Card"
+
+# @ wppizza-locale
+#: classes/modules/mod.localization.common.php:1474
+msgid "Delivery Type :"
+msgstr "Delivery Type :"
+
+#: classes/modules/mod.localization.common.php:1475
+msgid "User ID :"
+msgstr "User ID :"
+
+# @ wppizza-locale
+#: classes/modules/mod.localization.common.php:1476
+msgid "Order ID :"
+msgstr "Order ID :"
+
+# @ wppizza-locale
+#: classes/modules/mod.localization.common.php:1477
+msgid "Currency :"
+msgstr "Currency :"
+
+# @ wppizza-locale
+#: classes/modules/mod.localization.common.php:1478
+msgid "Paid By :"
+msgstr "Paid By :"
+
+#: classes/modules/mod.localization.common.php:1479
+msgid "Note :"
+msgstr "Note :"
+
+#: classes/modules/mod.localization.common.php:1480
+msgid "Payment Method :"
+msgstr "Payment Method :"
+
+# @ wppizza-locale
+#: classes/modules/mod.localization.common.php:1481
+msgid "Order Date :"
+msgstr "Order Date :"
+
+#: classes/modules/mod.localization.common.php:1482
+msgid "Transaction Id :"
+msgstr "Transaction Id :"
+
+#: classes/modules/mod.localization.common.php:1483
+msgid "Payment Due :"
+msgstr "Payment Due :"
+
+#: classes/modules/mod.localization.common.php:1484
+msgid "Unconfirmed Payment :"
+msgstr "Unconfirmed Payment :"
+
+#: classes/modules/mod.localization.common.php:1485
+msgid "Payment Confirmed :"
+msgstr "Payment Confirmed :"
+
+# @ wppizza-locale
+#: classes/modules/mod.localization.common.php:1486
+msgid "Total :"
+msgstr "Total :"
+
+#: classes/modules/mod.localization.common.php:1487
+msgid "Refunded :"
+msgstr "Refunded :"
+
+# @ wppizza-locale
+#: classes/modules/mod.localization.common.php:1488
+msgid "Site Details"
+msgstr "Site Details"
+
+#: classes/modules/mod.localization.common.php:1489
+msgid "Overview"
+msgstr "Overview"
+
+# @ wppizza-locale
+#: classes/modules/mod.localization.common.php:1490
+msgid "Customer Details"
+msgstr "פרטי לקוח"
+
+#: classes/modules/mod.localization.common.php:1495
+msgid "Summary"
+msgstr "Summary"
+
+#: classes/modules/mod.localization.common.php:1496
+msgid "Guest"
+msgstr "Guest"
+
+#: classes/modules/mod.localization.common.php:1497
+msgid "Registered User"
+msgstr "Registered User"
+
+# @ wppizza-locale
+#: classes/modules/mod.localization.common.php:1499
+msgid " - Our Menu - "
+msgstr " - Our Menu - "
+
+# @ wppizza-locale
+#: classes/modules/mod.localization.common.php:1500
+msgid "Additional Information"
+msgstr "Additional Information"
+
+# @ wppizza-locale
+#: classes/modules/mod.localization.common.php:1501
+msgid "Please select your payment method:"
+msgstr "אנא בחר את שיטת התשלום שלך:"
+
+#: classes/modules/mod.localization.common.php:1502
+msgid "--- Please select ---"
+msgstr "--- Please select ---"
+
+#: classes/modules/mod.localization.common.php:1503
+msgid "No"
+msgstr "No"
+
+#: classes/modules/mod.localization.common.php:1504
+msgid "Yes"
+msgstr "Yes"
+
+# @ wppizza-locale
+#: classes/modules/mod.localization.common.php:1505
+msgid "New Order(s)"
+msgstr "New Order(s)"
+
+#: classes/modules/mod.localization.common.php:1506
+msgid "Try Again"
+msgstr "Try Again"
+
+#: classes/modules/mod.localization.common.php:1507
+msgid "Back to Merchant Site"
+msgstr "Back to Merchant Site"
+
+#: classes/modules/mod.localization.common.php:1508
+msgid "Error"
+msgstr "Error"
+
+# @ wppizza-locale
+#: classes/modules/mod.localization.common.php:1509
+msgid "Error Details"
+msgstr "Error Details"
+
+#: classes/modules/mod.localization.common.php:1510
+msgid "Free"
+msgstr "Free"
+
+#: classes/modules/mod.localization.common.php:1511
+#, php-format
+msgid ""
+"I have read and accept the <a href=\"%s\" target=\"_blank\">Privacy Policy</"
+"a>"
+msgstr ""
+"I have read and accept the <a href=\"%s\" target=\"_blank\">Privacy Policy</"
+"a>"
+
+#: classes/modules/mod.localization.common.php:1512
+msgid "Privacy Policy accepted:"
+msgstr "Privacy Policy accepted:"
+
+#: classes/modules/mod.localization.common.php:1513
+msgid "New"
+msgstr "New"
+
+#: classes/modules/mod.localization.common.php:1514
+msgid "Acknowledged"
+msgstr "Acknowledged"
+
+#: classes/modules/mod.localization.common.php:1515
+msgid "On Hold"
+msgstr "On Hold"
+
+#: classes/modules/mod.localization.common.php:1516
+msgid "Processed"
+msgstr "Processed"
+
+# @ wppizza-locale
+#: classes/modules/mod.localization.common.php:1517
+msgid "Delivered"
+msgstr "Delivered"
+
+#: classes/modules/mod.localization.common.php:1518
+msgid "Rejected"
+msgstr "Rejected"
+
+#: classes/modules/mod.localization.common.php:1519
+msgid "Refunded"
+msgstr "Refunded"
+
+#: classes/modules/mod.localization.common.php:1520
+#: classes/modules/mod.order_form.confirmationpage.php:390
+#: classes/modules/mod.order_form.confirmationpage.php:391
+#: classes/modules/mod.order_form.confirmationpage.php:392
+#: classes/modules/mod.order_form.confirmationpage.php:393
+msgid "Other"
+msgstr "Other"
+
+#: classes/modules/mod.mixed.sku.php:805
+msgid "SKU"
+msgstr "SKU"
+
+#: classes/modules/mod.order_form.confirmationpage.php:388
+msgid "Accept Terms and Conditions"
+msgstr "Accept Terms and Conditions"
+
+#: classes/modules/mod.order_form.confirmationpage.php:389
+msgid "Distance Selling Regulations "
+msgstr "Distance Selling Regulations "
+
+#: classes/modules/mod.order_form.confirmationpage.php:400
+msgid "change"
+msgstr "change"
+
+# @ wppizza-locale
+#: classes/modules/mod.order_form.confirmationpage.php:401
+msgid "amend order"
+msgstr "amend order"
+
+# @ wppizza-locale
+#: classes/modules/mod.order_form.confirmationpage.php:402
+msgid "selected payment method :"
+msgstr "selected payment method :"
+
+#: classes/modules/mod.order_form.confirmationpage.php:403
+msgid "legal aspects"
+msgstr "legal aspects"
+
+#: classes/modules/mod.order_form.confirmationpage.php:405
+msgid "payment method"
+msgstr "payment method"
+
+#: classes/modules/mod.order_form.confirmationpage.php:407
+msgid "buy now (legally binding)"
+msgstr "buy now (legally binding)"
+
+#: classes/modules/mod.order_form.confirmationpage.php:408
+msgid "article"
+msgstr "article"
+
+#: classes/modules/mod.order_form.confirmationpage.php:409
+msgid "single price"
+msgstr "single price"
+
+#: classes/modules/mod.order_form.confirmationpage.php:410
+msgid "quantity"
+msgstr "quantity"
+
+#: classes/modules/mod.order_form.confirmationpage.php:411
+msgid "price"
+msgstr "price"
+
+# @ wppizza-locale
+#: classes/modules/mod.order_form.orderpage.php:347
+msgid "Name :"
+msgstr "שם:"
+
+# @ wppizza-locale
+#: classes/modules/mod.order_form.orderpage.php:350
+msgid "Email :"
+msgstr "דואר אלקטרוני:"
+
+# @ wppizza-locale
+#: classes/modules/mod.order_form.orderpage.php:353
+msgid "Address :"
+msgstr "כתובת:"
+
+# @ wppizza-locale
+#: classes/modules/mod.order_form.orderpage.php:356
+msgid "Telephone :"
+msgstr "טלפון:"
+
+# @ wppizza-locale
+#: classes/modules/mod.order_form.orderpage.php:359
+msgid "Comments :"
+msgstr "הערות:"
+
+# @ wppizza-locale
+#: classes/modules/mod.order_form.orderpage.php:362
+msgid "Custom Field 1 :"
+msgstr "שדה מותאם אישית 1:"
+
+# @ wppizza-locale
+#: classes/modules/mod.order_form.orderpage.php:365
+msgid "Custom Field 2 :"
+msgstr "שדה מתואם אישית 2:"
+
+# @ wppizza-locale
+#: classes/modules/mod.order_form.orderpage.php:368
+msgid "Custom Field 3 :"
+msgstr "שדה מתואם אישית 3:"
+
+# @ wppizza-locale
+#: classes/modules/mod.order_form.orderpage.php:371
+msgid "Custom Field 4 :"
+msgstr "שדה מתואם אישית 4:"
+
+# @ wppizza-locale
+#: classes/modules/mod.order_form.orderpage.php:374
+msgid "Custom Field 5 :"
+msgstr "שדה מתואם אישית 5:"
+
+# @ wppizza-locale
+#: classes/modules/mod.order_form.orderpage.php:377
+msgid "Custom Field 6 :"
+msgstr "שדה מותאם אישית 6:"
+
+#: classes/modules/mod.order_form.orderpage.php:380
+msgid "Tips/Gratuities :"
+msgstr "טיפים / תשרים:"
+
+# @ wppizza-locale
+#: classes/modules/mod.order_settings.delivery.php:430
+msgid "free delivery for orders over"
+msgstr "משלוח חינם להזמנות מעל"
+
+# @ wppizza-locale
+#: classes/modules/mod.order_settings.delivery.php:431
+msgid "minimum order for delivery"
+msgstr "מינימום הזמנה למשלוח"
+
+#: classes/modules/mod.order_settings.delivery.php:432
+#, php-format
+msgid "Please allow %s minutes for delivery."
+msgstr "Please allow %s minutes for delivery."
+
+#: classes/modules/mod.order_settings.delivery.php:433
+msgid "Your order is out for delivery and will arrive with you shortly."
+msgstr "Your order is out for delivery and will arrive with you shortly."
+
+#: classes/modules/mod.order_settings.delivery.php:434
+#, php-format
+msgid "Your order will be delivered no later than %s."
+msgstr "Your order will be delivered no later than %s."
+
+#: classes/modules/mod.order_settings.delivery.php:435
+msgid "I would like my order to be delivered"
+msgstr "I would like my order to be delivered"
+
+#: classes/modules/mod.order_settings.delivery.php:436
+#, php-format
+msgid "Please allow %s min. for us to deliver your order."
+msgstr "Please allow %s min. for us to deliver your order."
+
+# @ wppizza-locale
+#: classes/modules/mod.order_settings.pickup.php:354
+msgid "Delivery"
+msgstr "Delivery"
+
+#: classes/modules/mod.order_settings.pickup.php:355
+msgid "Pickup"
+msgstr "Pickup"
+
+# @ wppizza-locale
+#: classes/modules/mod.order_settings.pickup.php:356
+#: classes/modules/mod.order_settings.pickup.php:362
+#, php-format
+msgid ""
+"You have chosen to pickup the order yourself. This order will not be "
+"delivered. Please allow %s min. for us to prepare your order."
+msgstr ""
+"You have chosen to pickup the order yourself. This order will not be "
+"delivered. Please allow %s min. for us to prepare your order."
+
+# @ wppizza-locale
+#: classes/modules/mod.order_settings.pickup.php:357
+#| msgid "Please collect your order at the store."
+msgid "Please collect your order from the store at your earliest convenience."
+msgstr "Please collect your order from the store at your earliest convenience."
+
+#: classes/modules/mod.order_settings.pickup.php:358
+#, php-format
+msgid "Your order will be ready for collection at %s."
+msgstr "Your order will be ready for collection at %s."
+
+# @ wppizza-locale
+#: classes/modules/mod.order_settings.pickup.php:359
+msgid "Please collect your order at the store."
+msgstr "Please collect your order at the store."
+
+# @ wppizza-locale
+#: classes/modules/mod.order_settings.pickup.php:360
+msgid "I would like to pickup the order myself"
+msgstr "אני רוצה לאסוף בעצמי"
+
+# @ wppizza-locale
+#: classes/modules/mod.order_settings.pickup.php:361
+msgid "Delivery: pickup"
+msgstr "משלוח: איסוף עצמי"
+
+# @ wppizza-locale
+#: classes/modules/mod.order_settings.pickup.php:363
+msgid "minimum order"
+msgstr "מינימום הזמנה"
+
+# @ wppizza-locale
+#: classes/modules/mod.order_settings.repurchase.php:399
+#: classes/modules/mod.order_settings.repurchase.php:402
+#: classes/modules/mod.order_settings.repurchase.php:403
+msgid "Re-order"
+msgstr "Re-order"
+
+#: classes/modules/mod.order_settings.repurchase.php:400
+msgid "+"
+msgstr "+"
+
+# @ wppizza-locale
+#: classes/modules/mod.order_settings.repurchase.php:401
+msgid "Re-order this item"
+msgstr "Re-order this item"
+
+#: classes/modules/mod.order_settings.repurchase.php:404
+msgid "N/A"
+msgstr "לא זמין"
+
+# @ wppizza-locale
+#: includes/upgrades/install.default_items_and_categories.php:31
+msgid "regular"
+msgstr "קבוע"
+
+# @ wppizza-locale
+#: includes/upgrades/install.default_items_and_categories.php:34
+#: includes/upgrades/install.default_items_and_categories.php:38
+#: includes/upgrades/install.default_items_and_categories.php:43
+msgid "small"
+msgstr "קטן"
+
+# @ wppizza-locale
+#: includes/upgrades/install.default_items_and_categories.php:35
+#: includes/upgrades/install.default_items_and_categories.php:40
+#: includes/upgrades/install.default_items_and_categories.php:45
+msgid "large"
+msgstr "גדול"
+
+# @ wppizza-locale
+#: includes/upgrades/install.default_items_and_categories.php:39
+#: includes/upgrades/install.default_items_and_categories.php:44
+msgid "medium"
+msgstr "בינוני"
+
+# @ wppizza-locale
+#: includes/upgrades/install.default_items_and_categories.php:46
+msgid "xxl"
+msgstr "XXL"
+
+# @ wppizza-locale
+#: includes/upgrades/install.default_items_and_categories.php:49
+msgid "0.25l"
+msgstr "0.25l"
+
+# @ wppizza-locale
+#: includes/upgrades/install.default_items_and_categories.php:50
+msgid "0.33l"
+msgstr "0.33l"
+
+# @ wppizza-locale
+#: includes/upgrades/install.default_items_and_categories.php:51
+msgid "0.75l"
+msgstr "0.75l"
+
+# @ wppizza-locale
+#: includes/upgrades/install.default_items_and_categories.php:52
+msgid "1.00l"
+msgstr "1.00l"
+
+# @ wppizza-locale
+#: includes/upgrades/install.default_items_and_categories.php:53
+msgid "1.50l"
+msgstr "1.50l"
+
+# @ wppizza-locale
+#: includes/upgrades/install.default_items_and_categories.php:70
+msgid "Food coloring"
+msgstr "צבע מאכל"
+
+# @ wppizza-locale
+#: includes/upgrades/install.default_items_and_categories.php:71
+msgid "Flavor enhancers"
+msgstr "משפרי טעם"
+
+# @ wppizza-locale
+#: includes/upgrades/install.default_items_and_categories.php:72
+msgid "Preservatives"
+msgstr "חומרים משמרים"
+
+# @ wppizza-locale
+#: includes/upgrades/install.default_items_and_categories.php:73
+msgid "Stabilizers"
+msgstr "מייצבים"
+
+# @ wppizza-locale
+#: includes/upgrades/install.default_items_and_categories.php:74
+msgid "Sweeteners"
+msgstr "ממתיקים"
+
+# @ wppizza-locale
+#: includes/upgrades/install.default_items_and_categories.php:88
+msgid "Special Offers"
+msgstr "מבצעים מיוחדים"
+
+# @ wppizza-locale
+#: includes/upgrades/install.default_items_and_categories.php:89
+msgid "Pizza"
+msgstr "פיצה"
+
+# @ wppizza-locale
+#: includes/upgrades/install.default_items_and_categories.php:90
+msgid "Pasta"
+msgstr "פסטה"
+
+# @ wppizza-locale
+#: includes/upgrades/install.default_items_and_categories.php:91
+msgid "Salads"
+msgstr "סלטים"
+
+# @ wppizza-locale
+#: includes/upgrades/install.default_items_and_categories.php:92
+msgid "Desserts"
+msgstr "קינוחים"
+
+# @ wppizza-locale
+#: includes/upgrades/install.default_items_and_categories.php:93
+msgid "Beverages"
+msgstr "משקאות"
+
+# @ wppizza-locale
+#: includes/upgrades/install.default_items_and_categories.php:94
+msgid "Snacks"
+msgstr "חטיפים"
+
+# @ wppizza-locale
+#: includes/upgrades/install.default_items_and_categories.php:108
+msgid "Special Pizza"
+msgstr "פיצה מיוחדת"
+
+# @ wppizza-locale
+#: includes/upgrades/install.default_items_and_categories.php:109
+msgid "Great Steak"
+msgstr "סטייק גדול"
+
+# @ wppizza-locale
+#: includes/upgrades/install.default_items_and_categories.php:110
+msgid "Yummy Pudding"
+msgstr "פודינג טעים"
+
+# @ wppizza-locale
+#: includes/upgrades/install.default_items_and_categories.php:113
+msgid "Pizza A"
+msgstr "פיצה"
+
+# @ wppizza-locale
+#: includes/upgrades/install.default_items_and_categories.php:114
+msgid "Pizza B"
+msgstr "פיצה ב &#39;"
+
+# @ wppizza-locale
+#: includes/upgrades/install.default_items_and_categories.php:115
+msgid "Pizza C"
+msgstr "פיצה C"
+
+# @ wppizza-locale
+#: includes/upgrades/install.default_items_and_categories.php:116
+msgid "Pizza D"
+msgstr "פיצה D"
+
+# @ wppizza-locale
+#: includes/upgrades/install.default_items_and_categories.php:117
+msgid "Pizza E"
+msgstr "פיצה E"
+
+# @ wppizza-locale
+#: includes/upgrades/install.default_items_and_categories.php:118
+msgid "Pizza F"
+msgstr "פיצה F"
+
+# @ wppizza-locale
+#: includes/upgrades/install.default_items_and_categories.php:121
+msgid "Pasta A"
+msgstr "פסטה A"
+
+# @ wppizza-locale
+#: includes/upgrades/install.default_items_and_categories.php:122
+msgid "Pasta B"
+msgstr "פסטה B"
+
+# @ wppizza-locale
+#: includes/upgrades/install.default_items_and_categories.php:123
+msgid "Pasta C"
+msgstr "פסטה C"
+
+# @ wppizza-locale
+#: includes/upgrades/install.default_items_and_categories.php:124
+msgid "Pasta D"
+msgstr "פסטה D"
+
+# @ wppizza-locale
+#: includes/upgrades/install.default_items_and_categories.php:125
+msgid "Pasta E"
+msgstr "פסטה E"
+
+# @ wppizza-locale
+#: includes/upgrades/install.default_items_and_categories.php:126
+msgid "Pasta F"
+msgstr "פסטה F"
+
+# @ wppizza-locale
+#: includes/upgrades/install.default_items_and_categories.php:129
+msgid "Salad A"
+msgstr "סלט A"
+
+# @ wppizza-locale
+#: includes/upgrades/install.default_items_and_categories.php:130
+msgid "Salad B"
+msgstr "סלט B"
+
+# @ wppizza-locale
+#: includes/upgrades/install.default_items_and_categories.php:131
+msgid "Salad C"
+msgstr "סלט C"
+
+# @ wppizza-locale
+#: includes/upgrades/install.default_items_and_categories.php:132
+msgid "Salad D"
+msgstr "סלט D"
+
+# @ wppizza-locale
+#: includes/upgrades/install.default_items_and_categories.php:133
+msgid "Salad E"
+msgstr "סלט E"
+
+# @ wppizza-locale
+#: includes/upgrades/install.default_items_and_categories.php:134
+msgid "Salad F"
+msgstr "סלט F"
+
+# @ wppizza-locale
+#: includes/upgrades/install.default_items_and_categories.php:137
+msgid "Dessert A"
+msgstr "קינוח A"
+
+# @ wppizza-locale
+#: includes/upgrades/install.default_items_and_categories.php:138
+msgid "Dessert B"
+msgstr "קינוח B"
+
+# @ wppizza-locale
+#: includes/upgrades/install.default_items_and_categories.php:139
+msgid "Dessert C"
+msgstr "קינוח C"
+
+# @ wppizza-locale
+#: includes/upgrades/install.default_items_and_categories.php:140
+msgid "Dessert D"
+msgstr "קינוח D"
+
+# @ wppizza-locale
+#: includes/upgrades/install.default_items_and_categories.php:141
+msgid "Dessert E"
+msgstr "קינוח E"
+
+# @ wppizza-locale
+#: includes/upgrades/install.default_items_and_categories.php:142
+msgid "Dessert F"
+msgstr "קינוח F"
+
+# @ wppizza-locale
+#: includes/upgrades/install.default_items_and_categories.php:145
+msgid "Drink A"
+msgstr "משקה A"
+
+# @ wppizza-locale
+#: includes/upgrades/install.default_items_and_categories.php:146
+msgid "Drink B"
+msgstr "משקה B"
+
+# @ wppizza-locale
+#: includes/upgrades/install.default_items_and_categories.php:147
+msgid "Drink C"
+msgstr "משקה C"
+
+# @ wppizza-locale
+#: includes/upgrades/install.default_items_and_categories.php:148
+msgid "Drink D"
+msgstr "משקה D"
+
+# @ wppizza-locale
+#: includes/upgrades/install.default_items_and_categories.php:149
+msgid "Drink E"
+msgstr "משקה E"
+
+# @ wppizza-locale
+#: includes/upgrades/install.default_items_and_categories.php:150
+msgid "Drink F"
+msgstr "משקה F"
+
+# @ wppizza-locale
+#: includes/upgrades/install.default_items_and_categories.php:154
+msgid "Snack A"
+msgstr "חטיף A"
+
+# @ wppizza-locale
+#: includes/upgrades/install.default_items_and_categories.php:155
+msgid "Snack B"
+msgstr "חטיף B"
+
+# @ wppizza-locale
+#: includes/upgrades/install.default_items_and_categories.php:156
+msgid "Snack C"
+msgstr "חטיף C"
+
+# @ wppizza-locale
+#: includes/upgrades/install.default_items_and_categories.php:157
+msgid "Snack D"
+msgstr "חטיף D"
+
+# @ wppizza-locale
+#: includes/upgrades/install.default_items_and_categories.php:158
+msgid "Snack E"
+msgstr "חטיף F"
+
+# @ wppizza-locale
+#: includes/upgrades/install.default_items_and_categories.php:159
+msgid "Snack F"
+msgstr "חטיף F"

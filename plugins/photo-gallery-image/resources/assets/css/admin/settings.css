@@ -1,0 +1,69 @@
+#gdgallery-settings .setting-row {
+    width: 100%;
+}
+
+#gdgallery-settings .setting-row input[type=text] {
+    width: 65%;
+    background: #fff;
+}
+
+#gdgallery-settings .setting-row input[type=number] {
+    background: #fff;
+}
+
+#gdgallery-settings .setting-row select {
+    min-width: 100px;
+    width: 65%;
+    background: #fff;
+}
+
+#gdgallery-settings .setting-row .inline-label {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.gdgallery_content .gdgallery-list-header {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+#save-form-button {
+    padding: 10px 15px;
+    float: right;
+}
+
+.setting-block .setting-block-title {
+    font-size: 22px;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.setting-block .setting-block-title img {
+    height: 20px;
+    position: relative;
+    top: 2px;
+
+}
+
+.one-third {
+    padding: 0 30px;
+}
+
+.setting-row label {
+    width: 30%;
+    margin-right: 3%;
+}
+
+.setting-row label.switcher {
+    width: 100%;
+    margin-right: 0;
+}
+
+.setting-row label.switcher span {
+    margin-left: 10px;
+}
+
+.setting-block {
+    margin-bottom: 50px;
+}

@@ -1,0 +1,197 @@
+2.16.11.28  
+* fix: fateal error in cart with old php versions (introduced in previous version)    
+22nd June 2017  
+
+2.16.11.27  
+* tweak: handling charges (if any) also now displayed in cart    
+22nd June 2017  
+
+2.16.11.26  
+* fix: Decimals of tips were not added in non-english sites  
+* added: report filters 'wppizza_filter_report_query' and 'wppizza_filter_report_datasets' to allow for more customisation of reports/exports  
+11th June 2017  
+
+2.16.11.25  
+* fix/tweak: EDD Plugin Updater Class updated to - more reliably - inform users of updates for 3rdparty/premium extensions and gateways.  
+27th May 2017  
+
+2.16.11.24  
+* fix: Additives not correctly numbered or even truncated when using shortcode type="additives" when used in conjunction with WPML   
+* tweak: forcing reload of page when entering tips on checkout even when server settings automatically force caching of order page (Bluehost for example)  
+22nd May 2017  
+
+2.16.11.23  
+* fix: minimum order value not always respected under with certain settings 
+03rd May 2017  
+
+2.16.11.22  
+* tweak: allow alphanumeric characters (as opposed to just integers) in additives sort fields 
+06th March 2017  
+
+2.16.11.21  
+* update/fix: tweak to 2.16.11.20 update (re-instating removed code but adding variable check  as it should not have been completely removed)  
+17th February 2017  
+
+2.16.11.20  
+* update/fix: dropped some VERY old legacy coding that might interfere with prefill of order formfields in conjunction with other plugins  
+13th February 2017  
+
+2.16.11.19  
+* fix: in non-english websites, any delivery charges below 1.00 - although correctly calculated - were not displayed in cart and order page  
+31st January 2017  
+
+2.16.11.18  
+* tweak: added workaround for 3rd party plugins that use their own wp_mail function that are missing phpmailer_init hook (although these plugins should be fixed really)    
+30th January 2017  
+
+2.16.11.17  
+* fix: reporting query did not account for any possible mysql timezone offsets (although most will use UTC anyway)    
+27th January 2017  
+
+2.16.11.16  
+* update: streamlined html email sending to provide consistency with plaintext mail sending (due to wordpress *falsly* flagging the plugin as using it's own version of phpmailer)  
+* update: dropped support for following very old gateway versions - authorize.net <= v1.3 (May 2014), epay.dk <= v1.5 (Apr 2014), omnikassa <= 1.3 (Oct 2014), paypal <= 2.1.7.9 (Jun 2015)  
+25th January 2017  
+
+2.16.11.15  
+* update: WP 4.7 - seemingly - changed some action hook priorities (or similar) which has affected some gateways. This update should fix this.  
+12th December 2016  
+
+2.16.11.14  
+* fix: reverted  2.16.11.13 update as it broke a number of things 
+4th November 2016  
+
+2.16.11.13  
+* tweak: improved compatibility with some 3rd party post cloning plugins  
+4th November 2016  
+
+2.16.11.12  
+* fix: any possible entities javascript alerts were not decoded    
+2nd November 2016  
+
+2.16.11.11  
+* fix: update to yesterdays 2.16.11.10 fix  
+6th October 2016  
+
+2.16.11.10  
+* fix: minimum self pickup order value did not always get correctly applied with certain delivery settings     
+5th October 2016  
+
+
+2.16.11.9  
+* fix: smtp sending was broken     
+27th August 2016  
+
+2.16.11.8  
+* fix: additives were not mapped properly when displaying categories directly    
+18th August 2016  
+
+2.16.11.7  
+* tweak: added missing gettext calls for reporting export labels     
+* tweak: added wppizza_custom_report action hook to enable exporting of own customised report    
+1st August 2016  
+
+2.16.11.6  
+* added: a number of action hooks to add to admin order history header if necessary     
+* fix: KZT currency symbol was wrong  
+* some minor - inconsequential - tweaks in a few functions  
+25th July 2016  
+
+
+2.16.11.5  
+* added: option to set minimum order to be calculated after any discounts    
+* added: value by order status in report export  
+* tweak: increased z-index of minicart  
+* fix: reporting export always exported all data even if range selected from dropdown  
+21st July 2016  
+
+2.16.11.4  
+* fix: one of the css fields/declarations in email drag and drop templates did not get applied   
+* tweak: added wppizza_filter_template_values to - add more parameters to template output if necessary  
+29th May 2016  
+
+2.16.11.3  
+* tweak: optionally also display delivery note on orderpage and in emails (if delivery selected/applies and text was entered in the appropriate localization field - default value is empty !)   
+22nd May 2016  
+
+2.16.11.2  
+* fix: orders that were placed while also creating a new account were not associated with that new account   
+17th May 2016  
+
+2.16.11.1  
+* added: filters to allow other plugins to add additional parameters/variables to email/print template sections      
+26th April 2016  
+
+2.16.11  
+* fix: WPML - under certain circumstances, categories might have been duplicated in slave language when using !all shortcode     
+* fix: replaced deprecated function for WP 4.5 compatibility  
+13th April 2016  
+
+2.16.10  
+* fix: erroneously set require_once when including phpmailer settings which - in conjunction with certain email template settings - might have caused (html) emails not be received by customer     
+12th April 2016  
+
+2.16.9  
+* tweak: allow for "natural" rounding of tax fractions  
+* tweak: add option to force WPML string translation registration if WPML was initially installed after WPPizza  
+* fix: existing and saved templates did not allow adding of additional order form fields (since 2.16.6)  
+8th April 2016  
+
+2.16.8  
+* fix: updating user profile data from order page for logged in users was broken (probably since 2.15)   
+24th March 2016  
+
+2.16.7  
+* fix: some plaintext template filters were applied multiple times unnecessarily under certain circumstances   
+10th March 2016  
+
+2.16.6  
+* fix: although correctly applied as saved, drag/drop (email|print) template sortorders were not reflected in admin screen  
+* fix: tax not always displayed everywhere (though correctly applied) in non-english sites 
+9th March 2016  
+
+
+2.16.5  
+* fix: could not delete (or add notes to) orders in child sites of a multisite install  
+* fix: some template filter were possibily applied multiple times under certain circumstances  
+* added: option for pickup to be selected as default  
+* tweak: only show javascript alert (if enabled) when switching from default of pickup or delivery to opposite   
+* tweak: added alert when popup blocking is enabled on admin printing 
+1st March 2016  
+
+
+2.16.4   
+* fix: omissions in email summary data in non-english setups  
+* tweak/added: advance notice for wppizza v3.0 (will display on next update)  
+20th January 2016  
+
+2.16.3   
+* fix/tweak: sku metabox filter (if enabled) limited to running on post edit page only (might otherwsie interfere with other plugins elsewhere)   
+* fix: deleting abandoned orders via cron or manually did not do anything due to script error     
+15th December 2015  
+
+
+2.16.2   
+* added: ability to close shop right now without having to change opening times   
+* fix: re-introduced a admin js function that was removed in 2.16 - 2.16.1 other plugins might rely on   
+24th November 2015  
+
+2.16.1   
+* fix: unclosed tag affecting emails received at gmail/webmail account - introduced at 2.16  
+21st November 2015  
+
+2.16   
+* added: optionally enable SKU's (wppizza->settings)  
+* added: warning message in admin when using unsupported/outdated mysql version  
+* added: option to set order page to be ssl/https  
+* added: added filters for display of post (menu item) title and price labels in loops, emails , order page etc  
+* added: added some more filters in various places for possible usage  
+* fix : load admin-ajax.php as http if force_ssl_admin is set without the whole site being ssl  
+* fix : possible orphaned templates/additional recipients eliminated  
+* fix : category sorting - under certain circumstances - resulted in some categories not being listed in admin  
+* fix : any order "from name" entities were not decoded in emails from header  
+* tweak: minor css tweaks  
+* tweak: some performance improvements in a few places  
+* tweak: forcing plaintext templates to be sent as html when any recipients email address is gmail, outlook etc as these do not display pure plaintext emails correctly   
+* tweak: made plaintext max linelength custom defineable constant  
+18th November 2015  

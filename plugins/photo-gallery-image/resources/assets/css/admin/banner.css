@@ -1,0 +1,279 @@
+@font-face {
+    font-family: Nunito;
+    src: url(../../fonts/Nunito-Regular.ttf);
+}
+
+@font-face {
+    font-family: Nunito Light;
+    src: url(../../fonts/Nunito-Light.ttf);
+}
+
+@font-face {
+    font-family: Nunito Semibold;
+    src: url(../../fonts/Nunito-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: Nunito Italic;
+    src: url(../../fonts/Nunito-Italic.ttf);
+}
+
+@font-face {
+    font-family: Nunito Bold;
+    src: url(../../fonts/Nunito-Bold.ttf);
+}
+
+#wpcontent {
+    padding-left: 0;
+}
+
+.wrap {
+    position: relative;
+    line-height: 1;
+    margin: 0;
+}
+
+.wrap .gdgallery_header * {
+    box-sizing: border-box;
+    position: relative;
+}
+
+.wrap:after,
+.setting-row:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.gdgallery_header {
+    padding: 20px 30px 40px;
+    font-size: 20px;
+    color: #fff;
+    /*background-color: #23c58a;*/
+    /*background-color: #5f7df5;*/
+    background-color: #23282d;
+}
+
+.gdgallery_header span {
+    position: relative;
+    top: 25px;
+    font-size: 40px;
+    left: 120px;
+}
+
+.gdgallery_header ul {
+    float: right;
+    position: relative;
+    top: 20px;
+}
+
+.gdgallery_header li {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.gdgallery_header li a {
+    color: #fff;
+    font-family: Nunito;
+    font-size: 19px;
+    text-decoration: none;
+}
+
+.gdgallery_header li:hover:after {
+    content: '';
+    background-color: #fff;
+    display: block;
+    height: 5px;
+    border-radius: 2px;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: -20px;
+}
+
+.gdgallery_content {
+    padding: 0 0 0 60px;
+    /*border-top: 6px solid #e9ebf3;*/
+}
+
+.gdgallery_list_container .gdgallery_content,
+#gdgallery-settings .gdgallery_content,
+.grand_submissions_list_container .gdgallery_content {
+    padding: 0 30px;
+    border-top: none;
+}
+
+.gdgallery_header {
+    padding: 20px 30px 40px;
+    font-size: 20px;
+    color: #fff;
+    /*background-color: #23c58a;*/
+    /*background-color: #5f7df5;*/
+    background-color: #23282d;
+}
+
+.gdgallery_header span {
+    position: relative;
+    top: 25px;
+    font-size: 40px;
+    left: 120px;
+}
+
+.gdgallery_header ul {
+    float: right;
+    position: relative;
+    top: 20px;
+}
+
+.gdgallery_header li {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.gdgallery_header li a {
+    color: #fff;
+    font-family: Nunito;
+    font-size: 19px;
+    text-decoration: none;
+}
+
+.gdgallery_header li:hover:after {
+    content: '';
+    background-color: #fff;
+    display: block;
+    height: 5px;
+    border-radius: 2px;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: -20px;
+}
+
+.gdicon.gdicon-logo:before {
+    content: url('../../images/icons/logo.png');
+    position: absolute;
+    z-index: 20;
+    top: -10px;
+}
+
+.update-nag,
+.notice,
+.notice-success,
+.notice-alert,
+.notice-danger,
+.notice-warning {
+    display: none !important;
+}
+
+/* Featured Plugin Begin */
+.gd_gallery_featured_box {
+    display: block;
+    margin-top: 40px;
+}
+
+.gd_gallery_featured_lightbox, .gd_gallery_featured_forms, .gd_gallery_featured_calendar {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.gd_gallery_featured_lightbox .gd_gallery_plugin_image {
+    background: url("../../images/featured/grandwp_lightbox.png") no-repeat;
+    min-width: 312px;
+    min-height: 312px;
+}
+
+.gd_gallery_featured_forms .gd_gallery_plugin_image {
+    background: url("../../images/featured/grandwp_forms.png") no-repeat;
+    min-width: 312px;
+    height: 312px;
+}
+
+.gd_gallery_featured_calendar .gd_gallery_plugin_image {
+    background: url("../../images/featured/grandwp_calendar.png") no-repeat;
+    min-width: 312px;
+    height: 312px;
+}
+
+.gd_gallery_about_plugin {
+    border: 1px solid #eeeeee;
+    background-color: #f6f6f6;
+    max-width: 624px;
+}
+
+.gd_gallery_plugin_title {
+    color: #252525;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 40px 0 0 40px;
+}
+
+.gd_gallery_plugin_text {
+    padding: 20px 40px;
+    text-align: justify;
+    color: #505050;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.gd_gallery_plugin_buttons {
+    text-align: left;
+}
+
+.gd_gallery_plugin_buttons a {
+    display: inline-block;
+    font-size: 15px;
+    padding: 15px 25px;
+    border-radius: 50px;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+.gd_gallery_plugin_buttons a:first-child {
+    border: 1px solid #2e5aef;
+    background: #fff;
+    color: #2e5aef;
+}
+
+.gd_gallery_plugin_buttons a:last-child {
+    border: 1px solid #2e5aef;
+    background: #2e5aef;
+    color: #fff;
+}
+
+@media all and (max-width: 1024px) {
+    .gd_gallery_plugin_title {
+        padding: 25px 0 0 40px;
+    }
+
+    .gd_gallery_plugin_text {
+        padding: 15px 40px;
+    }
+
+    .gd_gallery_plugin_buttons a {
+        padding: 8px 25px;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .gd_gallery_featured_lightbox, .gd_gallery_featured_forms, .gd_gallery_featured_calendar {
+        display: block;
+    }
+
+    .gd_gallery_about_plugin {
+        min-height: 250px;
+        width: 100%;
+        max-width: none;
+    }
+
+    .gd_gallery_featured_lightbox .gd_gallery_plugin_image,
+    .gd_gallery_featured_forms .gd_gallery_plugin_image,
+    .gd_gallery_featured_calendar .gd_gallery_plugin_image {
+        background-position: center center;
+        margin-bottom: 10px;
+    }
+
+    .gd_gallery_plugin_buttons {
+        margin-bottom: 10px;
+    }
+}
