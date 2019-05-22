@@ -1,0 +1,856 @@
+/**************************************
+	[general]
+***************************************/
+#wppizza-header{padding:0 5px; letter-spacing:1px}
+
+.wppizza-wrap>form{margin-top:25px}
+
+/**font-sizes*/
+.wppizza-section h3{font-size:120%;padding:0 2px}
+.wppizza-section > .form-table  > tbody > tr > th,.wppizza-section > .form-table > tbody > tr > td{font-size:90%;}
+
+/*inputs*/
+.wppizza-section input, .wppizza-section select, .wppizza-section textarea{font-size:100%; margin:0 5px; vertical-align:inherit !important;}
+.wppizza-section select{height:auto !important; padding:0px 2px}
+.wppizza-section input[type="checkbox"], .wppizza-section input[type="radio"]{margin:5px !important;}
+.wppizza-section input[type="text"],.wppizza-section textarea, .wppizza-section select {padding:5px 5px !important}
+
+
+/*labels*/
+.wppizza-section label{}
+.wppizza-highlight{color:red;font-style:italic}
+/*top tabs*/
+.wppizza-nav-tab-wrapper{margin-bottom:0;border-bottom: 1px solid #ccc}
+/* admin help links */
+a.wppizza-show-admin-help{font-size:small}
+
+/*******************
+	[generic]
+*********************/
+.wppizza-load{background:url('/wp-includes/js/tinymce/skins/lightgray/img/loader.gif') center center no-repeat #ffffff;opacity:0.8; position:absolute; top:0; bottom:0; left:0; right:0}
+.wppizza-spinner{background:url('/wp-admin/images/loading.gif') center center no-repeat #ffffff; opacity:0.8; position:absolute; top:0; bottom:0; left:0; right:0}
+.wppizza-button-spinner{background:transparent url('/wp-includes/js/tinymce/skins/lightgray/img/loader.gif') center center no-repeat !important; border-color:transparent !important; background-size: auto 90% !important; color:transparent  !important/* simply hide apply text */}
+
+/*sortable handles**/
+body.post-type-wppizza #the-list.ui-sortable>tr{cursor: move}
+/* saving disabled button*/
+.wppizza-save-disabled{color:#CC0000 !important; background:#FCFCFC !important; border-color:#cccccc !important}
+/**************************************
+	[admin menu items - meta boxes]
+***************************************/
+.wppizza-meta-label{min-width:175px;display:inline-block;line-height:250%}
+.wppizza_option_meta{padding: 2px 0; border-bottom: 1px dotted #dedede; vertical-align:middle}
+.wppizza_option_meta input[type=text], .wppizza_option_meta select, .wppizza_option_meta .button{margin-left: 5px; margin-right: 5px}
+
+/**************************************
+	[admin sections - main tables]
+***************************************/
+.wppizza-section{margin-right:5px}
+.wppizza-section>h3{margin-bottom:5px; letter-spacing:1px}
+.wppizza-section > .form-table{border: 1px solid #999999;margin-bottom: 10px;background-color: #FFFFFF;border-collapse: separate;}
+.wppizza-section > .form-table > tbody > tr:nth-child(odd) {background: #F9F9F9;}
+.wppizza-section > .form-table > tbody > tr:nth-child(even) {background: #FFFFFF;}
+.wppizza-section > .form-table > tbody > tr > td, .wppizza-section > .form-table >  tbody > tr > th {margin:0; padding:5px;}
+
+/**************************************
+	[admin sections - sub tables (using tables/tr/td)]
+***************************************/
+.wppizza_admin_table{border: 1px solid #999999;margin:0;background-color: #FFFFFF;border-collapse:separate;width:100%}
+.wppizza_admin_table tr:nth-child(odd) {background: #F9F9F9;}
+.wppizza_admin_table tr:nth-child(even) {background: #FFFFFF;}
+.wppizza_admin_table td, .wppizza_admin_table th{margin:0; padding:5px;font-size:100%}
+.wppizza_admin_table input, .wppizza_admin_table select{font-size:100%;margin:0 5px;}
+
+/**************************************
+	[admin sections - sub options (using divs)]
+***************************************/
+.wppizza_admin_options div{padding: 5px}
+.wppizza_admin_options div:nth-child(odd) {background: #F9F9F9;}
+.wppizza_admin_options div:nth-child(even) {background: #FFFFFF;}
+.wppizza_admin_options .wppizza_label{min-width:200px;display:inline-block}
+.wppizza_admin_options .wppizza_label_100{min-width:100px;display:inline-block}
+.wppizza_admin_options .wppizza_label_75{min-width:75px;display:inline-block}
+.wppizza_admin_options .wppizza_label_50{min-width:50px;display:inline-block}
+.wppizza_admin_options ul{margin:0;padding:0}
+
+/**************************************
+	[admin sections - misc add button ]
+***************************************/
+.wppizza-section .wppizza_admin_add{padding:8px 2px; border-top:1px solid #CECECE; background: #EFEFEF;}
+
+/**************************************
+	[admin h2 title / dashicon help]
+***************************************/
+.wppizza-wrap>h2{line-height:200%;margin-bottom:10px}
+.wppizza-dashicons-admin {width:40px !important;height:35px !important; line-height:150%; position:relative; text-decoration:none}
+.wppizza-dashicons-admin >span{line-height:100%;position:absolute;left:2px;top:2px; font-size:250%;color:#AAAAAA}
+.wppizza-dashicons-admin >span:hover{color:#80a583}
+.wppizza-help-hint{color:#00a0d2;margin:0;padding: 3px 0;font-weight:600}
+
+/*******************
+	[help tabs links lowlight - for tabs that only have general info]
+********************/
+#tab-link-wppizza_settings_global > a,
+#tab-link-wppizza_settings_global_miscellaneous > a,
+#tab-link-wppizza_order_settings_order_settings_delivery_charges > a,
+#tab-link-wppizza_order_settings_order_settings_discounts > a,
+#tab-link-wppizza_order_settings_order_settings_taxes > a,
+#tab-link-wppizza_order_settings_order_settings_pickup > a
+{
+	color:#cecece;
+}
+/*******************
+	[help tabs contents]
+********************/
+.wppizza_admin_context_help{margin:0;padding:0 10px}
+.wppizza_admin_context_help h3{margin:0;padding:5px 0 10px 0}
+.wppizza_admin_context_help p{margin:0; padding:0 0 5px 0}
+.wppizza_admin_context_help ul{margin-top:5px;margin-left:10px}
+.wppizza_admin_context_help ul>li{margin-top:2px;margin-bottom:2px; padding:0 2px;}
+.wppizza_admin_context_help .wppizza-highlight-important{color:red; font-weight:600}
+
+/******************************************************************************************************************************
+*
+*	[paginatiopn where used]
+*
+*******************************************************************************************************************************/
+.wppizza-pagination{width:auto;vertical-align:top;padding:5px;font-size: 95%;overflow:auto;margin:0;background-color:#ffffff;}
+.wppizza-pagination-top{border-bottom-width:0}
+.wppizza-pagination-bottom{border-top-width:0}
+.wppizza-pagination>.wppizza-pagination-left{float:left; font-weight:600}
+.wppizza-pagination>.wppizza-pagination-right{float:right; font-weight:600}
+/******************************************************************************************************************************
+*
+*	[wppizza customised dashicons]
+*
+*******************************************************************************************************************************/
+/*******************
+	[dashicons as buttons]
+********************/
+.wppizza-dashicons-admin, .wppizza-dashicons, .wppizza-dashicons-disabled, .wppizza-dashicons-leftright, .wppizza-dashicons-small, .wppizza-dashicons-medium{
+  font-family: dashicons;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 22px;
+  color: #777;
+  width: 32px;
+  height: 28px;
+  text-align: center;
+  border-color: #ccc;
+  background: #f7f7f7;
+  vertical-align: top;
+  display: inline-block;
+  text-decoration: none;
+  line-height: 26px;
+  margin: 0 2px;
+  padding: 0 0 0 2px;
+  cursor: pointer;
+  border-width: 1px;
+  border-style: solid;
+  white-space: nowrap;
+}
+.wppizza-dashicons-admin, .wppizza-dashicons, .wppizza-dashicons-leftright, .wppizza-dashicons-small, .wppizza-dashicons-medium{
+  -webkit-transition: color .1s ease-in 0;
+  transition: color .1s ease-in 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-box-shadow: inset 0 1px 0 #fff,0 1px 0 rgba(0,0,0,.08);
+  box-shadow: inset 0 1px 0 #fff,0 1px 0 rgba(0,0,0,.08);
+  -webkit-appearance: none;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.wppizza-dashicons:hover,.wppizza-dashicons-leftright:hover{color: #000;  border-color: #333;  background: #fafafa;}
+.wppizza-dashicons-small{font-size:15px;line-height:15px;padding:0 !important;height:auto!important;width:auto!important;margin-top:0;}
+.wppizza-dashicons-medium{font-size:21px;line-height:21px;padding:0 !important;height:auto!important;width:auto!important;margin-top:-2px;}
+.wppizza-dashicons-disabled{color:#cacaca; cursor: default;border:none;background:transparent}
+.wppizza-dashicons-checkbox{margin:5px 1px 0 -1px !important;vertical-align:top !important}
+.wppizza-dashicons-radio{width:auto;height:auto;padding:0 5px;font-family:inherit;font-weight:600;font-size:100%}
+.wppizza-dashicons-radio>input[type=radio]{margin:0;padding:0}
+
+.wppizza-dashicons-templates-emails-media-code-inactive, .wppizza-dashicons-templates-print-media-code-inactive{color:#cacaca; cursor: default;}
+.wppizza-dashicons-templates-emails-media-code-inactive:hover, .wppizza-dashicons-templates-print-media-code-inactive:hover{color:#cacaca; cursor: default;border-color: #ccc;background: #f7f7f7;}
+
+/*************************************************************************************************************************************************
+*
+*	[order form settings]
+*
+**************************************************************************************************************************************************/
+
+
+/******************************************************************************************************************************
+*
+*	[dashboard widgets]
+*
+*******************************************************************************************************************************/
+#wppizza-dash-loading{position:absolute;top:0;right:0;left:0;bottom:0; min-height:100px}
+.wppizza-dash{margin:10px auto;border:1px solid #999999;min-width:375px;width:99%}
+.wppizza-dash th{background:#F9F9F9;padding:5px;text-align:center;}
+.wppizza-dash-sales>tbody>tr>td:nth-child(n+2){text-align:center}
+.wppizza-dash-items>tbody>tr>td{text-align:center}
+.wppizza-dash-customers>tbody>tr>td:nth-child(n+2){text-align:center}
+.wppizza-dash-recent-orders>tbody>tr>td:nth-child(2){white-space:nowrap; cursor:default}
+.wppizza-dash-updated{text-align:center; margin:5px 0;padding:0; border:none}
+/*
+.wppizza-dash-error{text-align:center;margin:50px 0;}
+*/
+
+
+/*************************************************************************************************************************************************
+*
+*	[posts meta prices  - post list / quickedit etc]
+*
+**************************************************************************************************************************************************/
+.wppizza-prices-column>span{float:left;padding:3px;margin:0;text-align:center}
+
+/*************************************************************************************************************************************************
+*
+*	[order form settings]
+*
+**************************************************************************************************************************************************/
+#wppizza-order_form .wppizza-section>.form-table > tbody > tr > th{display:none}
+#wppizza-order_form td > label{display:block}
+.wppizza_validation_parameters{display:block}
+.wppizza_validation_parameters>span{padding:5px;}
+.wppizza_validation_parameters>input{width:50px}
+/*************************************************************************************************************************************************
+*
+*	[meal sizes]
+*
+**************************************************************************************************************************************************/
+#wppizza-meal_sizes .wppizza-section>.form-table > tbody > tr > th{display:none}
+
+
+/*************************************************************************************************************************************************
+*
+*	[additives]
+*
+**************************************************************************************************************************************************/
+#wppizza-additives .wppizza-section>.form-table > tbody > tr > th{display:none}
+
+
+/*************************************************************************************************************************************************
+*
+*	[localization]
+*
+**************************************************************************************************************************************************/
+#wppizza-localization .wppizza-section>.form-table > tbody > tr > th{display:none}
+
+/*************************************************************************************************************************************************
+*
+*	[access rights]
+*
+**************************************************************************************************************************************************/
+#wppizza-access_rights .wppizza-section>.form-table > tbody > tr > th{display:none}
+
+/*************************************************************************************************************************************************
+*
+*	[opening times]
+*
+**************************************************************************************************************************************************/
+#wppizza-openingtimes .wppizza-section > .form-table > tbody > tr > th{display:none}
+.wppizza_weekday{display:inline-block; min-width:100px;}
+
+
+/*************************************************************************************************************************************************
+*
+*	[gateways - overriding used button class]
+*
+**************************************************************************************************************************************************/
+.wppizza-fields-gateways > .form-table > tbody > tr > th{display:none}
+.wppizza-fields-gateways > .form-table > tbody > tr > td{vertical-align:top}
+.wppizza-fields-gateways > .form-table > tbody > tr > td > label{display:inline-block;width: 250px;font-weight:600; vertical-align:top}
+.wppizza-fields-gateways > .form-table > tbody > tr > td > span{padding:5px; vertical-align:middle}
+
+.wppizza-section-gateways {width:100%;height:auto !important; padding:10px 5px !important; margin-top: 15px !important;}
+.wppizza-section-gateways .wppizza-gateway-label{font-size: 125%; font-weight:600;float:left}
+.wppizza-section-gateways .wppizza-gateway-enable{float:right}
+.wppizza-section-gateways .wppizza-gateway-show-options{float:right}
+
+#wppizza-gateways .wppizza-fields-gateways{border: 1px solid #999999; background-color: #FFFFFF;border-collapse: separate;display:none}
+#wppizza-gateways .wppizza-fields-gateways table{margin:0; padding:0}
+#wppizza-gateways .wppizza-fields-gateways table> tbody> tr:nth-child(odd) {background: #F9F9F9;}
+#wppizza-gateways .wppizza-fields-gateways table> tbody> tr:nth-child(even) {background: #FFFFFF;}
+#wppizza-gateways .wppizza-fields-gateways table td,#wppizza-gateways .wppizza-fields-gateways table th{padding:5px}
+
+.wppizza-fields-gateways-addinfo{padding:10px}
+
+/* WP texteditor */
+#wppizza-gateways .wppizza-texteditor{width:550px}
+#wppizza-gateways .wp-editor-container textarea{height:75px; width:550px; border: 1px solid #999999}
+
+/* subtable (mapping order formfields)*/
+#wppizza-gateways .wppizza-formfields-table{border: 1px solid #999999;margin-bottom: 10px;background-color: #FFFFFF;border-collapse: separate;}
+/* button and logo input */
+#wppizza-gateways ._gateway_logo,#wppizza-gateways ._gateway_button{width:100%; max-width:600px}
+#wppizza-gateways ._gateway_additional_info{width: 280px; height:50px;}
+/******************************************************************************************************************************
+*
+*	[order history]
+*
+*******************************************************************************************************************************/
+#wppizza_orderhistory_polling{border:1px solid #999999;background:#f7f7f7;margin:10px 0 0 0}
+#wppizza_orderhistory_polling > tbody > tr >td:nth-child(2){text-align:right;position: relative;}
+#wppizza_orderhistory_polling > tbody > tr >td > label{margin:0 5px;display:inline-block}
+
+#wppizza_orderhistory_results{margin-top:20px}
+
+#wppizza_orderhistory_bulk-delete{text-align:right;margin:3px 0;}
+
+#wppizza_list_orderhistory.widefat{width:auto;min-width:100%}
+#wppizza_list_orderhistory.striped > tbody > tr{background-color:#FFFFFF;}
+#wppizza_list_orderhistory.striped > tbody > tr:nth-child(6n+1),#wppizza_list_orderhistory.striped > tbody > tr:nth-child(6n+2),#wppizza_list_orderhistory.striped > tbody > tr:nth-child(6n+3){background-color:#f9f9f9}
+
+#wppizza_list_orderhistory > thead > tr > th, #wppizza_list_orderhistory > tfoot > tr > th {font-weight:600;font-size:95%;white-space:nowrap}
+#wppizza_list_orderhistory > tbody > tr > td {padding:3px;border-left:1px solid #ffffff;border-right:1px solid #ffffff}
+#wppizza_list_orderhistory > tbody > tr > td {vertical-align:top;}
+
+#wppizza_list_orderhistory > tbody > tr > td:nth-child(1){width:10px; white-space:nowrap}
+#wppizza_list_orderhistory > tbody > tr > td:nth-child(2){/*min-width:530px;*/}
+#wppizza_list_orderhistory > tbody > tr > td:nth-child(3){width:10px; white-space:nowrap}
+
+#wppizza_list_orderhistory > tbody > tr > td > div.wppizza-orderhistory-pre {cursor:text;padding:3px; font-family: Courier, monospace; font-size:95%; overflow:auto; height:120px;background-color:#ffffff;display:inline-block; margin-left:2px; width:49%}
+#wppizza_list_orderhistory > tbody > tr > td > div > pre{margin:0; padding:0}
+#wppizza_list_orderhistory > tbody > tr > td > div.wppizza-orderhistory-vieworder{display:none;text-align:center; margin:0 auto}
+
+/*no results*/
+#wppizza_list_orderhistory #wppizza-orderhistory-no-orders{line-height:50px;text-align:center;font-weight:600;font-size:200%}
+
+/*1st td details column, spans, fake linebreaks*/
+#wppizza_list_orderhistory .wppizza-orderhistory-column-details > span{display:block}
+/* for log tx id's */
+#wppizza_list_orderhistory .wppizza-orderhistory-column-details > span.wppizza-orderhistory-order-txid{max-width:200px;white-space:nowrap; overflow: hidden; text-overflow: ellipsis;}
+/*hide refunds in gateway by default (if exists)*/
+#wppizza_list_orderhistory .wppizza-orderhistory-column-details > div.wppizza-orderhistory-refund{display:none; position:relative}
+
+
+/*status colours*/
+#wppizza_list_orderhistory .wppizza-orderhistory-orderstatus-new > td, #wppizza_orderhistory_polling .wppizza-orderhistory-orderstatus-new{background-color:#FBEC5D !important}
+#wppizza_list_orderhistory .wppizza-orderhistory-orderstatus-delivered > td, #wppizza_orderhistory_polling .wppizza-orderhistory-orderstatus-delivered{background-color:#7CFC00 !important}
+#wppizza_list_orderhistory .wppizza-orderhistory-orderstatus-acknowledged > td, #wppizza_orderhistory_polling .wppizza-orderhistory-orderstatus-acknowledged{background-color:#FFFACD !important}
+#wppizza_list_orderhistory .wppizza-orderhistory-orderstatus-failed > td, #wppizza_orderhistory_polling .wppizza-orderhistory-orderstatus-failed{background-color:#FF9999 !important}
+/*unconfirmed */
+#wppizza_list_orderhistory .wppizza-orderhistory-payment-unconfirmed > td{background-color:#fcfcfc !important; color:#AAAAAA}
+
+
+/*failed label first column*/
+#wppizza_list_orderhistory .wppizza-orderhistory-order-status-failed{color:#ffffff;font-weight:600}
+/*unconfirmed label first column*/
+#wppizza_list_orderhistory .wppizza-orderhistory-order-status-unconfirmed, #wppizza_list_orderhistory .wppizza-orderhistory-ordersummary-unconfirmed{color:#ff6666;font-weight:600}
+
+
+
+/*action buttons*/
+#wppizza_list_orderhistory .wppizza-orderhistory-column-actions > span{display:block}
+#wppizza_list_orderhistory .wppizza-orderhistory-order-has-notes{font-weight:600;background-color:#aaaaaa;color:#ffffff}
+
+/*order notes*/
+#wppizza_list_orderhistory .wppizza-orderhistory-order-notes{display:none}
+#wppizza_list_orderhistory .wppizza-orderhistory-order-notes>td{text-align:center}
+#wppizza_list_orderhistory .wppizza-orderhistory-notes{width:90% !important;height:75px;font-size:90%}
+
+/*orderhistory summarys*/
+#wppizza_list_orderhistory .wppizza-orderhistory-ordersummary-blogname{font-weight:600}
+#wppizza_list_orderhistory .wppizza-orderhistory-ordersummary-status{font-weight:600}
+#wppizza_list_orderhistory .wppizza-orderhistory-ordersummary-total{font-weight:600}
+#wppizza_list_orderhistory .wppizza-orderhistory-ordersummary-self-pickup{font-weight:600}
+#wppizza_list_orderhistory .wppizza-orderhistory-ordersummary-delivery{font-weight:600}
+#wppizza_list_orderhistory .wppizza-orderhistory-ordersummary-delivery_type{font-weight:600}
+
+
+/*orderhistory details*/
+#wppizza_list_orderhistory .wppizza-orderhistory-order-blogname{font-weight:600}
+
+/*summary/details show|hide*/
+#wppizza_list_orderhistory .wppizza-orderhistory-ordersummary{display:none}
+/* left/right split order/customer  div */
+#wppizza_list_orderhistory .wppizza-orderhistory-ordersummary .wppizza-orderhistory-column-order-summary > div{display:inline-block; float: left; width:50%}
+#wppizza_list_orderhistory .wppizza-orderhistory-ordersummary .wppizza-orderhistory-column-order-summary > div > span{display:block}
+
+
+#wppizza_list_orderhistory .wppizza-orderhistory-ordersummary > td{position:relative}
+#wppizza_list_orderhistory .wppizza-orderhistory-ordersummary-active{display:table-row;cursor:pointer}
+/*.#wppizza_list_orderhistory .wppizza-orderhistory-ordersummary-active > td{cursor:pointer}*/
+#wppizza_list_orderhistory .wppizza-orderhistory-ordersummary-active:nth-child(n + 3) > td{border-top:1px solid #999999}
+
+#wppizza_list_orderhistory .wppizza-orderhistory-orderdetails{display:table-row}
+#wppizza_list_orderhistory .wppizza-orderhistory-orderdetails > td{position:relative}
+#wppizza_list_orderhistory .wppizza-orderhistory-orderdetails:nth-child(n + 3) > td {border-top:1px solid #999999}
+#wppizza_list_orderhistory .wppizza-orderhistory-orderdetails-inactive{display:none;;cursor:pointer}
+/*toggle icons*/
+/*#wppizza_list_orderhistory .wppizza-orderhistory-summary-toggle{position:absolute;top:0;right:0}*/
+/*guest user*/
+#wppizza_list_orderhistory .wppizza-orderhistory-wp_user_guest{vertical-align:sub;font-size:80%}
+#wppizza_list_orderhistory .wppizza-orderhistory-wp_user_guest .wppizza-dashicons{color:#eeeeee;cursor:default;border:1px solid #BBBBBB;background-color:#fafafa}
+
+/**thickbox**/
+#TB_ajaxContent .wppizza-orderhistory-thickbox>pre{word-wrap:break-word;margin-bottom:25px;border-bottom:1px dotted #cecece;margin:0;padding:10px 0;margin-bottom:5px}
+#TB_ajaxContent .wppizza-orderhistory-thickbox>pre.wppizza-orderhistory-thickbox-order_status{text-align:center;margin:0; padding:5px 0;}
+
+/*
+#wppizza-settings .wppizza-order-failed{background-color:#FF9999!important;font-size:110%}
+#wppizza-settings .wppizza-order-failed-toggle-details{margin:5px;padding:0;text-align:center;}
+#wppizza-settings .wppizza-order-failed-details{display:none;width:100%;margin:0;padding:0}
+#wppizza-settings .wppizza_order_failed_details{height:200px;max-width:300px;display:inline;width:24%;border:1px solid #CECECE;float:left;margin:2px;overflow:auto;background-color:#FFFFFF;font-size:80%}
+*/
+
+#wppizza_orderhistory_polling_loading.wppizza-load{position:absolute;top:0;right:0;left:0;bottom:0}
+
+
+
+
+/******************************************************************************************************************************
+*
+*	[new orders notify - adminbar ]
+*
+*******************************************************************************************************************************/
+#wppizza_adminbar_new_orders_notify > a{color: red; font-weight:600}
+/******************************************************************************************************************************
+*
+*	[customers]
+*
+*******************************************************************************************************************************/
+/*wordwrp td for small screens*/
+#wppizza_list_customers .wppizza-customers-column-averages, #wppizza_list_customers .wppizza-customers-column-total_spent{white-space:nowrap}
+#wppizza_list_customers .wppizza-customers-column-email, #wppizza_list_customers .wppizza-customers-column-name{word-break:break-word}
+
+/*no results*/
+#wppizza_list_customers #wppizza-customers-no-results{line-height:50px;text-align:center;font-weight:600;font-size:200%}
+
+
+/******************************************************************************************************************************
+*
+*	[templates]
+*
+*******************************************************************************************************************************/
+/*global template div*/
+.wppizza_list_templates .wppizza-templates-template{}/*temp*/
+#wppizza-templates .wppizza-section > .form-table{border:none;background-color:transparent}
+#wppizza-templates .wppizza-section > .form-table > tbody > tr{background-color:transparent}
+#wppizza-templates .wppizza-section > .form-table > tbody > tr:nth-child(2){}
+#wppizza-templates .wppizza-section > .form-table > tbody > tr > th{display:none}
+#wppizza-templates .wppizza-section > .form-table > tbody > tr > td{padding:0}
+#wppizza-templates .wppizza-section > .form-table > tbody > tr > td .wppizza_list_templates{margin-bottom: 10px;}
+
+/**add new templates div*/
+#wppizza_list_templates_new > div{margin-bottom:10px}
+
+/*all templates tables*/
+#wppizza_list_templates_custom{background-color:#ffffff;border:1px solid #e5e5e5}
+.wppizza_list_templates .wppizza-templates-main > tbody > tr > td,
+.wppizza_list_templates .wppizza-templates-global-styles > tbody > tr > td,
+.wppizza_list_templates .wppizza-templates-sections > tbody > tr > td,
+.wppizza_list_templates .wppizza-templates-sections-styles > tbody > tr > td{
+	font-size:100%;padding:7px 5px;
+}
+
+/*header/ main / toggle / preview buttons*/
+.wppizza_list_templates .wppizza-templates-main{background-color:#F9F9F9;font-weight:600}
+.wppizza_list_templates .wppizza-templates-main > tbody >tr >td{width:1%;white-space:nowrap;}/*remove 1% on responsive*/
+.wppizza_list_templates .wppizza-templates-main > tbody >tr >td:nth-last-child(1){width:auto !important; white-space:nowrap;text-align:right;}/*auto with last td*/
+.wppizza_list_templates .wppizza-templates-main-use,
+.wppizza_list_templates .wppizza-templates-main-label,
+.wppizza_list_templates .wppizza-templates-main-mail_type,
+.wppizza_list_templates .wppizza-templates-main-recipients,
+.wppizza_list_templates .wppizza-templates-main-additional-recipients,
+.wppizza_list_templates .wppizza-templates-main-attachments{
+	border-right:1px dotted #e5e5e5
+}
+
+/* email only */
+.wppizza_list_templates .wppizza-templates-main-emails > tbody >tr >td:not(:first-child) {vertical-align:top}
+.wppizza_list_templates .wppizza-templates-main-emails > tbody >tr >td:not(:last-child)  span{padding:2px 0 2px 7px; display:block}/* labels above inputs */
+.wppizza_list_templates .wppizza-templates-main-emails > tbody >tr >td  label {display:block}/* inputs new lines*/
+
+
+
+/*drag drop sections - ini as display:none unless added new*/
+.wppizza_list_templates .wppizza-templates-new .wppizza-templates-sections{display:table}
+.wppizza_list_templates .wppizza-templates-sections{display:none}
+.wppizza_list_templates .wppizza-templates-sections > tbody > tr > td{border:1px solid #ffffff; background:#ffffff; width:20%;vertical-align:top;padding:0}
+.wppizza_list_templates .wppizza-templates-sections > tbody > tr > td{border-right:1px dotted #CCCCCC}
+.wppizza_list_templates .wppizza-templates-sections > tbody > tr > td > div {padding:3px 3px}
+.wppizza_list_templates .wppizza-templates-sections > tbody > tr > td > div .wppizza-templates-sort-part{float:right;}
+.wppizza_list_templates .wppizza-templates-sections .wppizza-templates-section-part-enable{background:#efefef;}
+.wppizza_list_templates .wppizza-templates-sections .wppizza-templates-section-part-header{background:#F5F5F5;overflow:auto}
+.wppizza_list_templates .wppizza-templates-sections .wppizza-templates-input-var-parts-label{float:right;vertical-align:middle;}
+.wppizza_list_templates .wppizza-templates-sections .wppizza-templates-input-var-parts-label>input[type="radio"]{margin:4px 2px !important}
+
+.wppizza_list_templates .wppizza-templates-sections .wppizza-templates-section-parts > div{padding: 2px 0; font-size:95%}
+.wppizza_list_templates .wppizza-templates-sections .wppizza-templates-section-parts > div input[type="checkbox"]{margin:2px !important}
+.wppizza_list_templates .wppizza-templates-sections .wppizza-templates-section-parts > div input[type="radio"]{margin:2px !important}
+/*[sortable handles]*/
+.wppizza_list_templates .wppizza-templates-sections .dashicons-leftright{cursor:e-resize;}
+.wppizza_list_templates .wppizza-templates-sections .dashicons-editor-ol{cursor:n-resize;}
+/**underline sortable vars**/
+.wppizza_list_templates .wppizza-templates-section-parts-order>div:nth-child(1){border-bottom:1px dotted #cccccc;}
+.wppizza_list_templates .wppizza-templates-section-parts-order>div:nth-last-child(2){border-top:1px dotted #cccccc;}
+.wppizza_list_templates .wppizza-templates-section-parts-order>div:nth-last-child(1){border-top:1px dotted #cccccc;}
+
+/**hide add info on print/emails**/
+.wppizza_list_templates .wppizza-templates-section-parts-order .wppizza-templates-print-sort-var-addinfo{display:none}
+.wppizza_list_templates .wppizza-templates-section-parts-order .wppizza-templates-emails-sort-var-addinfo{display:none}
+
+
+
+/*global styles/css - ini as display:none*/
+.wppizza_list_templates .wppizza-templates-global-styles{background-color:#dfdfdf;padding:3px 10px;border:1px solid #ffffff;display:none}/*display:none*/
+.wppizza_list_templates .wppizza-templates-global-styles label{font-weight:600;}
+.wppizza_list_templates .wppizza-templates-global-styles textarea{width: 100%;margin:0;margin-bottom:5px;height:50px;font-size:95%;font-weight:normal}
+.wppizza_list_templates .wppizza-templates-global-styles-emails textarea{height:20px;}
+
+/*drag drop styles/css - ini as display:none*/
+.wppizza_list_templates .wppizza-templates-sections-styles{display:none}/*display:none*/
+.wppizza_list_templates .wppizza-templates-sections-styles > tbody > tr > td{border:1px solid #ffffff; background:#ffffff; width:20%;vertical-align:top;padding:0}
+.wppizza_list_templates .wppizza-templates-sections-styles > tbody > tr > td{border-right:1px dotted #CCCCCC}
+.wppizza_list_templates .wppizza-templates-sections-styles > tbody > tr > td textarea{margin:0;width:100%;height:35px;font-size:95%;font-weight:normal; border:1px solid #efefef;-webkit-box-shadow: none;-moz-box-shadow: none; box-shadow: none;}
+
+.wppizza_list_templates .wppizza-templates-sections-styles .wppizza-templates-section-styles-label{font-weight:600;text-align:center;background-color:#e6e6e6;padding:8px 0;letter-spacing:2px}
+
+.wppizza_list_templates .wppizza-templates-sections-styles .wppizza-templates-section-styles-table{background-color:#f2f2f2;padding:3px 10px;border-top:1px solid #cccccc}
+.wppizza_list_templates .wppizza-templates-sections-styles .wppizza-templates-section-styles-table>label{font-weight:600;text-align:center;display:block;margin:4px 0;border-bottom:1px dotted #cccccc}
+
+.wppizza_list_templates .wppizza-templates-sections-styles .wppizza-templates-section-styles-header{background-color:#F9F9F9;padding:3px 10px;border-top:1px solid #cccccc}
+.wppizza_list_templates .wppizza-templates-sections-styles .wppizza-templates-section-styles-header>label{font-weight:600;text-align:center;display:block;margin:4px 0;border-bottom:1px dotted #cccccc}
+
+.wppizza_list_templates .wppizza-templates-sections-styles .wppizza-templates-section-styles-columns{background-color:#FBFBFB;padding:3px 10px;border-top:1px solid #cccccc;min-height:190px}
+.wppizza_list_templates .wppizza-templates-sections-styles .wppizza-templates-section-styles-columns>label{font-weight:600;text-align:center;display:block;margin:4px 0;border-bottom:1px dotted #cccccc}
+.wppizza_list_templates .wppizza-templates-sections-styles .wppizza-templates-section-styles-columns-order{background-color:#F5F5F5;}
+
+
+.wppizza_list_templates .wppizza-templates-sections-styles .wppizza-templates-section-styles-rows{background-color:#FFFFFF;padding:3px 10px;border-top:1px solid #cccccc}
+.wppizza_list_templates .wppizza-templates-sections-styles .wppizza-templates-section-styles-rows-order{}
+.wppizza_list_templates .wppizza-templates-sections-styles .wppizza-templates-section-styles-rows>label{font-weight:600;text-align:center;display:block;margin:4px 0;border-bottom:1px dotted #cccccc}
+
+
+/******************************************************************************************************************************
+*
+*	[reports]
+*
+*******************************************************************************************************************************/
+#wppizza-reports-canvas-wrap {float:left;margin:1px 20px 0 20px;width: 800px;height: 615px;padding: 10px 15px 30px 15px;background: #fff;box-shadow: 0 3px 10px rgba(0,0,0,0.15);-o-box-shadow: 0 3px 10px rgba(0,0,0,0.1);-ms-box-shadow: 0 3px 10px rgba(0,0,0,0.1);-moz-box-shadow: 0 3px 10px rgba(0,0,0,0.1);-webkit-box-shadow: 0 3px 10px rgba(0,0,0,0.1);border:1px solid #cccccc;}
+#wppizza-reports-canvas-wrap h4{margin:0 0 5px 0;padding:0}
+#wppizza-reports-canvas {width: 100%;height: 100%;font-size: 12px;line-height: 1em;}
+#wppizza-reports-tooltip{position: absolute;display: none;border: 1px solid #cecece;padding: 2px;background-color: #fcfcfc;opacity: 0.80}
+
+#wppizza-report-choices{float:right}
+#wppizza-report-choices>li{display:inline;padding:0 0 0 10px}
+
+#wppizza-reports-range{display:block;height:40px;padding:5px;margin:0 0 5px 0}
+#wppizza-reports-set-range,#wppizza-reports-set-type{padding:0px 5px;margin:0;vertical-align:inherit}
+#wppizza_reports_export{float:right}
+#wppizza_reports_export_type{float:right}
+#wppizza-sidebar-reports,#wppizza-sidebar-reports-right{width:auto;float:left}
+.wppizza-reports-postbox,.wppizza-reports-postbox-right{margin-bottom:3px;min-width:220px}
+.wppizza-reports-postbox>h3,.wppizza-reports-postbox-right>h3{display:block !important;cursor:auto !important}
+.wppizza-reports-postbox>p,.wppizza-reports-postbox-right>p{padding:18px 5px;margin:0;text-align:center}
+.wppizza-reports-postbox>ul,.wppizza-reports-postbox-right>ul{padding:0;margin:0}
+.wppizza-reports-postbox>ul>li>span,.wppizza-reports-postbox-right>ul>li>span{float:right;}
+
+.wppizza-reports-postbox-right>ul>li{padding:3px 5px;margin:0}
+.wppizza-reports-postbox-right>ul>li:nth-child(odd){background:#FFFFFF;}
+.wppizza-reports-postbox-right>ul>li:nth-child(even){background:#F9F9F9;}
+
+/*toggle best/worst sellers*/
+#wppizza-report-top10-volume>h3,#wppizza-report-top10-value>h3{cursor:pointer !important;padding-left:3px}
+#wppizza-report-top10-volume>h3:before,#wppizza-report-top10-value>h3:before{content: '\f156';display: inline-block;width: 20px;height: 20px;font-size: 20px;line-height: 1;font-family: dashicons;text-decoration: inherit;font-weight: 400;font-style: normal;vertical-align:text-top;text-align: center;-webkit-transition: color .1s ease-in 0;transition: color .1s ease-in 0;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;}
+#wppizza-report-bottom10-volume-ul{display:none}
+#wppizza-report-bottom10-value-ul{display:none}
+#wppizza-report-nonsellers ul{height:150px;overflow:auto}
+#wppizza-report-error{text-align:center;margin:50px 0;}
+/******************************************************************************************************************************
+*
+*	[access]
+*
+******************************************************************************************************************************/
+#wppizza-access .wppizza-section> .form-table > tbody > tr > th{display:none}
+.wppizza-access > label{display:inline-block; min-width:100px;font-weight:600}
+.wppizza-access ul{display:inline}
+.wppizza-access ul>li{display:inline}
+.wppizza-access ul>li>label{padding:0 3px}
+
+
+/******************************************************************************************************************************
+*
+*	[tools]
+*
+******************************************************************************************************************************/
+.wppizza-section-sysinfo >.form-table > tbody > tr > th{display:none}
+.wppizza-section-set_vars >.form-table > tbody > tr > th{display:none}
+.wppizza-section-php_settings >.form-table > tbody > tr > th{display:none}
+/* license*/
+.wppizza_license{position:relative}
+/* privacy */
+table#wppizza_privacy_erase{border:1px solid #999999}
+table#wppizza_privacy_erase  th {text-align:center; font-weight:normal; padding:3px 15px;}
+table#wppizza_privacy_erase  td {padding:3px 15px 3px 15px; border: 1px dotted #dedede}
+
+
+/***************************************************************************************************
+*
+*
+*	[mobile declarations]
+*
+*
+****************************************************************************************************/
+.wppizza_td_label_mobile{display:none}
+#wppizza_admin_table_order_form  td:nth-child(1){display:none;}
+
+
+/*
+	<= 1500px
+*/
+@media only screen and (max-width: 1525px) {
+	/*
+		order history
+	*/
+
+	#wppizza_list_orderhistory > tbody > tr > td > div.wppizza-orderhistory-pre{font-size:85%;width:100%}
+	/*
+		admin access
+	*/
+	.wppizza_admin_options .wppizza_label_100{width:100%}
+	#wppizza_show_admin_access_capabilities_options > div > span > label{width:10%; display:inline-block}
+}
+
+/*
+	<= 1280px
+*/
+@media only screen and (max-width: 1280px){
+	/*
+		order history
+	*/
+
+	#wppizza_list_orderhistory > tbody > tr > td > div.wppizza-orderhistory-pre{font-size:85%;width:100%;max-width: 717px;}
+}
+
+/*
+	<= 1024px
+*/
+@media only screen and (max-width: 1024px) {
+
+
+	/* make wrappers behave for mobile*/
+	.wppizza-wrap{}
+
+	/*
+		reports
+	*/
+	/* header, reports seection bar */
+	#wppizza-reports-range {margin-top:10px; height:55px; overflow:auto}
+	/* outer wrapper for boxes and graph */
+	#wppizza-reports-details{ margin: 0; overflow:auto}
+
+	/* left (top) boxes */
+	#wppizza-sidebar-reports{float:none; overflow:auto}
+	#wppizza-sidebar-reports > div{margin:0;}
+	#wppizza-sidebar-reports > div{float:left; min-width:auto}	/* at 768 boxes 3 per row */
+	#wppizza-sidebar-reports > div > h3{text-align:center; padding: 3px;}
+	#wppizza-sidebar-reports > div > p{padding:2px 5px;}
+
+	/* graph and graph legend */
+	#wppizza-reports-canvas-wrap{float:none; border:1px solid green; margin:0; height:350px;}
+	#wppizza-reports-canvas-wrap>div{float:none}
+	#wppizza-report-choices{float:none;display:block}
+
+	/* right (bottom)  boxes */
+	#wppizza-sidebar-reports-right{float:none; overflow:auto}
+	#wppizza-sidebar-reports-right > div{float:left; min-width:auto}	/* at 768 boxes 3 per row */
+	#wppizza-sidebar-reports-right > div {margin:0}
+	#wppizza-sidebar-reports-right > div > h3{text-align:center; padding: 3px;}
+
+	/* reports 768 specific */
+	#wppizza-sidebar-reports > div{width:33%; min-height:100px;} /* at 768 boxes 3 per row */
+	#wppizza-reports-canvas-wrap{height:350px; width:95%; padding-bottom:100px; margin:10px 0}/* graph */
+	#wppizza-sidebar-reports-right > div{width:33%}	/* at 768 boxes 3 per row */
+
+	/*
+		admin access
+	*/
+	#wppizza_show_admin_access_capabilities_options > div > span > label{width:16%;}
+
+	/*
+		order history
+	*/
+
+	#wppizza_list_orderhistory > tbody > tr > td > div.wppizza-orderhistory-pre{max-width: 480px;}
+
+
+}
+
+
+/*
+	<= 782px
+*/
+@media only screen and (max-width: 782px) {
+	/* make wrappers behave for mobile*/
+	.wppizza-wrap{overflow:auto; margin-left: 0; margin-right: 12px; }
+
+	/* remove help link and header as help screen tab has also been removed ! */
+	.wppizza-admin-pageheader{display:none}
+
+	.wppizza-section {margin-right:0}
+	.wppizza-section > .form-table > tbody > tr > td, .wppizza-section > .form-table >  tbody > tr > th{padding:0}
+
+	/* inputs */
+	.wppizza_admin_table {border:none;margin:0;padding:0;background:transparent; border-collapse: collapse; }/* must be collapsed to allow border around tr */
+	.wppizza-section input[type="text"], .wppizza-section textarea, .wppizza-section select {margin:0 auto; width:99% !important}
+
+
+	/*
+		order form settins
+	*/
+	#wppizza_admin_table_order_form > thead{display:none}
+	#wppizza_admin_table_order_form  tr{border:1px solid #999999}
+	#wppizza_admin_table_order_form  td{padding: 0;width: 50%;display: inline-block;}
+	#wppizza_admin_table_order_form  td:nth-child(even){}
+	#wppizza_admin_table_order_form  td:nth-child(odd){float:right}
+	#wppizza_admin_table_order_form  td:nth-child(1){width: 100%; display: block; text-align: center; font-weight: 600; background-color:#cecece; padding:5px 0;margin:0;float:none}
+	#wppizza_admin_table_order_form  td:nth-child(2), #wppizza_admin_table_order_form  td:nth-child(3){height: 85px;}
+	#wppizza_admin_table_order_form  td:nth-child(4), #wppizza_admin_table_order_form  td:nth-child(5){height: 105px;}
+	#wppizza_admin_table_order_form  td:nth-child(6), #wppizza_admin_table_order_form  td:nth-child(7){height: 70px;}
+	#wppizza_admin_table_order_form  td:nth-child(8), #wppizza_admin_table_order_form  td:nth-child(9){height: 145px;}
+	#wppizza_admin_table_order_form .wppizza_ctips_info{display:none}/* hide tips info */
+	/* labels for mobiles*/
+	#wppizza_admin_table_order_form .wppizza_td_label_mobile{display: block; text-align: center; font-weight: 600; padding:5px 0; margin:0 2px 2px 0; border-bottom:1px solid #cecece; border-top:1px solid #cecece}
+
+	/*
+		confirmation form settings
+	*/
+	#wppizza_admin_table_confirmation_form > thead >tr:nth-child(1) {display:none}
+	#wppizza_admin_table_confirmation_form > thead >tr:nth-child(2) > th{width: 20%; display:inline-block;padding:5px 0; text-align:center}
+	#wppizza_admin_table_confirmation_form  td{padding: 0;width: 20%;display: inline-block;}
+	#wppizza_admin_table_confirmation_form  td:nth-child(1), #wppizza_admin_table_confirmation_form  > thead >tr:nth-child(2) >  th:nth-child(1){width: 10%;}
+	#wppizza_admin_table_confirmation_form  td:nth-child(2), #wppizza_admin_table_confirmation_form  > thead >tr:nth-child(2) >  th:nth-child(2){width: 10%;}
+	#wppizza_admin_table_confirmation_form  td:nth-child(3), #wppizza_admin_table_confirmation_form  > thead >tr:nth-child(2) >  th:nth-child(3){width: 50%;}
+	#wppizza_admin_table_confirmation_form  td:nth-child(4), #wppizza_admin_table_confirmation_form  > thead >tr:nth-child(2) >  th:nth-child(4){width: 10%;}
+	#wppizza_admin_table_confirmation_form  td:nth-child(5), #wppizza_admin_table_confirmation_form  > thead >tr:nth-child(2) >  th:nth-child(5){width: 20%;}
+
+	/*
+		templates
+	*/
+	.wppizza_list_templates .wppizza-templates-main > tbody >tr >td{width:95%; text-align:left !important}
+	.wppizza_list_templates .wppizza-templates-sections > tbody > tr > td {width:100%}
+	.wppizza_list_templates .wppizza-templates-sections-styles > tbody > tr > td {width:100%}
+
+	/*
+		admin access
+	*/
+	#wppizza_show_admin_access_capabilities_options > div > span > label{width:20%;}
+
+	/*
+		order history
+	*/
+	#wppizza_list_orderhistory > tbody > tr > td > div.wppizza-orderhistory-pre{font-size:83%;max-width: 400px;}
+
+}
+/*
+	<= 714px
+*/
+@media only screen and (max-width: 714px) {
+	/*
+		order history
+	*/
+	#wppizza_list_orderhistory > tbody > tr > td > div.wppizza-orderhistory-pre{font-size:70%;}
+}
+
+/*
+	<= 640px
+*/
+@media only screen and (max-width: 640px) {
+	/*
+		order history
+	*/
+	/* polling */
+	#wppizza_orderhistory_polling td{width:auto; float:left}
+	#wppizza_orderhistory_polling > tbody > tr >td{margin:0; padding:0}
+	#wppizza_orderhistory_polling > tbody > tr >td:nth-child(1) > label:nth-child(3){display:block;clear:both}
+	#wppizza_orderhistory_polling > tbody > tr >td:nth-child(2){text-align:left}
+	/* hide <pre's> show button */
+	#wppizza_list_orderhistory > thead, #wppizza_list_orderhistory > tfoot{display:none}
+	#wppizza_list_orderhistory > tbody > tr > td{padding-left:0;padding-right:0;}
+	#wppizza_list_orderhistory > tbody > tr > td:nth-child(1){width:100%;float:left;text-align:center}
+	#wppizza_list_orderhistory > tbody > tr > td:nth-child(2){width:100%;float:left;text-align:center}
+	#wppizza_list_orderhistory > tbody > tr > td:nth-child(3){width:100%;float:left;text-align:center}
+	#wppizza_list_orderhistory > tbody > tr > td > div.wppizza-orderhistory-pre{display:none}
+	#wppizza_list_orderhistory .wppizza-orderhistory-column-actions > span{display:inline}
+	#wppizza_list_orderhistory > tbody > tr > td > div.wppizza-orderhistory-vieworder{display:inline-block}
+
+	/*
+		admin access
+	*/
+	#wppizza_show_admin_access_capabilities_options > div > span > label{width:25%;}
+
+	/*
+		customer list - remove some details on small screen devices
+	*/
+	#wppizza_list_customers th.wppizza-customers-column-name,#wppizza_list_customers td.wppizza-customers-column-name{display:none}
+	#wppizza_list_customers th.wppizza-customers-column-purchases, #wppizza_list_customers td.wppizza-customers-column-purchases{display:none}
+	#wppizza_list_customers th.wppizza-customers-column-averages, #wppizza_list_customers td.wppizza-customers-column-averages{display:none}
+	#wppizza_list_customers th.wppizza-customers-column-date_created,#wppizza_list_customers td.wppizza-customers-column-date_registered{display:none}
+
+}
+
+@media only screen and (max-width: 500px) {
+
+	/*
+		order history
+	*/
+	/* thickbox fontsize and wrap*/
+	#TB_ajaxContent .wppizza-orderhistory-thickbox > pre{font-size:90%;white-space: pre-wrap;/* Since CSS 2.1 */white-space: -moz-pre-wrap;/* Mozilla, since 1999 */white-space: -pre-wrap;/* Opera 4-6 */white-space: -o-pre-wrap;/* Opera 7 */word-wrap: break-word;/* Internet Explorer 5.5+ */}
+
+	/*
+		admin access
+	*/
+	#wppizza_show_admin_access_capabilities_options > div > span > label{width:30%;}
+}
+
+@media only screen and (max-width: 420px) {
+	/*
+		reports
+	*/
+	#wppizza-reports-range{height:90px}
+	#wppizza-reports-range>span{display:block}/* range selector */
+	#wppizza-reports-range>span > input[type="text"]{width:80px}/* range selectpr inputs size*/
+	#wppizza-reports-range>span > select{width:100%}/* range selector */
+	#wppizza-reports-range #wppizza-reports-range-export{display:none}
+	#wppizza-sidebar-reports>div{width:49.4%; float:left; min-height:120px}/* at <=420px 2 boxes per row */
+	#wppizza-sidebar-reports-right>div{width:49.4%; float:left}/* at <=420px 2 boxes per row */
+	#wppizza-reports-canvas-wrap .flot-x-axis{display:none !important}/* dates x-axis */
+
+	/*
+		admin access
+	*/
+	#wppizza_show_admin_access_capabilities_options > div > span > label{width:50%;}
+
+	/*
+		gateway enable
+	*/
+	#wppizza-gateways .wppizza-section-gateways .wppizza-gateway-show-options{float:right}
+	#wppizza-gateways .wppizza-section-gateways .wppizza-gateway-enable{float:right;clear:both}
+
+}
+
+
+@media only screen and (max-width: 375px) {
+
+	/*
+		reports
+	*/
+	/* at <=375px boxes 1 per row */
+	#wppizza-sidebar-reports>div{width:100%; float:left; min-height:auto}
+	#wppizza-sidebar-reports-right>div{width:100%; float:left}
+	#wppizza_list_orderhistory > tbody > tr > td > div.wppizza-orderhistory-pre{font-size:60%;}
+}
+
+
+@media only screen and (max-width: 320px) {
+	/*
+		reports
+	*/
+	#wppizza-reports-range>span > input[type="text"]{width:50px}/* range selectpr inputs size*/
+
+}

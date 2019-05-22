@@ -1,0 +1,280 @@
+3.1.7  
+* fix: possible (ajax) race condition when refunding payments from within wppizza order history (if using this option in gateways that have this option available)  
+* tweak: refund notes automatically added to order notes when using refunds from within order history (if using payment gateways that have this option available)  
+* added: helper function wppizza_wpdate_formatted($timestamp) outputting passed timestamp according to  date/timeformat set in WP -> Settings  
+25th November 2017  
+
+
+3.1.6  
+* fix: wrong documentation link in wppizza search widget notes  
+* added: helper functions that allow wppizza menu items to be displayed with clickable prices etc in search results (in combination with wppizza search widget). Note: appropriate templates must be created as <a href="https://docs.wp-pizza.com/developers/?section=wppizza-markup-search">per documentation</a>  
+* tweak: credit card on delivery - allow to set surcharges too instead of just discount   
+* tweak/update: removed some redundant (v.2x leftover) localization strings  
+20th November 2017  
+
+
+3.1.5  
+* tweak: some css tweaks to prices li's for better theme compatibility  
+* tweak: some help screens updated  
+* tweak: allow for tips to be set to 0 even if set to be required (but not empty if required)  
+* update: chosen.js library updated to 1.8.2 (from 1.4.2)  
+17th November 2017  
+
+3.1.4  
+* added: reports range for "today" and each day in the preceding week based on set opening times (omitting closed days)        
+16th November 2017  
+
+3.1.3.2  
+* tweak: some gateways (paypal for instance) utilise a payment processing page when returning to the site after payment which gets periodically reloaded to check if payment was received. Firefox - for unknown reasons - responded with a "data has to be resend ...etc" on reloading this page when this is simply not the case. This update works around this FF issue.      
+15th November 2017  
+
+3.1.3.1  
+* updated: german (admin) language files   
+14th November 2017  
+
+3.1.3  
+* tested with forthcoming WP 4.9  
+* added/altered: 'wppizza_filter_template_section_{$section_key}_styles' in favour of just 'wppizza_filter_template_section_styles' to be able to filter html email/print styles if required and also passing on template id and order parameters  
+* tweak/fix: allow to set order status to REFUND in order history without refunding in payment gateway account (only applicable for gateway implementations that support refunding at gateway in the first place.)  
+9th November 2017  
+
+3.1.2  
+* fix: fixed (or at least narrowed down) longstanding issue of wppizza categories disappearing in the backend under certain circumstances 
+3rd November 2017  
+
+3.1.1  
+* fix: "Can’t use function return value in write context" for old php versions 
+3rd November 2017  
+
+3.1  
+* tweak: eliminated some more possible php notices     
+* tweak: update to floating point precision fix of 3.0.30     
+* tweak: do not display empty categories instead of "no results found" (can optionally be turned off in Items Sorting and Category Display)   
+* tweak: replaced some deprecated WPML functions  
+* tweak: minor css admin tweaks     
+* added: allow for other custom post types to be added to be searched from wppizza search widget    
+* added: wppizza_order_refund function and order_refund column to orders table (might be useful in some cases/gateways)  
+* added: layout option to NOT group opening times (widget) by days that have equal opening times  
+* fix: pre_get_posts filter -> set_search_query  was erroneously applied/used in backend too as opposed to just the frontend search box  
+2nd November 2017  
+
+3.0.30  
+* fix/tweak: floating point precision could have caused tax rounding errors with some scenarios/settings   
+24th October 2017  
+
+3.0.29  
+* added: option to display tax total only , even if separate taxrates apply to different items (WPPizza -> Order Settings -> Taxes)  
+9th October 2017 
+
+3.0.28  
+* tweak: forcing monospaced / fixed-width font for (some) webmail clients when sending plaintext emails  
+5th October 2017
+
+
+3.0.27  
+* FIX - IMPORTANT: capture of ip address in wppizza orders table did not account for ipv6 ip addresses and will have caused empty cart on order page for site visitors with ipv6 ip's 
+2nd October 2017 	
+	
+3.0.26  
+* tweak/fix: minified js scripts again (were unminified in 3.0.25.2 ) 
+* tweak: loaded some admin localisation strings on init instead of (wrongly) in construct 
+* fix: tips were always rounded down for languages that use commas as decimal separators  
+* notice: removed all v3.x versions prior to 3.20 from wp repository  
+27th September 2017  
+
+3.0.25.2  
+* quickfix: could not change to delivery if  "Pickup as default" (WPPizza->Order settings : pickup) was enabled    
+* added: introduced filter 'wppizza_fltr_session' to allow to filter cart/order sessions before any calculations take place  
+25th September 2017  
+
+3.0.25.1  
+* quickfix: fatal error (Can’t use function return value in write context) on older php versions when doing requirements check on install (since 3.0.25)  
+25th September 2017  
+
+3.0.25  
+* fix: pickup/delivery switching was broken in 3.0.24 
+* tweak: added check for db collation in tools screen to aid debugging  
+* tweak: added check for session save path in requirements check  
+* tweak: some more info added in tools screen to aid debugging  
+* tweak: renaming of a couple of lables (capitalization mostly)  
+* tweak: make sku inputs (if used) appear before additives in admin  
+* tweak: minor css tweaks in wppizza admin post pages 
+24th September 2017  
+
+
+3.0.24  
+* added: option to calculate delivery charges before taking into account any discounts (WPPizza-> Order Settings ->Discounts)
+* tweak: eliminated some more possible php notices  
+* tweak: some more info in some help screens + slight re-arrangement of localization sections   
+* tweak: made order confirmation page (if used) scroll up on load to help with some themes  
+20th September 2017  
+
+3.0.23  
+* fix: setting "No delivery / Pickup only" in OrderSettings -> Delivery Type did not force order parameters to be pickup    
+* tweak: removed css declaration "display:table" for wppizza article in responsive layouts as it might cause layout issues with very long article names and/or lots of additives on small screen devices  
+* tweak: added space(s), decreasing margin-right to account for this, between span elements of additives list to aid wordwrap for small screen devices when using some themes that cause overflow issues   
+* tweak: set some admin info links in widget and install screens to point directly to the relevant pages instead of generic wordpress.org wppizza readme.txt
+16th September 2017  
+
+3.0.22  
+* fix: eliminated some sku related php notices  
+* tweak: added wppizza-order-ispickup class to wrapper div on relevant pages if order is pickup  
+* tweak: more reliable handling of update status display in plugin screens (for any premium/third-party plugins/gateways that may use it)   
+15th September 2017  
+
+3.0.21  
+* fix: multiple recipients - if entered - were lost on update of plugin (WPPizza -> Order Settings -> Order Email Recipient(s))   
+* fix: sku's - if used - not displayed properly in some places  
+* fix: print/email templates missing closing /tr element on some lines  
+05th September 2017 
+
+
+3.0.20  
+* fix - important: ipn notification for some payment gatewasy was broken (probably since v3.0.16)   
+* tweak: eliminated some more - possible - php notices  
+2nd September 2017 
+
+
+3.0.19  
+* tweak: elimiinated some more possible php notices   
+* tweak: added some more parameter output in any debug logs to aid debugging  
+* tweak: added table columns info to tools->system info to aid debugging  
+* tweak: added 'CONFIRMED' status to payment_status (might be useful for offline/offsite payments)  
+30th August 2017 
+
+3.0.18  
+* fix: ensure any saved customer details are being entered into the orderform directly after login (on orderpage) if they were still left empty until this point    
+26th August 2017  
+
+
+3.0.17  
+* fix: payment gateways were not displaying any instuctions (if any) in their admin pages  
+* tweak: removed superfluous (and for some themes interfereing) css word-wrap:nowrap on order page itemised cart names  
+* added: skeleton hosted paymant page payment gateway for developers
+24th August 2017  
+
+
+
+3.0.16  
+* tweak: added a couple of css declarations when adding new templates to aid line-breaks for long text strings    
+* tweak: decoding entities and trimming values first before comparing selected options in dropdown fields on order page for more consistency across languages  
+* tweak: ensure order page gets reloaded when changing between pickup and delivery  
+* added: localization strings for gateways that first return an "unconfirmed" status before -  after somewhere between several minutes and half an hour or so depending on gateway - confirm a payment  
+
+20th August 2017  
+
+3.0.15  
+* added: UNCONFIRMED status to payment_status in db  
+13th August 2017  
+
+3.0.14  
+* fix: issue displaying categories by shortcode when they were children of another parent category  
+* tweak: forcing wordprap in plaintext templates for long strings over 74 characters   
+* tweak: reverted - as in v2x - to display single menu items without wppizza formatting (as single.php would need to be set in theme) instead of simply displaying intructions. Typically these would not be used anyway as by default wppizza does not require or indeed link to single menu items anywhere    
+13th August 2017  
+
+3.0.13  
+* fix: pickup (if set to be default in admin) reverted to "delivery" for a customer after an initial order  
+* tweak: also force no display of [wppizza type=totals] shortcode (if used) on orderpage (only confuses the issue as the whole order is already displayed there)   
+13th August 2017  
+
+3.0.12  
+* added: allow for display in templates if customer is/was guest or registered user (with user id)
+* fix: "Wppizza-> Layout -> Miscellaneous -> Hide size name and cart icon if item has only one size" did still display sizes in cart etc  
+* tweak: minor german translation improvements on initial install 
+10th August 2017  
+
+3.0.11  
+* tweak: did 3.0.9 improvements properly now  
+* fix: demo categories slugs used in shortcodes on demo pages might not always have been correctly sanitised for new, non-english installations    
+9th August 2017  
+
+3.0.10  
+* fix: reverted to 3.0.8 as 3.0.9 did more harm than good (sorry)  
+9th August 2017  
+
+3.0.9  
+* tweak: further minor impovement for some themes automatic supression of wppizza cart on orderpage 
+9th August 2017  
+
+3.0.8  
+* tweak: forcing reloading of order page when backpaging  
+* fix: any set bcc's and/or attachments (WPPizza -> Order Settings) would get lost between v3.x -> v3.y updates  
+* fix: with some themes automatic supression of wppizza cart on orderpage caused layout issues on that page  
+= non-english languages: =
+
+* Note: The following will NOT affect any of your frontend settings/translations in WPPizza->Localization.  
+* Re-added translation files keeping existin translations provided they were still the same.  
+* As wppizza 3.x has many more new strings added as well as old and now obsolete strings deleted, you might find that strings in your ADMIN will be english in many places if you are using a non-english language that was translated before.     
+* If you wish to contribute to the translation of the plugin into your particular language (may that be updateing the existing or adding a new one), please refer to the "readme.txt" in the /lang/directory  of the plugin  
+
+9th August 2017  
+
+3.0.7  
+* fix: Bulk delete did not work for wppizza menu items  
+9th August 2017  
+
+3.0.6  
+* fix: With some themes that use their so-called advanced editor , the order page did not redirect to the thank you page after a successful order    
+* fix: could not publish new wppizza menu items (doh!)  
+8th August 2017  
+
+3.0.5  
+* fix: "Wppizza-> Layout -> Miscellaneous -> Hide cart icon next to prices" did not work anymore    
+* fix: "Wppizza-> Layout -> Miscellaneous -> Click title to add to cart" did not work anymore    
+* tweak: some minor css tweaks
+* tweak: account for situations where "Layout -> group by categories" is enabled but menu item(s) have not been associated with any category (first available will be used in those situations)  
+6th August 2017  
+
+3.0.4  
+* added: option to also use "additives" as separate/additional element in loop shortcode attibutes  
+5th August 2017  
+
+3.0.3  
+* fix/tweak: removed some - quite inconsequentioal - javascripting that might have caused continuous order page reloading on some servers (*possibly* because server time is not synced accurately)
+5th August 2017  
+
+3.0.2  
+* fix: with repurchising enabled html entities in product titles (apostrophies etc) might have caused repurchase for the product to not be available  
+* fix: new installs did not install capabilities for admin to access "access rights" page (should also fix updates to 3.x where access went missing )  
+* re-added: html/visual editor for html enabled localization strings  
+* tweak: updated info for repurchasing option  
+* tweak: removed some erroneously left over testing functions that will have caused php notices     
+* tweak: better handling of license status display for any premium plugins that may use it  
+* tweak: minor css tweak for cart  
+3rd August 2017  
+
+3.0.1  
+* tweak: some workaround to at least stop fatal errors if people auto-update to version 3.x from version 2.x without ever reading and following the upgrade instructions     
+2nd August 2017
+
+3.0  
+= IMPORTANT =
+
+WPPizza 3.0 is a *major* re-write of the plugin to aid further development alongside a multitude of added options as well as performance improvements and various tweaks. 
+
+* UPGRADING FROM PREVIOUS RELEASE VERSIONS 2.x.x: Make sure you follow the <a href='http://docs.wp-pizza.com/getting-started/?section=upgrade-v2-x-v3-x'>upgrade instructions</a>. Do *NOT* simply click on 'update' and hope that it works.  
+* UPGRADING FROM v3.x beta versions: Simply apply the update as normal. No additional steps will be required.
+* MIGRATING YOUR CUSTOMISATIONS FROM v2.x to v3.x: As v3.x is a 90% re-write almost all action and filter hooks as well as template structures alongside some css have changed. Therefore, if you have made any kind of customisations to your pre version 3.x install  – please refer to the <a href='http://docs.wp-pizza.com/'>developer documentation</a> regarding details.  
+
+
+= (NON-COMPREHENSIVE) LIST OF DIFFERENCES BETWEEN V2.X -> V3.X =
+
+* Added: Dedicated Customer Page in Admin (WPPizza->Customers)  
+* Added: Additional formfields validation options (WPPizza->Order Form Settings)  
+* Added: Admin new order notifications (audio and visual) now built in (WPPizza->Settings)  
+* Added: Repurchasing option added (WPPizza->Order Settings)  
+* Added: Many more shortcode options/attributes when displaying menu items (such as using different layouts , changing element order etc) – please refer to the <a href='http://docs.wp-pizza.com/shortcodes/'>shortcode documentation</a>  
+* Added: Dedicated input field (WPPizza->Layout) to customise/override css declarations as added alternative to using files  
+* Added: Access rights (WPPizza->Access Rights) now includes settings for 'Menu Items' and 'Categories'  
+* Update: Admin settings are now sub-categorised somewhat more logically within their admin pages  
+* Update: Any WPPizza templates edited *must* now reside in a wppizza sub-directory to be read (see <a href='http://docs.wp-pizza.com/developers/?section=modify-templates-readme'>developer docs</a> regarding templates editing)  
+* Update: More normalized info in the wppizza_orders table for easier 3rd party plugin development  
+* Update: Tidy up of order history somewhat with added option (getting each customer details) and css improvements regarding responsiveness  
+* Change: Itemised Order Details, Summary and Transaction Details now using table elements for consistency throughout  
+* Tweaks: Various performance improvements  
+* Tweaks: More consistency throughout  
+* Removed: Retired old default templates (email/print) in favour of only using drag and drop templates for consistency  
+* Removed: Removed sticky cart option in favour of minicart  
+
+1st August 2017  

@@ -1,0 +1,201 @@
+2.15.0.20  
+* tweak [WPML]: reduce number of WPML related queries     
+* tweak: removing some unnecessary queries  
+* tweak: optimising some queries   
+21st October 2015  
+
+2.15.0.19  
+* tweak: adding sort flag and sorting by name to wppizza_sizes_available function   
+* fix: elimination of some more possible php notices   
+18th October 2015  
+
+
+2.15.0.18  
+tweak: made wp_new_user_notification backwards compatible for wp < 4.3.1  
+11th October 2015  
+
+
+2.15.0.17  
+* tweak: some more css tweaks for order history   
+9th October 2015  
+
+2.15.0.16  
+* tweak: a number of css tewaks in the order history screen to account for different OS   
+9th October 2015  
+
+2.15.0.15  
+* fix:  wp_new_user_notification updated for wp 4.3.1 as it stopped sending the initial notification to new subscriber   
+8th October 2015  
+
+2.15.0.14  
+* tweak:  a little bit more sanitisation and entity decoding in plaintext templates  
+* tweak: better title category filtering when using install option 2 on non-english installations  
+* fix: multisite -> order history -> parent site. not necessarily showing order in the right order if "check to have order history to use all orders of all child sites" is enabled  
+7th October 2015  
+
+
+2.15.0.13  
+* tweak: stripped any possible html tags in menu item title, images/thumbnails title tag so as to not break loop layout if used  
+* tweak: added "nocache" get variable to order page if caching (mainly for godaddy wordpress hosting, but might also stop other caching plugins to not cache the order page without explicitly excluding it )  
+* tweak: updated tools->system info to account for mysql ports set in DB_HOST  
+* added: ability to update/alter order table as appropriate for installations that had not yet updated to mysql 5.5+  
+* fix: errors in css declarations of first additional print templates that were added for convenience on initial install / update with templates options (if you are updating and want to use a print template other than the broken one added by default, just add a new one and delete the broken one)  
+5th October 2015  
+
+
+2.15.0.12  
+* added: a couple of simple helper methods to aid gateway development (comparing currencies/amounts)  
+* tweak: upped tested with version  
+* internal: some minor adjustments  
+21st September 2015  
+
+
+2.15.0.11  
+* fix: sending html type emails was broken for old gateways in 2.15.0.10 (wrong variable name)  
+* tweak: added propriatory iOS css declaration to enable item list scrolling in cart via touch (if necessary)  
+18th September 2015  
+
+  
+2.15.0.10  
+* added: some more strings to localization for editability    
+* added: option to use smtp for wppizza related email sending (wppizza->settings)  
+* added: some more classes on send order buttons for easier overlay/js gateway integration   
+* tweak: removed tools->debug in favour of chceking wp debug settings  
+* fix: old style order printing was broken  
+14th September 2015  
+
+2.15.0.9  
+* fixed: formfields sort order was broken in 2.15.0.8    
+8th September 2015  
+
+2.15.0.8  
+* fixed: Multisite orderhistory not updating order status on child sites  
+7th September 2015  
+
+2.15.0.7  
+* added: some more info tools -> system info for debug purposes  
+* fixed: some unclosed (self-closing) tags  
+* fixed: some updates for external plugins/aaddons to more reliably filter and sort of order/confirmation page formfields  
+5th September 2015  
+
+2.15.0.6  
+* added: $email_markup and $template_id as parameter to wppizza_phpmailer_smtp and wppizza_phpmailer_settings action    
+* added: session test in tools -> system info  
+* added: some more error output if mails fail (might help identifying some mail sending issues)  
+* fix: some more possible php notices eliminated    
+* fix: some more updates/fixes to still cater for old/legacy gateways  
+2nd September 2015  
+
+2.15.0.5  
+* fix: some more possible phpnotices eliminated
+* tweak/fix: eliminating @'s in cc and reply to *names* (phpmailer) to make some mailserver happy     
+2nd September 2015  
+
+2.15.0.4  
+* fix: order history was sorted by id desc instead of order_date desc    
+* tweak: no more customer name (doesn't belong there) in "from" email header name if "static from email" was set, but "static from name" was omitted  
+* added: customer formfield values (customer name for example) can be added to subject line in emails instead  
+* added: numerous filters for custom formtting of email subject line  
+* added: selectively omit any attachments per email template  
+* tweak: customer session variables now unescaped  
+1st September 2015  
+
+
+2.15.0.3  
+* fix: error (introduced in 2.15) in the way "static from email" addresses were handled  
+31th August 2015  
+
+2.15.0.2  
+* fix: order timestamps where not following WP timezone settings anymore  
+31th August 2015  
+
+
+2.15.0.1  
+* tweak: css odd/even bg color in admin localization  
+* tweak: minor layout cosmetics in plaintest template  
+* fix: template preview was alwasy showing plaintext even if html  
+* fix: templates were missing footer text (if set)  
+30th August 2015  
+ 
+
+2.15  
+
+= IMPORTANT =
+
+* THIS IS QUITE A BIG UPDATE.  
+* although all efforts have been made for this update to be backwards compatible, please consider making a full backup of your current installation first (as always really) and do a test order after updating to make sure orders get still executed and emails send as expected.  
+* as ever, if there are any problems, please let me know. thank you   
+
+
+= ADDITIONS =
+
+* general: email and print order template builder  
+* general: price edit in quick edit  
+* general: allow for discount when paying by COD  
+* general: option [wppizza->tools] to disable sending of emails  
+* general: added text option for opening hours if open 24 hours that day  
+* general: XPF and CFP as currencies  
+* admin order history: added a - hopefully more useful - popup with all details  
+* reports: "worst" and "no" sellers in reporting screen  
+* reports: ->export: accumulative number of times any item has been ordered within range of report dates  
+* reports: ->export: sales value by payment type  
+* filter: currency display filters (wppizza_filter_currency_display_left and wppizza_filter_currency_display_right depending on layout)  
+* filter: price tier class (wppizza_filter_price_class) in loop templates  
+* filter: surcharges (wppizza_filter_surcharges)  
+* dev: basic skeleton gateway for developers (if using redirect/ hosted payment pages) in /add-ons  
+* dev: allow for customisation of decimal places via constant WPPIZZA_DECIMALS  
+* Multisite: added option to display blogname as well as category in cart/emails etc (wppizza->layout)  
+
+
+= TWEAKS =
+
+* various tweaks in reporting screen (adding categories if enabled etc)  
+* some additional css for final confirmation page  
+* only display DMARC notice on admin pages of wppizza  
+* removed superflous mail() option to always use wp_mail() if plaintext  
+* addded distinct classes to price tiers/prices  
+* addded filters to order history query and results set  
+* tip can also now be 0 if required  
+* minor formatting tweaks in standard plaintext email template  
+* wppizza-order.php template streamlined  
+* log to file if updating of database with customer post variables fails for some reason  
+* minified admin javascript  
+* dev: WPPIZZA_CHARSET constant added  
+
+
+= FIXES =
+
+* minor install notices/errors when not installing default pages, categories and items.  
+* possible rounding errors when hiding decimals  
+* added missing categories display (if enabled) in final confirmation page  
+* unable to enable/disable debug  (wppizza->tools)  
+* taxrates and discounts were not shown (though correctly calculated) in non-english languages  
+* changed collation of table to utf8mb4_unicode_ci to allow for 4byte characters  
+* removed nonsensical nl2br in thankyou page markup  
+* Multisite: blog_id did not always get restored correctly when displaying categories and sharing cart across multisite sub sites  
+* Multisite: adding wppizza fields to user registration process did not work in multisite setups  
+
+
+= REMOVED / DEPRECATED / CHANGED =
+
+* REMOVED: templates/wppizza-phpmailer-settings.php removed. use provided action hooks in inc/phpmailer.php instead  
+* REMOVED: templates/wppizza-order-email-subject.php in favour of filters-> wppizza_filter_email_subject_prefix, wppizza_filter_email_subject, wppizza_filter_email_suffix  
+* DEPRECIATION NOTICE: wppizza_phpmailer_sent action hook will be removed (not documented anyway) in favour of wppizza_on_order_executed)  
+* REMOVED/DEPRECATED: $emailPlaintext['db_items'] in plaiantext email template will now always store whats set if it's used for shop emails  
+
+
+= UPDATES / INTERNALS =
+
+* updated widget constructor for WP4.3 / php5  
+* as per wp guidelines, locale name now hardcoded  
+* order details stored more consistantly to enable easier/more reliable queries going forward   
+* dropped irrelevant mail_construct column in wppizza_order table  
+* minor changes/updates as well as removal of irrelevant variables in various templates  
+
+28th August 2015  
+
+
+
+
+2.12 - 2.14  
+* intentionally skipped to indicate that 2.15 is quite a big update but not quite warranting a 3.0 version  

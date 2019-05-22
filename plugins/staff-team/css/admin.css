@@ -1,0 +1,406 @@
+/*-=-=-=-=-=- UpgradeProVersion -=-=-=-=-=-=-*/
+.twd_help_bar_wrap {
+	background-color: #ffffff;
+	border: none;
+	box-sizing: border-box;
+	clear: both;
+	color: #6e7990;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 30px;
+	padding: 15px;
+	vertical-align: middle;
+	width: 98%;
+}
+.twd_help_bar_text{
+	float:left;
+}
+.twd_help_bar_text > a{
+	color:#0073aa;
+	text-decoration: none;
+}
+.twd_hb_buy_pro{
+	float:right;
+	padding:0;
+}
+
+.twd_hb_buy_pro a,
+.twd_hb_buy_pro a:active,
+.twd_hb_buy_pro a:visited,
+.twd_hb_buy_pro a:hover {
+	display: inline-block;
+	font-weight: bold;
+	font-size: 14px;
+	vertical-align: middle;
+	border: none;
+	box-shadow: none !important;
+	text-decoration: none;
+}
+
+.twd_hb_buy_pro .twd_support_link{
+	color: #72777c !important;
+	padding: 0 10px;
+}
+.twd_hb_buy_pro .twd_update_pro_link{
+	background: #45A6B7;
+	font-weight: bold;
+	line-height: 30px;
+	padding: 0 18px 0 18px;
+	color: #fff !important;
+}
+
+.twd_hb_buy_pro img {
+	border: none;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+
+
+/*-=-=-=-=-=- User Manual -=-=-=-=-=-*/
+.twd_user_manual {
+    margin: 0px 0 3px;
+	display: inline-block;
+	vertical-align:bottom;
+	border:1px solid #dadada;
+	background-color:#26455A;
+	-webkit-transition: all 0.6s;
+	   -moz-transition: all 0.6s;
+			transition: all 0.6s;
+}
+.twd_user_manual:hover { background-color: #F47629; }
+
+.twd_user_manual a, .twd_user_manual a:focus { 
+	text-decoration:none;
+	padding: 12px 20px;
+	display: block;
+	color:#ffffff;
+	outline:none;
+	width:125px;
+}
+
+/*-=-=-=-=-=- Global Options -=-=-=-=-=-*/
+.TWD_global_options .nav-tab-wrapper { 
+	margin:0;
+	border:none;
+	margin-top:2%;
+	position:relative;
+}
+
+.TWD_global_options .nav-tab-wrapper div {
+	font-size:12px;
+	position:absolute;
+	right:12px; bottom:0;
+}
+
+.TWD_global_options .form-table { 
+	border: 1px solid #dadada;
+    padding: 2% 2% 0;
+	width: 95%;
+	margin:0; 
+}
+.TWD_global_options .nav-tab-active, .TWD_global_options .nav-tab {
+	padding:1% 2% !important;
+	margin:0 !important;
+	margin-right:7px !important;
+}
+.TWD_global_options .nav-tab-active:focus, .TWD_global_options .nav-tab:focus{ outline:none; box-shadow:none; background:none;}
+
+.TWD_global_options .nav-tab-active { 
+	box-shadow: 2px -2px 4px #dadada;
+	font-size:18px !important;
+}
+
+.TWD_global_options .paramlist_descriptions { 
+	color: #0073aa;
+	font-size:11px !important;
+}
+.paramlist_descriptions b { font-weight: 800 !important; }
+
+#cont_tabs table{ width:100%;}
+
+#cont_tabs table tr td:first-child{
+	background-color:rgba(247, 247, 247, 0.45);
+}
+
+.paramlist td.paramlist_key { width:40% !important;}
+
+.adminform h1.staff_main_title,
+.adminform h1.staff_main_title_popup{
+	border-bottom: 4px double;
+	position: relative;
+	font-style:italic;
+	text-align:center;
+	font-weight: 800;
+	padding: 0 0 2%;    
+	font-size: 2em;	
+	cursor:pointer;
+	margin: 2% 0;
+}
+
+.adminform span.staff_plus:before,
+.adminform span.staff_minus:before{
+	right: 0;
+	text-align:right;
+	position: absolute;
+}
+
+.adminform span.staff_plus:before { content: "+"; }
+
+.adminform span.staff_minus:before{ content: "-";  }
+
+
+#cont_theme_ul li{
+    border: 1px solid #d9d9d9;
+    display: inline-block;
+    text-align: center;
+    font-size: inherit;
+    margin-right: 3px;
+	width: 32%;
+}
+
+#cont_theme_ul li a{
+    display: inline-block;
+    text-decoration: none;
+    color: #33afca;
+    padding: 5px 0;
+	padding:4% 0;
+	width: 100%;
+}
+
+#cont_theme_ul li a:hover { box-shadow:2px 2px 3px #C3C3C3; }
+
+#cont_theme_ul li a:focus{ box-shadow: none; }
+
+#cont_theme_ul li.ui-state-active a{
+    background-color: #04aeda;
+    text-decoration: none;
+    display:inline-block;
+	font-weight: 800;
+	font-size:1.1em;
+	color: white;
+}
+
+#adminForm .paramlist_key { border: 1px solid; width:25%;}
+
+.adminform legend{
+    color:#000;
+    font-weight:bold;
+}
+.adminform { margin: 10px 10px 10px 10px !important;}
+
+.adminForm legend{
+    color:#06C;
+    font-weight:bold;
+}
+.adminForm .key{ background-color:#CCC; }
+
+.staff_soc_labels{
+	display:inline-block;
+	width:95px;
+}
+/*#adminForm th { width: 300px !important; }*/
+
+.evo-pop { background-color: #d9d9d9 !important; }
+
+#cont_tabs{
+    padding: 15px 10px;
+    background: none #ffffff;
+    border: 0;
+}
+#cont_tabs > div{
+    background: none #ffffff;
+    border: 0;
+}
+#cont_tabs input[type="text"]{ width : 130px;}
+ 
+.contact_theme-reset { float: right; }
+
+.contact_reset-theme{
+    width: 100%;
+    display: inline-block;
+}
+
+/*-=-=-=- Category Params-=-=-=-=-*/
+.TWDCatParam { width: 100%;}
+
+.TWDCatParam td { padding: 0px; }
+
+.paramlist_value {
+    display: inline-block;
+	padding: 1.5% 0;
+	font-size:1.2em;
+}
+.admin_title{
+	text-transform:uppercase;
+	font-size:1.2em;
+	font-weight:bold;
+	padding: 2% 0px;
+}
+
+.messtable table{
+    width: 100%;
+    border-collapse: collapse;
+}
+.messtable td.paramlist_key{ background-color: #FFFFFF; }
+
+.messtable td.key{ font-weight: bold; }
+
+.messtable td{
+    border: 1px solid #CCC;
+    display: table-cell;
+    padding-left: 10px;
+    text-align: left;
+    line-height: 20px;
+}
+.messtable legend.mess_leg{
+    color: #000000;
+    font-size: 15px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+#go_to_top{
+	background: url(go_to_top.png) no-repeat;
+	height: 60px; width: 45px;
+	bottom: 10px; right: 20px;
+	background-size: contain;
+	text-indent: -999em;
+	position: fixed;
+	display: none;
+	z-index: 1;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+	filter: alpha(opacity=70);
+	opacity: 0.7;
+}
+.order_list tr{
+	cursor: move !important;
+	border: 1px solid #7a7a7a !important;
+	/*box-shadow: 0 0 10px rgba(0,0,0,0.5) !important;*/
+}
+.order_list tr:hover{
+	background-color: rgba(117, 109, 89, 0.1);!important;
+}
+.order_list tr th, .order_list tr td {
+	padding:10px !important;
+	vertical-align:middle !important;
+}
+.single_contact{
+	cursor: move !important;
+}
+.save_notice{
+	display: none;
+	position: fixed;
+	height: 60px;
+	width: 250px;
+	border-radius: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	background-color: #fff;
+	z-index: 99999999999999999;
+	text-align: center;
+	line-height: 70px;
+	font-size: 40px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.success_icon{
+	line-height: 60px;
+	float: left;
+	font-size: 40px;
+	color: #39AD64;
+	margin-left: 5px;
+}
+.save_notice p{
+	color: #39AD64;
+	line-height: 17px;
+	font-size: 20px;
+	margin-left: 15px;
+	text-shadow: 1px 1px 2px rgba(215, 221, 251, 0.4), 0 0 1em rgba(215, 221, 251, 0.4);
+}
+.notice_fon{
+	display: none;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(241, 241, 241, 0.4);
+}
+
+.move_cursor{
+	padding-left: 8px;
+}
+.mce-noSelect{
+	pointer-events: none !important;
+}
+.mce-noSelect span {
+	color: #AAA !important;
+}
+.mce-pro_label{
+	color: #cc0000 !important;
+	word-break: break-all !important;
+	font-size: 11px !important;
+}
+
+#team_url_tr{
+	display: none;
+}
+
+/*-=-=-=- Sinlge Page Params -=-=-=-*/
+table.twd_contParamsEmails,
+table.twd_contParams,
+table.twd_contParamsUrl { width: 100%;}
+
+table.twd_contParamsEmails td.key,
+table.twd_contParams td.key,
+table.twd_contParamsUrl td.key {
+	width: 137px;
+	padding: 12px 0;
+	text-align: left;
+    line-height: 15px;
+}
+
+table.twd_contParamsEmails td input[type="email"],
+table.twd_contParams td input[type="text"] {
+	width:250px !important;
+	margin:5px 0;
+}
+
+.TWDSMetaBoxTitle {
+	color: #717171;
+	padding: 0 !important;	
+	font-size: 18px !important;    
+	margin: 0 0 10px 0 !important;    
+}
+.TWDSMetaBoxDesc {
+    color: #0073aa;
+    font-size: 13px;
+    display: block;
+    font-style: italic;
+    line-height: 17px;
+    font-family: sans-serif;
+    margin-bottom: 10px !important;
+}
+
+table.twd_contParams td .twd_delParam,
+.TWDCatParam td div.twd_delCatParam {
+    width: 25px; height: 25px;
+    display: inline-block;
+    position: relative;
+	cursor: pointer;	
+    top: 7px;
+}
+table.twd_contParams td .twd_addParam,
+.TWDCatParam td div.twd_addCatParam {
+	width: 25px; height: 25px;
+    display: inline-block;
+    margin: 5px 3px;
+    cursor: pointer;
+    float: left;
+}
+
+

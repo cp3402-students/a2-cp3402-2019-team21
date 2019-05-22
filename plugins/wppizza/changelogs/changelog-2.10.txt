@@ -1,0 +1,97 @@
+2.10.4.6  
+* BUGFIX: 2.10.4.5 broke redirection of some gatways  , PLEASE UPDATE IF YOU ARE USING 2.10.4.5  
+5th September 2014  
+
+4th September 2014  
+2.10.4.5  
+* checked for compatibility with WP 4.0 (nothing to do :))  
+* doublecheck when submitting order that shop is still open (in case someone stayed on the orderpage for ages without doing anything)  
+* added filter in admin order history to be able to customise output if required  
+* added action hooks to admin-get-json.php and get-json.php    
+* added missing class to wrapper div of menu item text and pricetiers in responsive css  
+* bugfix: closingtimes between 00:00 and 00:59 were not recognised properly (surprised noone noticed this before)  
+* updated readme  
+4th September 2014  
+
+
+2.10.4.4  
+* fix: dashboard sales widget was available/visible to all when it should only have been visible to users with "reports" access  
+* updated readme  
+2nd September 2014  
+
+
+2.10.4.3  
+* Maintenence: also delete (if any) wpml string translations from wpml db when uninstalling plugin to avoid orphaned/redundant db entries  
+* added missing filter to also allow other plugins to update/save user meta values when checking "update my details" on order page  
+* added some variables to do_action hooks in show order template  
+1st September 2014  
+
+2.10.4.2  
+* fixed error when using bestseller shortcode as items with the same number of sales only displayed the last one    
+* fixed time discrepancy in reports if php.ini timezone settings are - for some reason - different to wordpress timezone settings  
+* maintenance: now always using a straight forward timestamp associated with the time of order when initializing/adding order to the db (instead of attempting to use microtime if available - as it's just overkill)  
+19th August 2014  
+
+2.10.4.1  
+* eliminated a (one time and inconsequential) php notice on updating plugin regarding single_item_permalink_rewrite   
+18th August 2014  
+  
+2.10.4  
+* increased varchar for transaction_id in wppizza_orders table from 32 to 48 chars as some gateways have longer transaction ids  
+* fixed issue where currencies defined as hex values where not displayed properly next to menu items in plaintext emails  
+* added option to set single menu item permalink to something other than "wppizza"    
+18th August 2014  
+
+
+2.10.3  
+* added admin dashboard overview widget  
+* added missing symbol/currency for indian rupee  
+* added lost password link under login on order page  
+11th August 2014  
+
+2.10.2.1  
+* added: allow form fields to be required only on pickup and not on delivery (and still vice versa)  
+* some minor changes/additions to gateway functions to aid development of future additional gateways  
+11th August 2014  
+
+2.10.2  
+* added: allow change of quantities in order page      
+* added: some more filters in order page, confirmation page, thank you page, order history and email (html/plaintext) templates to allow output filtering of items display (for example: don't display single item prices) without having to edit the templates directly (see wp-pizza.com support->codesnippets)  
+* added: some more action hooks in template pages  
+* minor css tweaks  
+* some tidy up in places and php notices/warning eliminations    
+9th August 2014  
+
+
+2.10.1  
+* added possible adding (via filters) of placeholders in order form form fields  
+* added various filters to add addiional fields to registration and profile pages   
+* TWEAK: set distinct css text color when displaying categories in cart above menu items (as some dark themes might have a light text color there on a light background which would make this unreadable)  
+* BUGFIX: added "shop closed" display and disable sending of order in orderpage when shop is closed (previously it was still possible send order at a later date/time when menu items still existed in cart/session even though shop was closed)  
+* BUGFIX: eliminated some more possible php notices  
+5th August 2014  
+
+2.10.0.1  
+* revert to using uksort($array, 'strnatcmp') when sorting additives as ksort($array,SORT_NATURAL); is only available for php 5.4+  
+5th August 2014  
+
+
+2.10  
+* added optional alternative tax rate (to be set on a per item basis)  
+* added dedicated shipping tax rate  
+* added option to set distinct minimum order value on pickup  
+* added shortcode for bestsellers (see faq's -> shortcodes)  
+* added shortcode for single menu items (see faq's -> shortcodes)  
+* added ability to include menu items in general search results [wppizza->settings]  
+* added dedicated search widget/shortcode for customisation of search parameters  
+* added filter (wppizza_filter_email_subject_prefix, wppizza_filter_email_subject, wppizza_filter_email_subject_suffix) to enable filter/customisation of email subject   
+* added span tag to opening times around times themselves as well as classes to aid formatting/styling if required  
+* added "end" (key 35) to also confirm changed quantity in shoppingcart (when textbox is enabled for quantities)  
+* added filter (wppizza_filter_order_form_fields) to enable addon plugins (such as "delivery by postcode" and the forthcoming "preorder" plugin) to add and add other form fields more easily and consistently to order page and confirmation page (if used)  
+* minor alterations to frontend css (set lineheight for additives at bottom of page so list of additives that break over 2 or more lines are not that squished)  
+* minor alterations to admin css  
+* BUGFIX: wppizza stopped inbuilt WP search from working properly  
+* BUGFIX: additives sorting when using id's did sort by string instead of number/natural  
+* BUGFIX: added missing minus sign in order history before any applied discounts values  
+* BUGFIX: got rid of some strict notices when uninstalling the plugin  
+02nd August 2014  

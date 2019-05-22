@@ -1,0 +1,177 @@
+# Copyright (C) 2015 the Food menu
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Tlp Food Menu\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2015-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Md Mahbubur Rahman <rasel.cste@gmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: /lib/classes/FoodMenuPostMeta.php:8
+msgid "Food Details"
+msgstr ""
+
+#: /lib/classes/FoodMenuPostMeta.php:37
+msgid "Price"
+msgstr ""
+
+#: /lib/classes/FoodMenuPostMeta.php:36
+msgid "Insert the price, leave blank if it is free"
+msgstr ""
+
+#: /lib/classes/FoodMenuPostTypeRegistrations.php:42
+msgid "TLP Food Menu"
+msgstr ""
+
+#: /lib/classes/FoodMenuPostTypeRegistrations.php:44
+msgid "Add Food"
+msgstr ""
+
+#: /lib/classes/FoodMenuPostTypeRegistrations.php
+msgid "Edit Food"
+msgstr ""
+
+#: /lib/classes/FoodMenuPostTypeRegistrations.php
+msgid "New Food"
+msgstr ""
+
+#: /lib/classes/FoodMenuPostTypeRegistrations.php
+msgid "Search Food"
+msgstr ""
+
+#: /lib/classes/FoodMenuPostTypeRegistrations.php
+msgid "No Food found"
+msgstr ""
+
+#: /lib/classes/FoodMenuPostTypeRegistrations.php
+msgid "No Food in the trash"
+msgstr ""
+
+#: /lib/classes/FoodMenuPostTypeRegistrations.php
+msgid "Food Categories"
+msgstr ""
+
+#: /lib/classes/FoodMenuPostTypeRegistrations.php
+msgid "Food Category"
+msgstr ""
+
+#: /lib/classes/FoodMenuPostTypeRegistrations.php
+msgid "Categories"
+msgstr ""
+
+#: /lib/classes/FoodMenuPostTypeRegistrations.php
+msgid "Edit Category"
+msgstr ""
+
+#: /lib/classes/FoodMenuPostTypeRegistrations.php
+msgid "Update Category"
+msgstr ""
+
+#: /lib/classes/FoodMenuPostTypeRegistrations.php
+msgid "Add New Category"
+msgstr ""
+
+#: /lib/classes/FoodMenuPostTypeRegistrations.php
+msgid "New Category"
+msgstr ""
+
+#: /lib/classes/FoodMenuPostTypeRegistrations.php
+msgid "Parent Category"
+msgstr ""
+
+#: /lib/classes/FoodMenuPostTypeRegistrations.php
+msgid "All Categories"
+msgstr ""
+
+#: /lib/classes/FoodMenuPostTypeRegistrations.php
+msgid "Search Categories"
+msgstr ""
+
+#: /lib/classes/FoodMenuPostTypeRegistrations.php
+msgid "Popular Categories"
+msgstr ""
+
+#: /lib/classes/FoodMenuPostTypeRegistrations.php
+msgid "Separate categories with commas"
+msgstr ""
+
+#: /lib/classes/FoodMenuPostTypeRegistrations.php
+msgid "Add or remove categories"
+msgstr ""
+
+#: /lib/classes/FoodMenuPostTypeRegistrations.php
+msgid "Choose from the most used  categories"
+msgstr ""
+
+#: /lib/classes/FoodMenuPostTypeRegistrations.php
+msgid "No categories found."
+msgstr ""
+
+#: /lib/classes/TLPfmSettings.php:50
+msgid "No categories found."
+msgstr ""
+
+#: /lib/classes/TLPfmSettings.php:55
+msgid "Security Error !!"
+msgstr ""
+
+#: /lib/classes/TLPfmShortCode.php:55
+msgid "No category is found."
+msgstr ""
+
+#: /lib/classes/TLPfmtWidget.php
+msgid "No post found"
+msgstr ""
+
+#: /lib/classes/TLPfmtWidget.php
+msgid "Title"
+msgstr ""
+
+#: /lib/classes/TLPfmtWidget.php
+msgid "Number of item to show : "
+msgstr ""
+
+#: /lib/classes/TLPfmtWidget.php
+msgid "Category id (eg. 1,2,7) leave it blank for all:"
+msgstr ""
+
+#: /lib/classes/general.php
+msgid "Image Size"
+msgstr ""
+
+#: /lib/classes/general.php
+msgid "Image Size"
+msgstr ""
+
+#: /lib/classes/general.php
+msgid "Width : "
+msgstr ""
+
+#: /lib/classes/general.php
+msgid "Height :"
+msgstr ""
+
+#: /lib/classes/general.php
+msgid "Select one"
+msgstr ""
+
+#: /lib/classes/general.php
+msgid "Currency"
+msgstr ""
+
+#: /lib/classes/general.php
+msgid "Currency Position"
+msgstr ""
+
+#: /lib/classes/settings.php
+msgid "TLP Food Menu Settings"
+msgstr ""
+
+#: /lib/classes/settings.php
+msgid "General"
+msgstr ""

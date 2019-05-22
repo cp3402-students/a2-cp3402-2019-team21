@@ -1,0 +1,38 @@
+.tw-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 9999999;
+    background: rgba(0,0,0,0.7);
+    margin: 0 !important;
+}
+
+.tw-container .twd_tw-container-wrap {
+    height: 316px;
+    background-color: #fff;
+    width: 547px;
+    position: absolute;
+    top: calc(50% - 225px);
+    left: calc(50% - 210px);
+}
+
+.tw-container .twd_tw-container-wrap  .media-modal-close{
+    line-height: 34px;
+    text-align: center;
+    height: 40px;
+    margin-top: 7px;
+}
+
+.tw-container .twd_tw-container-wrap iframe {
+    height: 100%;
+    width: 100%;
+}
+
+/*.ecwd_tw-container-wrap{*/
+/*background-image: url("../assets/loading.gif");*/
+/*background-position: center center;*/
+/*background-repeat:  no-repeat;*/
+/*background-size: 128px;*/
+/*}*/

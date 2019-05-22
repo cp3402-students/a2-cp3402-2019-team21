@@ -1,0 +1,30 @@
+/********************************************************************************************************************************************************************************************
+*
+*
+*	[rtl css]
+*	[overriding selected declaration for rtl layout]
+*
+*
+********************************************************************************************************************************************************************************************/
+.wppizza-article-img{float:right !important}
+.wppizza-article-tiers{float:left !important}
+.wppizza-article-price{float:right !important}
+.wppizza-article-price-lbl:after{display:none !important}
+.wppizza-article-price-lbl:before{content: "\f174";font-family: "dashicons"; font-size:120%;position: relative; top: 2px; margin:0 3px;}
+
+
+
+
+/***********************************************************
+	spinners number input
+***********************************************************/
+.wppizza-cart table.wppizza-order-itemised > tbody > tr > td.wppizza-item-quantity>span.ui-spinner>input{margin-right: 10px; padding-right:10px;}
+.wppizza-order-details table.wppizza-order-itemised > tbody > tr > td.wppizza-item-update>span.ui-spinner>input{margin-right: 10px; padding-right:10px;}
+/***********************************************************
+	all pages - order tables
+***********************************************************/
+/* order summary table */
+table.wppizza-order-summary{float: left;}
+/* tds */
+table.wppizza-order-summary td{float:right}/* summary label */
+table.wppizza-order-summary td:nth-child(2){float:left; text-align:left;}/* summary prices */

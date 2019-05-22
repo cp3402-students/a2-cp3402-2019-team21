@@ -1,0 +1,82 @@
+/********************************************************************************************************************************************************************************************
+*
+*
+*	[default style css]
+*
+*
+********************************************************************************************************************************************************************************************/
+/*******************
+	category header - set by theme
+*******************/
+
+/*******************
+	wrapper
+*******************/
+.wppizza-article-default{position:relative; /*display:table*/;width:98%;clear:both;overflow:hidden; padding:5px 5px !important; margin:0 auto 10px auto !important;} 
+
+/*******************
+	title
+*******************/
+.wppizza-article-default h2.wppizza-article-h2{display:inline;margin:0px;padding:0;/*white-space:nowrap*/}
+.wppizza-article-default .wppizza-article-additives{font-size: 60%; margin: 0; font-weight: normal; vertical-align: super}
+.wppizza-article-default .wppizza-article-additives:before{content:'*'}
+.wppizza-article-default .wppizza-article-additive{padding:0 3px}
+.wppizza-article-default .wppizza-article-additive:before{content:'('}
+.wppizza-article-default .wppizza-article-additive:after{content:')'}
+
+/*******************
+	[thumbnails]
+*******************/
+.wppizza-article-default .wppizza-article-image{float:left;text-align:center;}
+.wppizza-article-default .wppizza-article-image .wppizza-article-image-thumb,
+.wppizza-article-default .wppizza-article-image .wppizza-article-image-placeholder{padding:5px;margin:3px 10px 0 0 !important;border:1px dotted #CECECE;}
+.wppizza-article-default .wppizza-article-image-placeholder{width:75px;height:75px;line-height:1.1}
+.wppizza-article-default .wppizza-article-image .wppizza-article-image-thumb{width:auto;max-width:none !important}
+.wppizza-article-default .wppizza-article-image-placeholder:before{content: "\f306";font-family: "dashicons";color:#bebebe;font-size:62px; /*position: absolute; left: 7px;*/ }
+
+
+
+/*******************
+	[prices and labels]
+*******************/
+/*prices wrap*/
+.wppizza-article-default .wppizza-article-sizes{float:right;margin:0;padding:0;}
+/*ul prices and li main currency symbol*/
+.wppizza-article-default .wppizza-article-sizes>ul{list-style-type:none; padding:0px; margin: 0px auto; display:inline-block;}
+.wppizza-article-default .wppizza-article-sizes>ul>li{margin:0 !important;line-height:normal;display:table-cell;background:transparent!important;}
+.wppizza-article-default .wppizza-article-sizes>ul>li:before{content:'';}
+.wppizza-article-default .wppizza-article-price-currency{font-size:160%; padding:0 10px !important; text-align:center; vertical-align:middle}
+/*li prices list*/
+.wppizza-article-default .wppizza-article-prices>ul{list-style-type:none !important; padding:0px; margin: 0px auto; display: inline-block;}
+.wppizza-article-default .wppizza-article-prices>ul>li{float:left;margin:0!important;line-height:normal;display:inline-block;}
+.wppizza-article-default .wppizza-article-prices>ul>li:before{content:'';}
+/*prices*/
+.wppizza-article-default .wppizza-article-price{text-align:center;padding:3px;font-size:120%;background:transparent!important;}
+.wppizza-article-default .wppizza-article-price:hover{cursor:pointer;}
+.wppizza-article-default .wppizza-article-price>span{margin:0 !important;padding:0;display:inline !important;}
+.wppizza-article-default .wppizza-article-price>span:hover{text-decoration:underline}
+.wppizza-article-default .wppizza-article-size{font-size:60%;text-align:center;white-space: nowrap;}
+.wppizza-article-default .wppizza-article-size:hover{text-decoration:underline}
+.wppizza-article-default .wppizza-article-size:after{content: "\f174";font-family: "dashicons"; font-size:120%;position: relative; top: 2px; margin:0 3px;}
+/* loose cart display if disabled in layout */
+.wppizza-article-default .wppizza-no-cart:after{content:"" !important}
+/********************
+	content
+********************/
+.wppizza-article-default .wppizza-article-content{}
+
+/********************
+	permalink
+********************/
+.wppizza-article-default .wppizza-permalink{}
+
+/********************
+	additives
+********************/
+.wppizza-additives-default { text-align: center; font-size: 90%; margin: 50px 0 25px;}
+.wppizza-additives-default > span {margin-right: 5px; line-height: 150%;display:inline-block;}
+
+/********************
+	pagination/navigation
+********************/
+.wppizza-navigation-default{display:block; overflow:auto}
