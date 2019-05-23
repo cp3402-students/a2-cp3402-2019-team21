@@ -14303,6 +14303,18 @@ h1, h2, h3, h4, h5 {
   margin-bottom: 1rem;
 }
 
+.center-content {
+  margin: auto;
+  align-content: center;
+  text-align: center;
+}
+
+.button-outline {
+  border: 2px solid #f8f506;
+  width: fit-content;
+  padding: 4px;
+}
+
 /*
 * Use existing Bootstrap 4 classes and
 * variables to extend - override CF7 style
