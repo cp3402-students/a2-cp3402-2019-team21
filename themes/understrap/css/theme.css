@@ -14146,9 +14146,9 @@ figure.woocommerce-product-gallery__wrapper {
   }
 }
 .social-menu ul li a {
-  display: block;
   text-decoration: none;
   list-style: none;
+  float: left;
 }
 .social-menu ul li :hover {
   color: #9f3169;
