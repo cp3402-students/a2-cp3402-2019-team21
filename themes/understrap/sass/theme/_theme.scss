@@ -2,6 +2,7 @@
 @import 'theme_variables';
 @import url('https://fonts.googleapis.com/css?family=Acme|Roboto');
 
+
 //<------ footer --------->
 #wrapper-footer{
   background-color: $primary;
@@ -35,9 +36,9 @@
         text-align: center;
       }
       a {
-        display: block;
         text-decoration: none;
         list-style: none;
+        float: left;
       }
       :hover{
         color: $highlight;
@@ -108,6 +109,7 @@
         list-style: none;
         padding: 1% 2%;
         color: $black;
+        font-family: 'Acme', sans-serif;
       }
       :hover{
         color: $highlight;
@@ -147,38 +149,66 @@
     display: block;
     width: 100vw;
   }
-  h1{
-    position: absolute;
-    top: 200px;
-    margin-left: 60px;
-    color: $primary;
-  }
+
+
 }
-.navbar-dark .navbar-nav .show > .nav-link, .navbar-dark .navbar-nav .active > .nav-link, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .nav-link.active {
+.navbar-dark .navbar-nav .show > .nav-link, .navbar-dark .navbar-nav .active > .nav-link, .navbar-dark .navbar-nav
+.nav-link.show, .navbar-dark .navbar-nav .nav-link.active {
   color: $black;
   font-family: 'Acme', sans-serif;
+
+
 }
 .navbar-dark .navbar-nav .nav-link {
   color: $black;
   font-family: 'Acme', sans-serif;
 }
 
-//<------ end of header ------->
 
-//<------ start of common elements ------->
+.navbar-dark .navbar-nav .active {
+  text-decoration:underline;
+
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: $black;
+  font-family: 'Acme', sans-serif;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: $highlight;
+}
+
+  //<------ end of header ------->
+
+  //<------ start of common elements ------->
 p {
   font-family: 'Roboto', sans-serif;
 }
 
-a, em{
-  color: $black;
-  font-family: 'Roboto', sans-serif;
-}
+  a, em{
+    color: $black;
+    font-family: 'Roboto', sans-serif;
+  }
 
-h1,h2,h3,h4,h5{
-  color: black;
-  font-family: 'Acme', sans-serif;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-}
+  h1,h2,h3,h4,h5{
+    color: black;
+    font-family: 'Acme', sans-serif;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
 //<------ end of common elements ------->
+
+//<------ start of 404 page ------>
+.center-content{
+  margin: auto;
+  align-content: center;
+  text-align: center;
+  }
+
+.button-outline{
+  border: 2px solid $primary;
+  width: fit-content;
+  padding: 4px;
+}
+//<------ end of 404 page ------>
